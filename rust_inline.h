@@ -172,7 +172,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x588; 
         inline constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x584; 
     } // namespace BuildingPrivledge
-    inline constexpr ::std::ptrdiff_t Facepunch.Input_TypeInfo = 0x52314552;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x52314552;
     namespace Item {
         inline constexpr ::std::ptrdiff_t _condition = 0x18; 
         inline constexpr ::std::ptrdiff_t _maxCondition = 0x1C; 

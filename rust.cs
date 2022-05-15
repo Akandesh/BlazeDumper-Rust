@@ -177,7 +177,7 @@ namespace blazedumper {
         public const Int32 cachedUpkeepCostFraction = 0x588;
         public const Int32 cachedUpkeepPeriodMinutes = 0x584;
     }
-    public static class Facepunch.Input_TypeInfo
+    public static class Facepunch_Input_TypeInfo
     {
     public const Int32 offset = 0x52314552;
     }
