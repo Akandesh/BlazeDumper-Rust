@@ -48,10 +48,7 @@ namespace blazedumper {
         public const Int32 triggers_list = 0xC8;
         public const Int32 updateParentingAction = 0xA8;
     }
-    public static class BaseEntity_TypeInfo
-    {
-        public const Int32  = 0x52240584;
-    }
+    public const Int32 BaseEntity_TypeInfo = 0x52240584;
     public static class BasePlayer
     {
         public const Int32 Belt = 0x6B0;
@@ -177,10 +174,7 @@ namespace blazedumper {
         public const Int32 cachedUpkeepCostFraction = 0x588;
         public const Int32 cachedUpkeepPeriodMinutes = 0x584;
     }
-    public static class Facepunch.Input_TypeInfo
-    {
-        public const Int32  = 0x52314552;
-    }
+    public const Int32 Facepunch.Input_TypeInfo = 0x52314552;
     public static class Item
     {
         public const Int32 _condition = 0x18;
@@ -227,10 +221,7 @@ namespace blazedumper {
         public const Int32 contents = 0x1C;
         public const Int32 definition = 0x10;
     }
-    public static class MainCamera_TypeInfo
-    {
-        public const Int32  = 0x52247536;
-    }
+    public const Int32 MainCamera_TypeInfo = 0x52247536;
     public static class Model
     {
         public const Int32 _lodGroup = 0x68;
