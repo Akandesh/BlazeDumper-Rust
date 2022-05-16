@@ -25,7 +25,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t OwnerID = 0x158; 
         inline constexpr ::std::ptrdiff_t Weight = 0xF8; 
         inline constexpr ::std::ptrdiff_t _name = 0x150; 
-        inline constexpr ::std::ptrdiff_t _pendingFileRequests_list = 0xA0; 
+        inline constexpr ::std::ptrdiff_t _pendingFileRequestsList = 0xA0; 
         inline constexpr ::std::ptrdiff_t addedToParentEntity = 0xB0; 
         inline constexpr ::std::ptrdiff_t bounds = 0xFC; 
         inline constexpr ::std::ptrdiff_t broadcastProtocol = 0x88; 
@@ -37,15 +37,15 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t isVisible = 0xD0; 
         inline constexpr ::std::ptrdiff_t itemSkin = 0xB8; 
         inline constexpr ::std::ptrdiff_t linkedToNeighbours = 0x98; 
-        inline constexpr ::std::ptrdiff_t links_list = 0x90; 
+        inline constexpr ::std::ptrdiff_t linksList = 0x90; 
         inline constexpr ::std::ptrdiff_t localOccludee = 0xD8; 
-        inline constexpr ::std::ptrdiff_t menuOptions_list = 0x80; 
+        inline constexpr ::std::ptrdiff_t menuOptionsList = 0x80; 
         inline constexpr ::std::ptrdiff_t model = 0x128; 
         inline constexpr ::std::ptrdiff_t parentBone = 0x134; 
         inline constexpr ::std::ptrdiff_t ragdoll = 0x70; 
         inline constexpr ::std::ptrdiff_t skinID = 0x138; 
         inline constexpr ::std::ptrdiff_t syncPosition = 0x121; 
-        inline constexpr ::std::ptrdiff_t triggers_list = 0xC8; 
+        inline constexpr ::std::ptrdiff_t triggersList = 0xC8; 
         inline constexpr ::std::ptrdiff_t updateParentingAction = 0xA8; 
     } // namespace BaseEntity
     inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x52240584;
@@ -124,7 +124,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t lookingAtTest = 0x548; 
         inline constexpr ::std::ptrdiff_t maxProjectileID = 0x630; 
         inline constexpr ::std::ptrdiff_t metabolism = 0x698; 
-        inline constexpr ::std::ptrdiff_t missions_list = 0x5E0; 
+        inline constexpr ::std::ptrdiff_t missionsList = 0x5E0; 
         inline constexpr ::std::ptrdiff_t modelState = 0x5F0; 
         inline constexpr ::std::ptrdiff_t modifiers = 0x6A0; 
         inline constexpr ::std::ptrdiff_t mounted = 0x5F8; 
@@ -178,7 +178,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t automatic = 0x288; 
         inline constexpr ::std::ptrdiff_t cachedUnderground = 0x350; 
         inline constexpr ::std::ptrdiff_t canUnloadAmmo = 0x2B4; 
-        inline constexpr ::std::ptrdiff_t createdProjectiles_list = 0x358; 
+        inline constexpr ::std::ptrdiff_t createdProjectilesList = 0x358; 
         inline constexpr ::std::ptrdiff_t damageScale = 0x27C; 
         inline constexpr ::std::ptrdiff_t distanceScale = 0x280; 
         inline constexpr ::std::ptrdiff_t fractionalReload = 0x2C0; 
@@ -220,8 +220,8 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t __menuOption_MenuDeauthorize = 0x528; 
         inline constexpr ::std::ptrdiff_t __menuOption_Menu_MaxAuth = 0x3C8; 
         inline constexpr ::std::ptrdiff_t __menuOption_Menu_RotateVM = 0x420; 
-        inline constexpr ::std::ptrdiff_t allowedConstructionItems_list = 0x598; 
-        inline constexpr ::std::ptrdiff_t authorizedPlayers_list = 0x590; 
+        inline constexpr ::std::ptrdiff_t allowedConstructionItemsList = 0x598; 
+        inline constexpr ::std::ptrdiff_t authorizedPlayersList = 0x590; 
         inline constexpr ::std::ptrdiff_t cachedProtectedMinutes = 0x580; 
         inline constexpr ::std::ptrdiff_t cachedUpkeepCostFraction = 0x588; 
         inline constexpr ::std::ptrdiff_t cachedUpkeepPeriodMinutes = 0x584; 
@@ -251,13 +251,13 @@ namespace blazedumper {
     } // namespace Item
     namespace ItemContainer {
         inline constexpr ::std::ptrdiff_t allowedContents = 0x14; 
-        inline constexpr ::std::ptrdiff_t availableSlots_list = 0x20; 
+        inline constexpr ::std::ptrdiff_t availableSlotsList = 0x20; 
         inline constexpr ::std::ptrdiff_t capacity = 0x28; 
         inline constexpr ::std::ptrdiff_t dirty = 0x30; 
         inline constexpr ::std::ptrdiff_t entityOwner = 0x58; 
         inline constexpr ::std::ptrdiff_t flags = 0x10; 
         inline constexpr ::std::ptrdiff_t isServer = 0x60; 
-        inline constexpr ::std::ptrdiff_t itemList_list = 0x38; 
+        inline constexpr ::std::ptrdiff_t itemList = 0x38; 
         inline constexpr ::std::ptrdiff_t maxStackSize = 0x64; 
         inline constexpr ::std::ptrdiff_t parent = 0x48; 
         inline constexpr ::std::ptrdiff_t playerOwner = 0x50; 
@@ -300,7 +300,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t InCinematic = 0x2C0; 
         inline constexpr ::std::ptrdiff_t InGesture = 0x2B0; 
         inline constexpr ::std::ptrdiff_t IsNpc = 0x320; 
-        inline constexpr ::std::ptrdiff_t LegParts_list = 0x58; 
+        inline constexpr ::std::ptrdiff_t LegPartsList = 0x58; 
         inline constexpr ::std::ptrdiff_t LookAngles = 0x200; 
         inline constexpr ::std::ptrdiff_t MaleSkin = 0x1A0; 
         inline constexpr ::std::ptrdiff_t SleepGesture = 0x180; 

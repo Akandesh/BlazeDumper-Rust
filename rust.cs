@@ -25,7 +25,7 @@ namespace blazedumper {
         public const Int32 OwnerID = 0x158;
         public const Int32 Weight = 0xF8;
         public const Int32 _name = 0x150;
-        public const Int32 _pendingFileRequests_list = 0xA0;
+        public const Int32 _pendingFileRequestsList = 0xA0;
         public const Int32 addedToParentEntity = 0xB0;
         public const Int32 bounds = 0xFC;
         public const Int32 broadcastProtocol = 0x88;
@@ -37,15 +37,15 @@ namespace blazedumper {
         public const Int32 isVisible = 0xD0;
         public const Int32 itemSkin = 0xB8;
         public const Int32 linkedToNeighbours = 0x98;
-        public const Int32 links_list = 0x90;
+        public const Int32 linksList = 0x90;
         public const Int32 localOccludee = 0xD8;
-        public const Int32 menuOptions_list = 0x80;
+        public const Int32 menuOptionsList = 0x80;
         public const Int32 model = 0x128;
         public const Int32 parentBone = 0x134;
         public const Int32 ragdoll = 0x70;
         public const Int32 skinID = 0x138;
         public const Int32 syncPosition = 0x121;
-        public const Int32 triggers_list = 0xC8;
+        public const Int32 triggersList = 0xC8;
         public const Int32 updateParentingAction = 0xA8;
     }
     public static class BaseEntity_TypeInfo
@@ -128,7 +128,7 @@ namespace blazedumper {
         public const Int32 lookingAtTest = 0x548;
         public const Int32 maxProjectileID = 0x630;
         public const Int32 metabolism = 0x698;
-        public const Int32 missions_list = 0x5E0;
+        public const Int32 missionsList = 0x5E0;
         public const Int32 modelState = 0x5F0;
         public const Int32 modifiers = 0x6A0;
         public const Int32 mounted = 0x5F8;
@@ -183,7 +183,7 @@ namespace blazedumper {
         public const Int32 automatic = 0x288;
         public const Int32 cachedUnderground = 0x350;
         public const Int32 canUnloadAmmo = 0x2B4;
-        public const Int32 createdProjectiles_list = 0x358;
+        public const Int32 createdProjectilesList = 0x358;
         public const Int32 damageScale = 0x27C;
         public const Int32 distanceScale = 0x280;
         public const Int32 fractionalReload = 0x2C0;
@@ -226,8 +226,8 @@ namespace blazedumper {
         public const Int32 __menuOption_MenuDeauthorize = 0x528;
         public const Int32 __menuOption_Menu_MaxAuth = 0x3C8;
         public const Int32 __menuOption_Menu_RotateVM = 0x420;
-        public const Int32 allowedConstructionItems_list = 0x598;
-        public const Int32 authorizedPlayers_list = 0x590;
+        public const Int32 allowedConstructionItemsList = 0x598;
+        public const Int32 authorizedPlayersList = 0x590;
         public const Int32 cachedProtectedMinutes = 0x580;
         public const Int32 cachedUpkeepCostFraction = 0x588;
         public const Int32 cachedUpkeepPeriodMinutes = 0x584;
@@ -262,13 +262,13 @@ namespace blazedumper {
     public static class ItemContainer
     {
         public const Int32 allowedContents = 0x14;
-        public const Int32 availableSlots_list = 0x20;
+        public const Int32 availableSlotsList = 0x20;
         public const Int32 capacity = 0x28;
         public const Int32 dirty = 0x30;
         public const Int32 entityOwner = 0x58;
         public const Int32 flags = 0x10;
         public const Int32 isServer = 0x60;
-        public const Int32 itemList_list = 0x38;
+        public const Int32 itemList = 0x38;
         public const Int32 maxStackSize = 0x64;
         public const Int32 parent = 0x48;
         public const Int32 playerOwner = 0x50;
@@ -318,7 +318,7 @@ namespace blazedumper {
         public const Int32 InCinematic = 0x2C0;
         public const Int32 InGesture = 0x2B0;
         public const Int32 IsNpc = 0x320;
-        public const Int32 LegParts_list = 0x58;
+        public const Int32 LegPartsList = 0x58;
         public const Int32 LookAngles = 0x200;
         public const Int32 MaleSkin = 0x1A0;
         public const Int32 SleepGesture = 0x180;
