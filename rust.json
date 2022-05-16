@@ -280,6 +280,15 @@
         "skeleton": 64,
         "skin": 96
     },
+    "ModelState": {
+        "ShouldPool": 16,
+        "_disposed": 17,
+        "flags": 36,
+        "inheritedVelocity": 44,
+        "lookDir": 24,
+        "poseType": 40,
+        "waterLevel": 20
+    },
     "PlayerInventory": {
         "containerBelt": 40,
         "containerMain": 32,

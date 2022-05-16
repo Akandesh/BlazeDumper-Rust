@@ -283,6 +283,15 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t skeleton = 0x40; 
         inline constexpr ::std::ptrdiff_t skin = 0x60; 
     } // namespace Model
+    namespace ModelState {
+        inline constexpr ::std::ptrdiff_t ShouldPool = 0x10; 
+        inline constexpr ::std::ptrdiff_t _disposed = 0x11; 
+        inline constexpr ::std::ptrdiff_t flags = 0x24; 
+        inline constexpr ::std::ptrdiff_t inheritedVelocity = 0x2C; 
+        inline constexpr ::std::ptrdiff_t lookDir = 0x18; 
+        inline constexpr ::std::ptrdiff_t poseType = 0x28; 
+        inline constexpr ::std::ptrdiff_t waterLevel = 0x14; 
+    } // namespace ModelState
     namespace PlayerInventory {
         inline constexpr ::std::ptrdiff_t containerBelt = 0x28; 
         inline constexpr ::std::ptrdiff_t containerMain = 0x20; 

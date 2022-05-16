@@ -299,6 +299,16 @@ namespace blazedumper {
         public const Int32 skeleton = 0x40;
         public const Int32 skin = 0x60;
     }
+    public static class ModelState
+    {
+        public const Int32 ShouldPool = 0x10;
+        public const Int32 _disposed = 0x11;
+        public const Int32 flags = 0x24;
+        public const Int32 inheritedVelocity = 0x2C;
+        public const Int32 lookDir = 0x18;
+        public const Int32 poseType = 0x28;
+        public const Int32 waterLevel = 0x14;
+    }
     public static class PlayerInventory
     {
         public const Int32 containerBelt = 0x28;
