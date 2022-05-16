@@ -164,6 +164,61 @@ namespace blazedumper {
         public const Int32 wasSleeping = 0x521;
         public const Int32 wokeUpBefore = 0x522;
     }
+    public static class BaseProjectile
+    {
+        public const Int32 MuzzlePoint = 0x2A8;
+        public const Int32 NoiseRadius = 0x278;
+        public const Int32 aimCone = 0x2E8;
+        public const Int32 aimConePenaltyMax = 0x2F4;
+        public const Int32 aimSway = 0x2D0;
+        public const Int32 aimSwaySpeed = 0x2D4;
+        public const Int32 aimconeCurve = 0x2E0;
+        public const Int32 aimconePenalty = 0x320;
+        public const Int32 aimconePenaltyPerShot = 0x2F0;
+        public const Int32 aimconePenaltyRecoverDelay = 0x2FC;
+        public const Int32 aimconePenaltyRecoverTime = 0x2F8;
+        public const Int32 aiming = 0x309;
+        public const Int32 ammoTypePreReload = 0x338;
+        public const Int32 attackFX = 0x290;
+        public const Int32 automatic = 0x288;
+        public const Int32 cachedUnderground = 0x350;
+        public const Int32 canUnloadAmmo = 0x2B4;
+        public const Int32 createdProjectiles_list = 0x358;
+        public const Int32 damageScale = 0x27C;
+        public const Int32 distanceScale = 0x280;
+        public const Int32 fractionalReload = 0x2C0;
+        public const Int32 fractionalReloadDesiredCount = 0x340;
+        public const Int32 fractionalReloadNumAdded = 0x344;
+        public const Int32 hasADS = 0x304;
+        public const Int32 hipAimCone = 0x2EC;
+        public const Int32 isCycling = 0x308;
+        public const Int32 isReloading = 0x324;
+        public const Int32 lastShotTime = 0x32C;
+        public const Int32 manualCycle = 0x306;
+        public const Int32 muzzleBrakeAttack = 0x2A0;
+        public const Int32 needsCycle = 0x307;
+        public const Int32 nextHeightCheckTime = 0x34C;
+        public const Int32 nextReloadTime = 0x314;
+        public const Int32 noAimingWhileCycling = 0x305;
+        public const Int32 numShotsFired = 0x310;
+        public const Int32 primaryMagazine = 0x2B8;
+        public const Int32 projectileVelocityScale = 0x284;
+        public const Int32 recoil = 0x2D8;
+        public const Int32 reloadEndDuration = 0x2CC;
+        public const Int32 reloadFractionDuration = 0x2C8;
+        public const Int32 reloadPressTime = 0x330;
+        public const Int32 reloadStartDuration = 0x2C4;
+        public const Int32 reloadTime = 0x2B0;
+        public const Int32 resetDuration = 0x30C;
+        public const Int32 silencedAttack = 0x298;
+        public const Int32 stancePenalty = 0x31C;
+        public const Int32 stancePenaltyScale = 0x300;
+        public const Int32 startReloadTime = 0x318;
+        public const Int32 swaySampleTime = 0x328;
+        public const Int32 triggerReady = 0x348;
+        public const Int32 turretDamageScale = 0x28C;
+        public const Int32 usableByTurret = 0x289;
+    }
     public static class BuildingPrivledge
     {
         public const Int32 __menuOption_MenuAuthorize = 0x478;
