@@ -42,6 +42,7 @@ namespace blazedumper {
         public const Int32 menuOptionsList = 0x80;
         public const Int32 model = 0x128;
         public const Int32 parentBone = 0x134;
+        public const Int32 positionLerp = 0x78;
         public const Int32 ragdoll = 0x70;
         public const Int32 skinID = 0x138;
         public const Int32 syncPosition = 0x121;
@@ -290,11 +291,13 @@ namespace blazedumper {
     {
         public const Int32 _lodGroup = 0x68;
         public const Int32 animator = 0x38;
+        public const Int32 boneDict = 0x58;
         public const Int32 collision = 0x18;
         public const Int32 eyeBone = 0x30;
         public const Int32 headBone = 0x28;
         public const Int32 rootBone = 0x20;
         public const Int32 skeleton = 0x40;
+        public const Int32 skin = 0x60;
     }
     public static class PlayerInventory
     {
@@ -346,11 +349,15 @@ namespace blazedumper {
         public const Int32 censorshipCubeBreasts = 0x88;
         public const Int32 collision = 0x78;
         public const Int32 defaultAnimatorController = 0x2C8;
+        public const Int32 drawShadowOnly = 0x280;
         public const Int32 extraLeanBack = 0x68;
         public const Int32 eyeController = 0xA8;
+        public const Int32 flinchLocation = 0x284;
         public const Int32 hairNumber = 0x1C8;
         public const Int32 headBone = 0xA0;
         public const Int32 holdTypeLock = 0x2F0;
+        public const Int32 isIncapacitated = 0x281;
+        public const Int32 isLocalPlayer = 0x299;
         public const Int32 jawBone = 0x90;
         public const Int32 lastSafeLookDir = 0x3C;
         public const Int32 leftFootBone = 0xC0;
@@ -362,11 +369,14 @@ namespace blazedumper {
         public const Int32 meshNumber = 0x1C4;
         public const Int32 modelState = 0x210;
         public const Int32 mountedAnimSpeed = 0x310;
+        public const Int32 mountedRotation = 0x258;
         public const Int32 mountedSpineLookWeight = 0x30C;
         public const Int32 movementSounds = 0x1D0;
+        public const Int32 nameTag = 0x290;
         public const Int32 neckBone = 0x98;
         public const Int32 newVelocity = 0x23C;
         public const Int32 overrideSkinSeed = 0x1E8;
+        public const Int32 position = 0x218;
         public const Int32 preserveBones = 0x314;
         public const Int32 rightFootBone = 0xC8;
         public const Int32 rightFootTargetPosition = 0x128;
@@ -375,11 +385,15 @@ namespace blazedumper {
         public const Int32 rightHandTarget = 0xE0;
         public const Int32 rightHandTargetPosition = 0x108;
         public const Int32 rightHandTargetRotation = 0x114;
+        public const Int32 rotation = 0x248;
         public const Int32 showSash = 0x1D8;
         public const Int32 skinColor = 0x1BC;
         public const Int32 skinNumber = 0x1C0;
         public const Int32 skinType = 0x1CC;
+        public const Int32 smoothLeftFootIK = 0x268;
         public const Int32 smoothLookDir = 0x30;
+        public const Int32 smoothRightFootIK = 0x274;
+        public const Int32 speedOverride = 0x230;
         public const Int32 steeringTargetDegrees = 0x124;
         public const Int32 subsurfaceProfile = 0x1B0;
         public const Int32 tempPoseType = 0x1DC;
@@ -388,6 +402,8 @@ namespace blazedumper {
         public const Int32 timeSinceReactionStart = 0x324;
         public const Int32 timeSinceRightFootTest = 0x344;
         public const Int32 underwearSkin = 0x1E0;
+        public const Int32 velocity = 0x224;
+        public const Int32 visible = 0x288;
         public const Int32 voiceVolume = 0x1B8;
         public const Int32 wasCrawling = 0x308;
         public const Int32 wasMountedRightAim = 0x2F4;

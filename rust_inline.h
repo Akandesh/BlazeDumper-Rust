@@ -42,6 +42,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t menuOptionsList = 0x80; 
         inline constexpr ::std::ptrdiff_t model = 0x128; 
         inline constexpr ::std::ptrdiff_t parentBone = 0x134; 
+        inline constexpr ::std::ptrdiff_t positionLerp = 0x78; 
         inline constexpr ::std::ptrdiff_t ragdoll = 0x70; 
         inline constexpr ::std::ptrdiff_t skinID = 0x138; 
         inline constexpr ::std::ptrdiff_t syncPosition = 0x121; 
@@ -274,11 +275,13 @@ namespace blazedumper {
     namespace Model {
         inline constexpr ::std::ptrdiff_t _lodGroup = 0x68; 
         inline constexpr ::std::ptrdiff_t animator = 0x38; 
+        inline constexpr ::std::ptrdiff_t boneDict = 0x58; 
         inline constexpr ::std::ptrdiff_t collision = 0x18; 
         inline constexpr ::std::ptrdiff_t eyeBone = 0x30; 
         inline constexpr ::std::ptrdiff_t headBone = 0x28; 
         inline constexpr ::std::ptrdiff_t rootBone = 0x20; 
         inline constexpr ::std::ptrdiff_t skeleton = 0x40; 
+        inline constexpr ::std::ptrdiff_t skin = 0x60; 
     } // namespace Model
     namespace PlayerInventory {
         inline constexpr ::std::ptrdiff_t containerBelt = 0x28; 
@@ -328,11 +331,15 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t censorshipCubeBreasts = 0x88; 
         inline constexpr ::std::ptrdiff_t collision = 0x78; 
         inline constexpr ::std::ptrdiff_t defaultAnimatorController = 0x2C8; 
+        inline constexpr ::std::ptrdiff_t drawShadowOnly = 0x280; 
         inline constexpr ::std::ptrdiff_t extraLeanBack = 0x68; 
         inline constexpr ::std::ptrdiff_t eyeController = 0xA8; 
+        inline constexpr ::std::ptrdiff_t flinchLocation = 0x284; 
         inline constexpr ::std::ptrdiff_t hairNumber = 0x1C8; 
         inline constexpr ::std::ptrdiff_t headBone = 0xA0; 
         inline constexpr ::std::ptrdiff_t holdTypeLock = 0x2F0; 
+        inline constexpr ::std::ptrdiff_t isIncapacitated = 0x281; 
+        inline constexpr ::std::ptrdiff_t isLocalPlayer = 0x299; 
         inline constexpr ::std::ptrdiff_t jawBone = 0x90; 
         inline constexpr ::std::ptrdiff_t lastSafeLookDir = 0x3C; 
         inline constexpr ::std::ptrdiff_t leftFootBone = 0xC0; 
@@ -344,11 +351,14 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t meshNumber = 0x1C4; 
         inline constexpr ::std::ptrdiff_t modelState = 0x210; 
         inline constexpr ::std::ptrdiff_t mountedAnimSpeed = 0x310; 
+        inline constexpr ::std::ptrdiff_t mountedRotation = 0x258; 
         inline constexpr ::std::ptrdiff_t mountedSpineLookWeight = 0x30C; 
         inline constexpr ::std::ptrdiff_t movementSounds = 0x1D0; 
+        inline constexpr ::std::ptrdiff_t nameTag = 0x290; 
         inline constexpr ::std::ptrdiff_t neckBone = 0x98; 
         inline constexpr ::std::ptrdiff_t newVelocity = 0x23C; 
         inline constexpr ::std::ptrdiff_t overrideSkinSeed = 0x1E8; 
+        inline constexpr ::std::ptrdiff_t position = 0x218; 
         inline constexpr ::std::ptrdiff_t preserveBones = 0x314; 
         inline constexpr ::std::ptrdiff_t rightFootBone = 0xC8; 
         inline constexpr ::std::ptrdiff_t rightFootTargetPosition = 0x128; 
@@ -357,11 +367,15 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t rightHandTarget = 0xE0; 
         inline constexpr ::std::ptrdiff_t rightHandTargetPosition = 0x108; 
         inline constexpr ::std::ptrdiff_t rightHandTargetRotation = 0x114; 
+        inline constexpr ::std::ptrdiff_t rotation = 0x248; 
         inline constexpr ::std::ptrdiff_t showSash = 0x1D8; 
         inline constexpr ::std::ptrdiff_t skinColor = 0x1BC; 
         inline constexpr ::std::ptrdiff_t skinNumber = 0x1C0; 
         inline constexpr ::std::ptrdiff_t skinType = 0x1CC; 
+        inline constexpr ::std::ptrdiff_t smoothLeftFootIK = 0x268; 
         inline constexpr ::std::ptrdiff_t smoothLookDir = 0x30; 
+        inline constexpr ::std::ptrdiff_t smoothRightFootIK = 0x274; 
+        inline constexpr ::std::ptrdiff_t speedOverride = 0x230; 
         inline constexpr ::std::ptrdiff_t steeringTargetDegrees = 0x124; 
         inline constexpr ::std::ptrdiff_t subsurfaceProfile = 0x1B0; 
         inline constexpr ::std::ptrdiff_t tempPoseType = 0x1DC; 
@@ -370,6 +384,8 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t timeSinceReactionStart = 0x324; 
         inline constexpr ::std::ptrdiff_t timeSinceRightFootTest = 0x344; 
         inline constexpr ::std::ptrdiff_t underwearSkin = 0x1E0; 
+        inline constexpr ::std::ptrdiff_t velocity = 0x224; 
+        inline constexpr ::std::ptrdiff_t visible = 0x288; 
         inline constexpr ::std::ptrdiff_t voiceVolume = 0x1B8; 
         inline constexpr ::std::ptrdiff_t wasCrawling = 0x308; 
         inline constexpr ::std::ptrdiff_t wasMountedRightAim = 0x2F4; 
