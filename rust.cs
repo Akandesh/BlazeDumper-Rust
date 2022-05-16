@@ -24,12 +24,14 @@ namespace blazedumper {
         public const Int32 HasBrain = 0x148;
         public const Int32 OwnerID = 0x158;
         public const Int32 Weight = 0xF8;
+        public const Int32 _components = 0x140;
         public const Int32 _name = 0x150;
         public const Int32 _pendingFileRequestsList = 0xA0;
         public const Int32 addedToParentEntity = 0xB0;
         public const Int32 bounds = 0xFC;
         public const Int32 broadcastProtocol = 0x88;
         public const Int32 enableSaving = 0x120;
+        public const Int32 entitySlots = 0xC0;
         public const Int32 flags = 0x130;
         public const Int32 impactEffect = 0x118;
         public const Int32 isAnimatorVisible = 0xD1;
@@ -271,6 +273,7 @@ namespace blazedumper {
         public const Int32 isServer = 0x60;
         public const Int32 itemList = 0x38;
         public const Int32 maxStackSize = 0x64;
+        public const Int32 onlyAllowedItems = 0x18;
         public const Int32 parent = 0x48;
         public const Int32 playerOwner = 0x50;
         public const Int32 temperature = 0x40;
@@ -292,6 +295,8 @@ namespace blazedumper {
         public const Int32 _lodGroup = 0x68;
         public const Int32 animator = 0x38;
         public const Int32 boneDict = 0x58;
+        public const Int32 boneNames = 0x50;
+        public const Int32 boneTransforms = 0x48;
         public const Int32 collision = 0x18;
         public const Int32 eyeBone = 0x30;
         public const Int32 headBone = 0x28;
@@ -319,6 +324,7 @@ namespace blazedumper {
     }
     public static class PlayerModel
     {
+        public const Int32 AdditionalSpineBones = 0x50;
         public const Int32 AimAngles = 0x1F0;
         public const Int32 CinematicAnimationController = 0x160;
         public const Int32 CinematicAvatar = 0x170;
@@ -334,7 +340,9 @@ namespace blazedumper {
         public const Int32 LegPartsList = 0x58;
         public const Int32 LookAngles = 0x200;
         public const Int32 MaleSkin = 0x1A0;
+        public const Int32 Shoulders = 0x48;
         public const Int32 SleepGesture = 0x180;
+        public const Int32 SpineBones = 0xB8;
         public const Int32 StandToIncapacitatedGesture = 0x190;
         public const Int32 WorkshopHeldEntity = 0x300;
         public const Int32 _animator = 0x2D8;
@@ -362,6 +370,7 @@ namespace blazedumper {
         public const Int32 drawShadowOnly = 0x280;
         public const Int32 extraLeanBack = 0x68;
         public const Int32 eyeController = 0xA8;
+        public const Int32 fakeSpineBones = 0x60;
         public const Int32 flinchLocation = 0x284;
         public const Int32 hairNumber = 0x1C8;
         public const Int32 headBone = 0xA0;

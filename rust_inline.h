@@ -24,12 +24,14 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t HasBrain = 0x148; 
         inline constexpr ::std::ptrdiff_t OwnerID = 0x158; 
         inline constexpr ::std::ptrdiff_t Weight = 0xF8; 
+        inline constexpr ::std::ptrdiff_t _components = 0x140; 
         inline constexpr ::std::ptrdiff_t _name = 0x150; 
         inline constexpr ::std::ptrdiff_t _pendingFileRequestsList = 0xA0; 
         inline constexpr ::std::ptrdiff_t addedToParentEntity = 0xB0; 
         inline constexpr ::std::ptrdiff_t bounds = 0xFC; 
         inline constexpr ::std::ptrdiff_t broadcastProtocol = 0x88; 
         inline constexpr ::std::ptrdiff_t enableSaving = 0x120; 
+        inline constexpr ::std::ptrdiff_t entitySlots = 0xC0; 
         inline constexpr ::std::ptrdiff_t flags = 0x130; 
         inline constexpr ::std::ptrdiff_t impactEffect = 0x118; 
         inline constexpr ::std::ptrdiff_t isAnimatorVisible = 0xD1; 
@@ -260,6 +262,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t isServer = 0x60; 
         inline constexpr ::std::ptrdiff_t itemList = 0x38; 
         inline constexpr ::std::ptrdiff_t maxStackSize = 0x64; 
+        inline constexpr ::std::ptrdiff_t onlyAllowedItems = 0x18; 
         inline constexpr ::std::ptrdiff_t parent = 0x48; 
         inline constexpr ::std::ptrdiff_t playerOwner = 0x50; 
         inline constexpr ::std::ptrdiff_t temperature = 0x40; 
@@ -276,6 +279,8 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t _lodGroup = 0x68; 
         inline constexpr ::std::ptrdiff_t animator = 0x38; 
         inline constexpr ::std::ptrdiff_t boneDict = 0x58; 
+        inline constexpr ::std::ptrdiff_t boneNames = 0x50; 
+        inline constexpr ::std::ptrdiff_t boneTransforms = 0x48; 
         inline constexpr ::std::ptrdiff_t collision = 0x18; 
         inline constexpr ::std::ptrdiff_t eyeBone = 0x30; 
         inline constexpr ::std::ptrdiff_t headBone = 0x28; 
@@ -300,6 +305,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t loot = 0x40; 
     } // namespace PlayerInventory
     namespace PlayerModel {
+        inline constexpr ::std::ptrdiff_t AdditionalSpineBones = 0x50; 
         inline constexpr ::std::ptrdiff_t AimAngles = 0x1F0; 
         inline constexpr ::std::ptrdiff_t CinematicAnimationController = 0x160; 
         inline constexpr ::std::ptrdiff_t CinematicAvatar = 0x170; 
@@ -315,7 +321,9 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t LegPartsList = 0x58; 
         inline constexpr ::std::ptrdiff_t LookAngles = 0x200; 
         inline constexpr ::std::ptrdiff_t MaleSkin = 0x1A0; 
+        inline constexpr ::std::ptrdiff_t Shoulders = 0x48; 
         inline constexpr ::std::ptrdiff_t SleepGesture = 0x180; 
+        inline constexpr ::std::ptrdiff_t SpineBones = 0xB8; 
         inline constexpr ::std::ptrdiff_t StandToIncapacitatedGesture = 0x190; 
         inline constexpr ::std::ptrdiff_t WorkshopHeldEntity = 0x300; 
         inline constexpr ::std::ptrdiff_t _animator = 0x2D8; 
@@ -343,6 +351,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t drawShadowOnly = 0x280; 
         inline constexpr ::std::ptrdiff_t extraLeanBack = 0x68; 
         inline constexpr ::std::ptrdiff_t eyeController = 0xA8; 
+        inline constexpr ::std::ptrdiff_t fakeSpineBones = 0x60; 
         inline constexpr ::std::ptrdiff_t flinchLocation = 0x284; 
         inline constexpr ::std::ptrdiff_t hairNumber = 0x1C8; 
         inline constexpr ::std::ptrdiff_t headBone = 0xA0; 
