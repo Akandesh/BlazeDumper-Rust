@@ -8,7 +8,7 @@ namespace blazedumper {
     {
     public const Int32 offset = 0x31D3BF0;
     }
-    public static class Facepunch.Input_TypeInfo
+    public static class Facepunch_Input_TypeInfo
     {
     public const Int32 offset = 0x31E41B8;
     }
