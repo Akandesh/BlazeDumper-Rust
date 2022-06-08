@@ -414,4 +414,26 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t skin = 0x60; // int
         constexpr ::std::ptrdiff_t _lodGroup = 0x68; // LODGroup
     } // namespace Model
+    namespace RecoilProperties {
+        constexpr ::std::ptrdiff_t recoilYawMin = 0x18; // float
+        constexpr ::std::ptrdiff_t recoilYawMax = 0x1C; // float
+        constexpr ::std::ptrdiff_t recoilPitchMin = 0x20; // float
+        constexpr ::std::ptrdiff_t recoilPitchMax = 0x24; // float
+        constexpr ::std::ptrdiff_t timeToTakeMin = 0x28; // float
+        constexpr ::std::ptrdiff_t timeToTakeMax = 0x2C; // float
+        constexpr ::std::ptrdiff_t ADSScale = 0x30; // float
+        constexpr ::std::ptrdiff_t movementPenalty = 0x34; // float
+        constexpr ::std::ptrdiff_t clampPitch = 0x38; // float
+        constexpr ::std::ptrdiff_t pitchCurve = 0x40; // AnimationCurve
+        constexpr ::std::ptrdiff_t yawCurve = 0x48; // AnimationCurve
+        constexpr ::std::ptrdiff_t useCurves = 0x50; // bool
+        constexpr ::std::ptrdiff_t curvesAsScalar = 0x51; // bool
+        constexpr ::std::ptrdiff_t shotsUntilMax = 0x54; // int
+        constexpr ::std::ptrdiff_t maxRecoilRadius = 0x58; // float
+        constexpr ::std::ptrdiff_t overrideAimconeWithCurve = 0x5C; // bool
+        constexpr ::std::ptrdiff_t aimconeCurveScale = 0x60; // float
+        constexpr ::std::ptrdiff_t aimconeCurve = 0x68; // AnimationCurve
+        constexpr ::std::ptrdiff_t aimconeProbabilityCurve = 0x70; // AnimationCurve
+        constexpr ::std::ptrdiff_t newRecoilOverride = 0x78; // RecoilProperties
+    } // namespace RecoilProperties
 } // namespace blazedumper

@@ -433,4 +433,27 @@ namespace blazedumper {
         public const Int32 skin = 0x60; // int
         public const Int32 _lodGroup = 0x68; // LODGroup
     }
+    public static class RecoilProperties
+    {
+        public const Int32 recoilYawMin = 0x18; // float
+        public const Int32 recoilYawMax = 0x1C; // float
+        public const Int32 recoilPitchMin = 0x20; // float
+        public const Int32 recoilPitchMax = 0x24; // float
+        public const Int32 timeToTakeMin = 0x28; // float
+        public const Int32 timeToTakeMax = 0x2C; // float
+        public const Int32 ADSScale = 0x30; // float
+        public const Int32 movementPenalty = 0x34; // float
+        public const Int32 clampPitch = 0x38; // float
+        public const Int32 pitchCurve = 0x40; // AnimationCurve
+        public const Int32 yawCurve = 0x48; // AnimationCurve
+        public const Int32 useCurves = 0x50; // bool
+        public const Int32 curvesAsScalar = 0x51; // bool
+        public const Int32 shotsUntilMax = 0x54; // int
+        public const Int32 maxRecoilRadius = 0x58; // float
+        public const Int32 overrideAimconeWithCurve = 0x5C; // bool
+        public const Int32 aimconeCurveScale = 0x60; // float
+        public const Int32 aimconeCurve = 0x68; // AnimationCurve
+        public const Int32 aimconeProbabilityCurve = 0x70; // AnimationCurve
+        public const Int32 newRecoilOverride = 0x78; // RecoilProperties
+    }
 } // namespace blazedumper

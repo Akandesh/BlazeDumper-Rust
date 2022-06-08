@@ -410,5 +410,27 @@
         "voiceVolume": 440,
         "wasCrawling": 776,
         "wasMountedRightAim": 756
+    },
+    "RecoilProperties": {
+        "ADSScale": 48,
+        "aimconeCurve": 104,
+        "aimconeCurveScale": 96,
+        "aimconeProbabilityCurve": 112,
+        "clampPitch": 56,
+        "curvesAsScalar": 81,
+        "maxRecoilRadius": 88,
+        "movementPenalty": 52,
+        "newRecoilOverride": 120,
+        "overrideAimconeWithCurve": 92,
+        "pitchCurve": 64,
+        "recoilPitchMax": 36,
+        "recoilPitchMin": 32,
+        "recoilYawMax": 28,
+        "recoilYawMin": 24,
+        "shotsUntilMax": 84,
+        "timeToTakeMax": 44,
+        "timeToTakeMin": 40,
+        "useCurves": 80,
+        "yawCurve": 72
     }
 }
