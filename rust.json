@@ -48,7 +48,7 @@
         "triggers": 208,
         "updateParentingAction": 176
     },
-    "BaseEntity_TypeInfo": 52898568,
+    "BaseEntity_TypeInfo": 52889792,
     "BasePlayer": {
         "Belt": 1736,
         "ClientCurrentDeathNote": 1512,
@@ -233,7 +233,7 @@
         "cachedUpkeepCostFraction": 1424,
         "cachedUpkeepPeriodMinutes": 1420
     },
-    "Facepunch_Input_TypeInfo": 52973312,
+    "Facepunch_Input_TypeInfo": 52964536,
     "Item": {
         "_condition": 24,
         "_maxCondition": 28,
@@ -278,7 +278,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 52905776,
+    "MainCamera_TypeInfo": 52897032,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
