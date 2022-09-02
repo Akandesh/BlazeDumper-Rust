@@ -471,4 +471,16 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t consumingBackMovement = 0x2C0; // TimeUntil
         constexpr ::std::ptrdiff_t reelInAnimTimer = 0x2C4; // TimeSince
     } // namespace BaseFishingRod
+    namespace FishingBobber {
+        constexpr ::std::ptrdiff_t centerOfMass = 0x240; // Transform
+        constexpr ::std::ptrdiff_t myRigidBody = 0x248; // Rigidbody
+        constexpr ::std::ptrdiff_t lineAttachPoint = 0x250; // Transform
+        constexpr ::std::ptrdiff_t bobberRoot = 0x258; // Transform
+        constexpr ::std::ptrdiff_t HorizontalMoveSpeed = 0x260; // float
+        constexpr ::std::ptrdiff_t PullAwayMoveSpeed = 0x264; // float
+        constexpr ::std::ptrdiff_t SidewaysInputForce = 0x268; // float
+        constexpr ::std::ptrdiff_t ReelInMoveSpeed = 0x26C; // float
+        constexpr ::std::ptrdiff_t fishLerp = 0x270; // float
+        constexpr ::std::ptrdiff_t lastPosition = 0x274; // Vector3
+    } // namespace FishingBobber
 } // namespace blazedumper

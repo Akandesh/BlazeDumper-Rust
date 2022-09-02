@@ -498,4 +498,17 @@ namespace blazedumper {
         public const Int32 consumingBackMovement = 0x2C0; // TimeUntil
         public const Int32 reelInAnimTimer = 0x2C4; // TimeSince
     }
+    public static class FishingBobber
+    {
+        public const Int32 centerOfMass = 0x240; // Transform
+        public const Int32 myRigidBody = 0x248; // Rigidbody
+        public const Int32 lineAttachPoint = 0x250; // Transform
+        public const Int32 bobberRoot = 0x258; // Transform
+        public const Int32 HorizontalMoveSpeed = 0x260; // float
+        public const Int32 PullAwayMoveSpeed = 0x264; // float
+        public const Int32 SidewaysInputForce = 0x268; // float
+        public const Int32 ReelInMoveSpeed = 0x26C; // float
+        public const Int32 fishLerp = 0x270; // float
+        public const Int32 lastPosition = 0x274; // Vector3
+    }
 } // namespace blazedumper

@@ -266,6 +266,18 @@
         "cachedUpkeepPeriodMinutes": 1420
     },
     "Facepunch_Input_TypeInfo": 53062792,
+    "FishingBobber": {
+        "HorizontalMoveSpeed": 608,
+        "PullAwayMoveSpeed": 612,
+        "ReelInMoveSpeed": 620,
+        "SidewaysInputForce": 616,
+        "bobberRoot": 600,
+        "centerOfMass": 576,
+        "fishLerp": 624,
+        "lastPosition": 628,
+        "lineAttachPoint": 592,
+        "myRigidBody": 584
+    },
     "Item": {
         "_condition": 24,
         "_maxCondition": 28,
