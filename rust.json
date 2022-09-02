@@ -48,7 +48,8 @@
         "triggers": 208,
         "updateParentingAction": 176
     },
-    "BaseEntity_TypeInfo": 52987792,
+    "BaseEntity_TypeInfo": 52987832,
+    "BaseGameMode_TypeInfo": 52985192,
     "BasePlayer": {
         "Belt": 1736,
         "ClientCurrentDeathNote": 1512,
@@ -233,7 +234,7 @@
         "cachedUpkeepCostFraction": 1424,
         "cachedUpkeepPeriodMinutes": 1420
     },
-    "Facepunch_Input_TypeInfo": 53062720,
+    "Facepunch_Input_TypeInfo": 53062792,
     "Item": {
         "_condition": 24,
         "_maxCondition": 28,
@@ -278,7 +279,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 52995192,
+    "MainCamera_TypeInfo": 52995256,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -435,5 +436,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 52984976
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 52985048
 }
