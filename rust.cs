@@ -472,6 +472,7 @@ namespace blazedumper {
         public const Int32 FishCatchDistance = 0x200; // float
         public const Int32 ReelLineRenderer = 0x208; // LineRenderer
         public const Int32 LineRendererWorldStartPos = 0x210; // Transform
+        public const Int32 CurrentState = 0x218; // BaseFishingRod.CatchState
         public const Int32 currentFishState = 0x21C; // BaseFishingRod.FishState
         public const Int32 currentBobber = 0x220; // EntityRef<FishingBobber>
         public const Int32 ConditionLossOnSuccess = 0x230; // float

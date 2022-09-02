@@ -53,6 +53,7 @@
         "BobberPreview": 584,
         "ConditionLossOnFail": 564,
         "ConditionLossOnSuccess": 560,
+        "CurrentState": 536,
         "FishCatchDistance": 512,
         "FishingBobberRef": 504,
         "ForceFish": 576,

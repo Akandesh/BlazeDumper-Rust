@@ -445,6 +445,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t FishCatchDistance = 0x200; // float
         inline constexpr ::std::ptrdiff_t ReelLineRenderer = 0x208; // LineRenderer
         inline constexpr ::std::ptrdiff_t LineRendererWorldStartPos = 0x210; // Transform
+        inline constexpr ::std::ptrdiff_t CurrentState = 0x218; // BaseFishingRod.CatchState
         inline constexpr ::std::ptrdiff_t currentFishState = 0x21C; // BaseFishingRod.FishState
         inline constexpr ::std::ptrdiff_t currentBobber = 0x220; // EntityRef<FishingBobber>
         inline constexpr ::std::ptrdiff_t ConditionLossOnSuccess = 0x230; // float
