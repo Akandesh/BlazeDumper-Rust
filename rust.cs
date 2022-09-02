@@ -466,4 +466,36 @@ namespace blazedumper {
         public const Int32 aimconeProbabilityCurve = 0x70; // AnimationCurve
         public const Int32 newRecoilOverride = 0x78; // RecoilProperties
     }
+    public static class BaseFishingRod
+    {
+        public const Int32 FishingBobberRef = 0x1F8; // GameObjectRef
+        public const Int32 FishCatchDistance = 0x200; // float
+        public const Int32 ReelLineRenderer = 0x208; // LineRenderer
+        public const Int32 LineRendererWorldStartPos = 0x210; // Transform
+        public const Int32 currentFishState = 0x21C; // BaseFishingRod.FishState
+        public const Int32 currentBobber = 0x220; // EntityRef<FishingBobber>
+        public const Int32 ConditionLossOnSuccess = 0x230; // float
+        public const Int32 ConditionLossOnFail = 0x234; // float
+        public const Int32 GlobalStrainSpeedMultiplier = 0x238; // float
+        public const Int32 MaxCastDistance = 0x23C; // float
+        public const Int32 ForceFish = 0x240; // ItemModFishable
+        public const Int32 BobberPreview = 0x248; // GameObjectRef
+        public const Int32 onLineSoundDef = 0x250; // SoundDefinition
+        public const Int32 strainSoundDef = 0x258; // SoundDefinition
+        public const Int32 strainGainCurve = 0x260; // AnimationCurve
+        public const Int32 tensionBreakSoundDef = 0x268; // SoundDefinition
+        public const Int32 lineRendererPositionsArray = 0x270; // Vector3[]
+        public const Int32 lineRendererResultArray = 0x278; // Vector3[]
+        public const Int32 lineRendererSlack = 0x280; // float[]
+        public const Int32 clientStrainAmountNormalised = 0x288; // float
+        public const Int32 canCancel = 0x28C; // TimeUntil
+        public const Int32 rodViewModel = 0x290; // FishingRodViewmodel
+        public const Int32 spawnedPreview = 0x298; // BobberPreview
+        public const Int32 aimAnimationReady = 0x2A0; // bool
+        public const Int32 onLineSound = 0x2A8; // Sound
+        public const Int32 strainSound = 0x2B0; // Sound
+        public const Int32 strainGainMod = 0x2B8; // SoundModulation.Modulator
+        public const Int32 consumingBackMovement = 0x2C0; // TimeUntil
+        public const Int32 reelInAnimTimer = 0x2C4; // TimeSince
+    }
 } // namespace blazedumper

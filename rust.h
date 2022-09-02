@@ -440,4 +440,35 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t aimconeProbabilityCurve = 0x70; // AnimationCurve
         constexpr ::std::ptrdiff_t newRecoilOverride = 0x78; // RecoilProperties
     } // namespace RecoilProperties
+    namespace BaseFishingRod {
+        constexpr ::std::ptrdiff_t FishingBobberRef = 0x1F8; // GameObjectRef
+        constexpr ::std::ptrdiff_t FishCatchDistance = 0x200; // float
+        constexpr ::std::ptrdiff_t ReelLineRenderer = 0x208; // LineRenderer
+        constexpr ::std::ptrdiff_t LineRendererWorldStartPos = 0x210; // Transform
+        constexpr ::std::ptrdiff_t currentFishState = 0x21C; // BaseFishingRod.FishState
+        constexpr ::std::ptrdiff_t currentBobber = 0x220; // EntityRef<FishingBobber>
+        constexpr ::std::ptrdiff_t ConditionLossOnSuccess = 0x230; // float
+        constexpr ::std::ptrdiff_t ConditionLossOnFail = 0x234; // float
+        constexpr ::std::ptrdiff_t GlobalStrainSpeedMultiplier = 0x238; // float
+        constexpr ::std::ptrdiff_t MaxCastDistance = 0x23C; // float
+        constexpr ::std::ptrdiff_t ForceFish = 0x240; // ItemModFishable
+        constexpr ::std::ptrdiff_t BobberPreview = 0x248; // GameObjectRef
+        constexpr ::std::ptrdiff_t onLineSoundDef = 0x250; // SoundDefinition
+        constexpr ::std::ptrdiff_t strainSoundDef = 0x258; // SoundDefinition
+        constexpr ::std::ptrdiff_t strainGainCurve = 0x260; // AnimationCurve
+        constexpr ::std::ptrdiff_t tensionBreakSoundDef = 0x268; // SoundDefinition
+        constexpr ::std::ptrdiff_t lineRendererPositionsArray = 0x270; // Vector3[]
+        constexpr ::std::ptrdiff_t lineRendererResultArray = 0x278; // Vector3[]
+        constexpr ::std::ptrdiff_t lineRendererSlack = 0x280; // float[]
+        constexpr ::std::ptrdiff_t clientStrainAmountNormalised = 0x288; // float
+        constexpr ::std::ptrdiff_t canCancel = 0x28C; // TimeUntil
+        constexpr ::std::ptrdiff_t rodViewModel = 0x290; // FishingRodViewmodel
+        constexpr ::std::ptrdiff_t spawnedPreview = 0x298; // BobberPreview
+        constexpr ::std::ptrdiff_t aimAnimationReady = 0x2A0; // bool
+        constexpr ::std::ptrdiff_t onLineSound = 0x2A8; // Sound
+        constexpr ::std::ptrdiff_t strainSound = 0x2B0; // Sound
+        constexpr ::std::ptrdiff_t strainGainMod = 0x2B8; // SoundModulation.Modulator
+        constexpr ::std::ptrdiff_t consumingBackMovement = 0x2C0; // TimeUntil
+        constexpr ::std::ptrdiff_t reelInAnimTimer = 0x2C4; // TimeSince
+    } // namespace BaseFishingRod
 } // namespace blazedumper
