@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x35EF000;
+    public const Int32 offset = 0x35FF3D8;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x360BE60;
+    public const Int32 offset = 0x361A340;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x35F1090;
+    public const Int32 offset = 0x3601440;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x35EE3B8;
+    public const Int32 offset = 0x35FE798;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x35EE460;
+    public const Int32 offset = 0x35FE830;
     }
     public static class BasePlayer
     {
@@ -423,11 +423,13 @@ namespace blazedumper {
         public const Int32 skin = 0x50; // ulong
         public const Int32 name = 0x58; // string
         public const Int32 text = 0x60; // string
-        public const Int32 flags = 0x70; // Item.Flag
-        public const Int32 contents = 0x78; // ItemContainer
-        public const Int32 parent = 0x80; // ItemContainer
-        public const Int32 worldEnt = 0x88; // EntityRef
-        public const Int32 heldEntity = 0x98; // EntityRef
+        public const Int32 cookTimeLeft = 0x68; // float
+        public const Int32 progressBar = 0x6C; // float
+        public const Int32 flags = 0x78; // Item.Flag
+        public const Int32 contents = 0x80; // ItemContainer
+        public const Int32 parent = 0x88; // ItemContainer
+        public const Int32 worldEnt = 0x90; // EntityRef
+        public const Int32 heldEntity = 0xA0; // EntityRef
     }
     public static class Model
     {

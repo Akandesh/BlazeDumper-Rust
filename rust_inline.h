@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x35EF000;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x360BE60;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x35F1090;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x35EE3B8;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x35EE460;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x35FF3D8;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x361A340;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3601440;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x35FE798;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x35FE830;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -399,11 +399,13 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t skin = 0x50; // ulong
         inline constexpr ::std::ptrdiff_t name = 0x58; // string
         inline constexpr ::std::ptrdiff_t text = 0x60; // string
-        inline constexpr ::std::ptrdiff_t flags = 0x70; // Item.Flag
-        inline constexpr ::std::ptrdiff_t contents = 0x78; // ItemContainer
-        inline constexpr ::std::ptrdiff_t parent = 0x80; // ItemContainer
-        inline constexpr ::std::ptrdiff_t worldEnt = 0x88; // EntityRef
-        inline constexpr ::std::ptrdiff_t heldEntity = 0x98; // EntityRef
+        inline constexpr ::std::ptrdiff_t cookTimeLeft = 0x68; // float
+        inline constexpr ::std::ptrdiff_t progressBar = 0x6C; // float
+        inline constexpr ::std::ptrdiff_t flags = 0x78; // Item.Flag
+        inline constexpr ::std::ptrdiff_t contents = 0x80; // ItemContainer
+        inline constexpr ::std::ptrdiff_t parent = 0x88; // ItemContainer
+        inline constexpr ::std::ptrdiff_t worldEnt = 0x90; // EntityRef
+        inline constexpr ::std::ptrdiff_t heldEntity = 0xA0; // EntityRef
     } // namespace Item
     namespace Model {
         inline constexpr ::std::ptrdiff_t collision = 0x18; // SphereCollider
