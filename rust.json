@@ -48,7 +48,7 @@
         "triggers": 208,
         "updateParentingAction": 176
     },
-    "BaseEntity_TypeInfo": 56749664,
+    "BaseEntity_TypeInfo": 56836184,
     "BaseFishingRod": {
         "BobberPreview": 584,
         "ConditionLossOnFail": 564,
@@ -81,7 +81,7 @@
         "strainSoundDef": 600,
         "tensionBreakSoundDef": 616
     },
-    "BaseGameMode_TypeInfo": 56746680,
+    "BaseGameMode_TypeInfo": 56833216,
     "BasePlayer": {
         "Belt": 1736,
         "ClientCurrentDeathNote": 1512,
@@ -212,9 +212,10 @@
         "attackFX": 664,
         "automatic": 656,
         "cachedModHash": 812,
-        "cachedUnderground": 872,
+        "cachedUnderground": 876,
         "canUnloadAmmo": 700,
         "createdProjectiles": 880,
+        "currentBurst": 864,
         "damageScale": 644,
         "distanceScale": 648,
         "fractionalReload": 712,
@@ -224,13 +225,14 @@
         "hipAimCone": 756,
         "hipAimConeOffset": 828,
         "hipAimConeScale": 824,
+        "isBurstWeapon": 786,
         "isCycling": 784,
         "isReloading": 832,
         "lastShotTime": 840,
         "manualCycle": 782,
         "muzzleBrakeAttack": 680,
         "needsCycle": 783,
-        "nextHeightCheckTime": 868,
+        "nextHeightCheckTime": 872,
         "nextReloadTime": 796,
         "noAimingWhileCycling": 781,
         "numShotsFired": 792,
@@ -250,7 +252,7 @@
         "stancePenaltyScale": 776,
         "startReloadTime": 800,
         "swaySampleTime": 836,
-        "triggerReady": 864,
+        "triggerReady": 868,
         "turretDamageScale": 660,
         "usableByTurret": 657
     },
@@ -266,7 +268,7 @@
         "cachedUpkeepCostFraction": 1424,
         "cachedUpkeepPeriodMinutes": 1420
     },
-    "Facepunch_Input_TypeInfo": 56860088,
+    "Facepunch_Input_TypeInfo": 56947080,
     "FishingBobber": {
         "HorizontalMoveSpeed": 608,
         "PullAwayMoveSpeed": 612,
@@ -325,7 +327,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 56757968,
+    "MainCamera_TypeInfo": 56844664,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -482,5 +484,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 56746512
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 56833048
 }

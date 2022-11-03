@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x361EE60;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3639DB8;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3620ED0;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x361E210;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x361E2B8;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3634058;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x364F188;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3636178;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3633418;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x36334C0;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -217,6 +217,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t needsCycle = 0x30F; // bool
         inline constexpr ::std::ptrdiff_t isCycling = 0x310; // bool
         inline constexpr ::std::ptrdiff_t aiming = 0x311; // bool
+        inline constexpr ::std::ptrdiff_t isBurstWeapon = 0x312; // bool
         inline constexpr ::std::ptrdiff_t resetDuration = 0x314; // float
         inline constexpr ::std::ptrdiff_t numShotsFired = 0x318; // int
         inline constexpr ::std::ptrdiff_t nextReloadTime = 0x31C; // float
@@ -235,9 +236,10 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t ammoTypePreReload = 0x350; // ItemDefinition
         inline constexpr ::std::ptrdiff_t fractionalReloadDesiredCount = 0x358; // int
         inline constexpr ::std::ptrdiff_t fractionalReloadNumAdded = 0x35C; // int
-        inline constexpr ::std::ptrdiff_t triggerReady = 0x360; // bool
-        inline constexpr ::std::ptrdiff_t nextHeightCheckTime = 0x364; // float
-        inline constexpr ::std::ptrdiff_t cachedUnderground = 0x368; // bool
+        inline constexpr ::std::ptrdiff_t currentBurst = 0x360; // int
+        inline constexpr ::std::ptrdiff_t triggerReady = 0x364; // bool
+        inline constexpr ::std::ptrdiff_t nextHeightCheckTime = 0x368; // float
+        inline constexpr ::std::ptrdiff_t cachedUnderground = 0x36C; // bool
         inline constexpr ::std::ptrdiff_t createdProjectiles = 0x370; // List<Projectile>
     } // namespace BaseProjectile
     namespace Magazine {

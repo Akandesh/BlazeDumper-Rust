@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x361EE60;
+    public const Int32 offset = 0x3634058;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x3639DB8;
+    public const Int32 offset = 0x364F188;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3620ED0;
+    public const Int32 offset = 0x3636178;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x361E210;
+    public const Int32 offset = 0x3633418;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x361E2B8;
+    public const Int32 offset = 0x36334C0;
     }
     public static class BasePlayer
     {
@@ -235,6 +235,7 @@ namespace blazedumper {
         public const Int32 needsCycle = 0x30F; // bool
         public const Int32 isCycling = 0x310; // bool
         public const Int32 aiming = 0x311; // bool
+        public const Int32 isBurstWeapon = 0x312; // bool
         public const Int32 resetDuration = 0x314; // float
         public const Int32 numShotsFired = 0x318; // int
         public const Int32 nextReloadTime = 0x31C; // float
@@ -253,9 +254,10 @@ namespace blazedumper {
         public const Int32 ammoTypePreReload = 0x350; // ItemDefinition
         public const Int32 fractionalReloadDesiredCount = 0x358; // int
         public const Int32 fractionalReloadNumAdded = 0x35C; // int
-        public const Int32 triggerReady = 0x360; // bool
-        public const Int32 nextHeightCheckTime = 0x364; // float
-        public const Int32 cachedUnderground = 0x368; // bool
+        public const Int32 currentBurst = 0x360; // int
+        public const Int32 triggerReady = 0x364; // bool
+        public const Int32 nextHeightCheckTime = 0x368; // float
+        public const Int32 cachedUnderground = 0x36C; // bool
         public const Int32 createdProjectiles = 0x370; // List<Projectile>
     }
     public static class Magazine
