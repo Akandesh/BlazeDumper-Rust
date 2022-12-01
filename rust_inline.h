@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x36340A8;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x364F1D0;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x36361C8;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3633468;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3633500;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x3647470;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x36625D8;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x36495D8;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3646800;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x36468D0;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -218,29 +218,36 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t isCycling = 0x310; // bool
         inline constexpr ::std::ptrdiff_t aiming = 0x311; // bool
         inline constexpr ::std::ptrdiff_t isBurstWeapon = 0x312; // bool
-        inline constexpr ::std::ptrdiff_t resetDuration = 0x314; // float
-        inline constexpr ::std::ptrdiff_t numShotsFired = 0x318; // int
-        inline constexpr ::std::ptrdiff_t nextReloadTime = 0x31C; // float
-        inline constexpr ::std::ptrdiff_t startReloadTime = 0x320; // float
-        inline constexpr ::std::ptrdiff_t stancePenalty = 0x324; // float
-        inline constexpr ::std::ptrdiff_t aimconePenalty = 0x328; // float
-        inline constexpr ::std::ptrdiff_t cachedModHash = 0x32C; // uint
-        inline constexpr ::std::ptrdiff_t sightAimConeScale = 0x330; // float
-        inline constexpr ::std::ptrdiff_t sightAimConeOffset = 0x334; // float
-        inline constexpr ::std::ptrdiff_t hipAimConeScale = 0x338; // float
-        inline constexpr ::std::ptrdiff_t hipAimConeOffset = 0x33C; // float
-        inline constexpr ::std::ptrdiff_t isReloading = 0x340; // bool
-        inline constexpr ::std::ptrdiff_t swaySampleTime = 0x344; // float
-        inline constexpr ::std::ptrdiff_t lastShotTime = 0x348; // float
-        inline constexpr ::std::ptrdiff_t reloadPressTime = 0x34C; // float
-        inline constexpr ::std::ptrdiff_t ammoTypePreReload = 0x350; // ItemDefinition
-        inline constexpr ::std::ptrdiff_t fractionalReloadDesiredCount = 0x358; // int
-        inline constexpr ::std::ptrdiff_t fractionalReloadNumAdded = 0x35C; // int
-        inline constexpr ::std::ptrdiff_t currentBurst = 0x360; // int
-        inline constexpr ::std::ptrdiff_t triggerReady = 0x364; // bool
-        inline constexpr ::std::ptrdiff_t nextHeightCheckTime = 0x368; // float
-        inline constexpr ::std::ptrdiff_t cachedUnderground = 0x36C; // bool
-        inline constexpr ::std::ptrdiff_t createdProjectiles = 0x370; // List<Projectile>
+        inline constexpr ::std::ptrdiff_t canChangeFireModes = 0x313; // bool
+        inline constexpr ::std::ptrdiff_t defaultOn = 0x314; // bool
+        inline constexpr ::std::ptrdiff_t internalBurstRecoilScale = 0x318; // float
+        inline constexpr ::std::ptrdiff_t internalBurstFireRateScale = 0x31C; // float
+        inline constexpr ::std::ptrdiff_t internalBurstAimConeScale = 0x320; // float
+        inline constexpr ::std::ptrdiff_t Toast_BurstDisabled = 0x328; // Translate.Phrase
+        inline constexpr ::std::ptrdiff_t Toast_BurstEnabled = 0x330; // Translate.Phrase
+        inline constexpr ::std::ptrdiff_t resetDuration = 0x338; // float
+        inline constexpr ::std::ptrdiff_t numShotsFired = 0x33C; // int
+        inline constexpr ::std::ptrdiff_t nextReloadTime = 0x340; // float
+        inline constexpr ::std::ptrdiff_t startReloadTime = 0x344; // float
+        inline constexpr ::std::ptrdiff_t stancePenalty = 0x348; // float
+        inline constexpr ::std::ptrdiff_t aimconePenalty = 0x34C; // float
+        inline constexpr ::std::ptrdiff_t cachedModHash = 0x350; // uint
+        inline constexpr ::std::ptrdiff_t sightAimConeScale = 0x354; // float
+        inline constexpr ::std::ptrdiff_t sightAimConeOffset = 0x358; // float
+        inline constexpr ::std::ptrdiff_t hipAimConeScale = 0x35C; // float
+        inline constexpr ::std::ptrdiff_t hipAimConeOffset = 0x360; // float
+        inline constexpr ::std::ptrdiff_t isReloading = 0x364; // bool
+        inline constexpr ::std::ptrdiff_t swaySampleTime = 0x368; // float
+        inline constexpr ::std::ptrdiff_t lastShotTime = 0x36C; // float
+        inline constexpr ::std::ptrdiff_t reloadPressTime = 0x370; // float
+        inline constexpr ::std::ptrdiff_t ammoTypePreReload = 0x378; // ItemDefinition
+        inline constexpr ::std::ptrdiff_t fractionalReloadDesiredCount = 0x380; // int
+        inline constexpr ::std::ptrdiff_t fractionalReloadNumAdded = 0x384; // int
+        inline constexpr ::std::ptrdiff_t currentBurst = 0x388; // int
+        inline constexpr ::std::ptrdiff_t triggerReady = 0x38C; // bool
+        inline constexpr ::std::ptrdiff_t nextHeightCheckTime = 0x390; // float
+        inline constexpr ::std::ptrdiff_t cachedUnderground = 0x394; // bool
+        inline constexpr ::std::ptrdiff_t createdProjectiles = 0x398; // List<Projectile>
     } // namespace BaseProjectile
     namespace Magazine {
         inline constexpr ::std::ptrdiff_t definition = 0x10; // BaseProjectile.Magazine.Definition

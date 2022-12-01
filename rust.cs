@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x36340A8;
+    public const Int32 offset = 0x3647470;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x364F1D0;
+    public const Int32 offset = 0x36625D8;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x36361C8;
+    public const Int32 offset = 0x36495D8;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3633468;
+    public const Int32 offset = 0x3646800;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3633500;
+    public const Int32 offset = 0x36468D0;
     }
     public static class BasePlayer
     {
@@ -236,29 +236,36 @@ namespace blazedumper {
         public const Int32 isCycling = 0x310; // bool
         public const Int32 aiming = 0x311; // bool
         public const Int32 isBurstWeapon = 0x312; // bool
-        public const Int32 resetDuration = 0x314; // float
-        public const Int32 numShotsFired = 0x318; // int
-        public const Int32 nextReloadTime = 0x31C; // float
-        public const Int32 startReloadTime = 0x320; // float
-        public const Int32 stancePenalty = 0x324; // float
-        public const Int32 aimconePenalty = 0x328; // float
-        public const Int32 cachedModHash = 0x32C; // uint
-        public const Int32 sightAimConeScale = 0x330; // float
-        public const Int32 sightAimConeOffset = 0x334; // float
-        public const Int32 hipAimConeScale = 0x338; // float
-        public const Int32 hipAimConeOffset = 0x33C; // float
-        public const Int32 isReloading = 0x340; // bool
-        public const Int32 swaySampleTime = 0x344; // float
-        public const Int32 lastShotTime = 0x348; // float
-        public const Int32 reloadPressTime = 0x34C; // float
-        public const Int32 ammoTypePreReload = 0x350; // ItemDefinition
-        public const Int32 fractionalReloadDesiredCount = 0x358; // int
-        public const Int32 fractionalReloadNumAdded = 0x35C; // int
-        public const Int32 currentBurst = 0x360; // int
-        public const Int32 triggerReady = 0x364; // bool
-        public const Int32 nextHeightCheckTime = 0x368; // float
-        public const Int32 cachedUnderground = 0x36C; // bool
-        public const Int32 createdProjectiles = 0x370; // List<Projectile>
+        public const Int32 canChangeFireModes = 0x313; // bool
+        public const Int32 defaultOn = 0x314; // bool
+        public const Int32 internalBurstRecoilScale = 0x318; // float
+        public const Int32 internalBurstFireRateScale = 0x31C; // float
+        public const Int32 internalBurstAimConeScale = 0x320; // float
+        public const Int32 Toast_BurstDisabled = 0x328; // Translate.Phrase
+        public const Int32 Toast_BurstEnabled = 0x330; // Translate.Phrase
+        public const Int32 resetDuration = 0x338; // float
+        public const Int32 numShotsFired = 0x33C; // int
+        public const Int32 nextReloadTime = 0x340; // float
+        public const Int32 startReloadTime = 0x344; // float
+        public const Int32 stancePenalty = 0x348; // float
+        public const Int32 aimconePenalty = 0x34C; // float
+        public const Int32 cachedModHash = 0x350; // uint
+        public const Int32 sightAimConeScale = 0x354; // float
+        public const Int32 sightAimConeOffset = 0x358; // float
+        public const Int32 hipAimConeScale = 0x35C; // float
+        public const Int32 hipAimConeOffset = 0x360; // float
+        public const Int32 isReloading = 0x364; // bool
+        public const Int32 swaySampleTime = 0x368; // float
+        public const Int32 lastShotTime = 0x36C; // float
+        public const Int32 reloadPressTime = 0x370; // float
+        public const Int32 ammoTypePreReload = 0x378; // ItemDefinition
+        public const Int32 fractionalReloadDesiredCount = 0x380; // int
+        public const Int32 fractionalReloadNumAdded = 0x384; // int
+        public const Int32 currentBurst = 0x388; // int
+        public const Int32 triggerReady = 0x38C; // bool
+        public const Int32 nextHeightCheckTime = 0x390; // float
+        public const Int32 cachedUnderground = 0x394; // bool
+        public const Int32 createdProjectiles = 0x398; // List<Projectile>
     }
     public static class Magazine
     {
