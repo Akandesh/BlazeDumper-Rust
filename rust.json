@@ -48,7 +48,7 @@
         "triggers": 208,
         "updateParentingAction": 176
     },
-    "BaseEntity_TypeInfo": 56915192,
+    "BaseEntity_TypeInfo": 56952000,
     "BaseFishingRod": {
         "BobberPreview": 584,
         "ConditionLossOnFail": 564,
@@ -81,7 +81,7 @@
         "strainSoundDef": 600,
         "tensionBreakSoundDef": 616
     },
-    "BaseGameMode_TypeInfo": 56912208,
+    "BaseGameMode_TypeInfo": 56949016,
     "BasePlayer": {
         "Belt": 1736,
         "ClientCurrentDeathNote": 1512,
@@ -275,7 +275,7 @@
         "cachedUpkeepCostFraction": 1424,
         "cachedUpkeepPeriodMinutes": 1420
     },
-    "Facepunch_Input_TypeInfo": 57026136,
+    "Facepunch_Input_TypeInfo": 57063016,
     "FishingBobber": {
         "HorizontalMoveSpeed": 608,
         "PullAwayMoveSpeed": 612,
@@ -334,7 +334,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 56923744,
+    "MainCamera_TypeInfo": 56960656,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -377,7 +377,7 @@
         "FemaleSkin": 424,
         "InCinematic": 704,
         "InGesture": 688,
-        "IsNpc": 800,
+        "IsNpc": 808,
         "LegParts": 88,
         "LookAngles": 512,
         "MaleSkin": 416,
@@ -397,13 +397,14 @@
         "aimSoundDef": 672,
         "allowMountedHeadLook": 44,
         "animatorNeedsWarmup": 664,
+        "blendShapeControllers": 800,
         "blinkController": 176,
         "cachedConstructionMask": 764,
-        "cachedLeftFootNormal": 824,
-        "cachedLeftFootPos": 812,
+        "cachedLeftFootNormal": 832,
+        "cachedLeftFootPos": 820,
         "cachedMask": 760,
-        "cachedRightFootNormal": 852,
-        "cachedRightFootPos": 840,
+        "cachedRightFootNormal": 860,
+        "cachedRightFootPos": 848,
         "censorshipCube": 128,
         "censorshipCubeBreasts": 136,
         "collision": 120,
@@ -459,9 +460,9 @@
         "subsurfaceProfile": 432,
         "tempPoseType": 476,
         "timeInArmsMode": 112,
-        "timeSinceLeftFootTest": 808,
-        "timeSinceReactionStart": 804,
-        "timeSinceRightFootTest": 836,
+        "timeSinceLeftFootTest": 816,
+        "timeSinceReactionStart": 812,
+        "timeSinceRightFootTest": 844,
         "underwearSkin": 480,
         "velocity": 548,
         "visible": 648,
@@ -491,5 +492,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 56912008
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 56948864
 }

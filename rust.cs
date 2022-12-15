@@ -2,23 +2,23 @@ using System;
 namespace blazedumper {
     public static class BaseEntity_TypeInfo
     {
-    public const Int32 offset = 0x36474F8;
+    public const Int32 offset = 0x36504C0;
     }
     public static class Facepunch_Input_TypeInfo
     {
-    public const Int32 offset = 0x3662658;
+    public const Int32 offset = 0x366B668;
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3649660;
+    public const Int32 offset = 0x3652690;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3646888;
+    public const Int32 offset = 0x364F880;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3646950;
+    public const Int32 offset = 0x364F918;
     }
     public static class BasePlayer
     {
@@ -396,14 +396,15 @@ namespace blazedumper {
         public const Int32 mountedSpineLookWeight = 0x30C; // float
         public const Int32 mountedAnimSpeed = 0x310; // float
         public const Int32 preserveBones = 0x314; // bool
-        public const Int32 IsNpc = 0x320; // bool
-        public const Int32 timeSinceReactionStart = 0x324; // TimeSince
-        public const Int32 timeSinceLeftFootTest = 0x328; // TimeSince
-        public const Int32 cachedLeftFootPos = 0x32C; // Vector3
-        public const Int32 cachedLeftFootNormal = 0x338; // Vector3
-        public const Int32 timeSinceRightFootTest = 0x344; // TimeSince
-        public const Int32 cachedRightFootPos = 0x348; // Vector3
-        public const Int32 cachedRightFootNormal = 0x354; // Vector3
+        public const Int32 blendShapeControllers = 0x320; // List<BlendShapeController>
+        public const Int32 IsNpc = 0x328; // bool
+        public const Int32 timeSinceReactionStart = 0x32C; // TimeSince
+        public const Int32 timeSinceLeftFootTest = 0x330; // TimeSince
+        public const Int32 cachedLeftFootPos = 0x334; // Vector3
+        public const Int32 cachedLeftFootNormal = 0x340; // Vector3
+        public const Int32 timeSinceRightFootTest = 0x34C; // TimeSince
+        public const Int32 cachedRightFootPos = 0x350; // Vector3
+        public const Int32 cachedRightFootNormal = 0x35C; // Vector3
     }
     public static class ModelState
     {

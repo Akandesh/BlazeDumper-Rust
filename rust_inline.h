@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x36474F8;
-    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x3662658;
-    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3649660;
-    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3646888;
-    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3646950;
+    inline constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x36504C0;
+    inline constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x366B668;
+    inline constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x3652690;
+    inline constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x364F880;
+    inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x364F918;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -374,14 +374,15 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t mountedSpineLookWeight = 0x30C; // float
         inline constexpr ::std::ptrdiff_t mountedAnimSpeed = 0x310; // float
         inline constexpr ::std::ptrdiff_t preserveBones = 0x314; // bool
-        inline constexpr ::std::ptrdiff_t IsNpc = 0x320; // bool
-        inline constexpr ::std::ptrdiff_t timeSinceReactionStart = 0x324; // TimeSince
-        inline constexpr ::std::ptrdiff_t timeSinceLeftFootTest = 0x328; // TimeSince
-        inline constexpr ::std::ptrdiff_t cachedLeftFootPos = 0x32C; // Vector3
-        inline constexpr ::std::ptrdiff_t cachedLeftFootNormal = 0x338; // Vector3
-        inline constexpr ::std::ptrdiff_t timeSinceRightFootTest = 0x344; // TimeSince
-        inline constexpr ::std::ptrdiff_t cachedRightFootPos = 0x348; // Vector3
-        inline constexpr ::std::ptrdiff_t cachedRightFootNormal = 0x354; // Vector3
+        inline constexpr ::std::ptrdiff_t blendShapeControllers = 0x320; // List<BlendShapeController>
+        inline constexpr ::std::ptrdiff_t IsNpc = 0x328; // bool
+        inline constexpr ::std::ptrdiff_t timeSinceReactionStart = 0x32C; // TimeSince
+        inline constexpr ::std::ptrdiff_t timeSinceLeftFootTest = 0x330; // TimeSince
+        inline constexpr ::std::ptrdiff_t cachedLeftFootPos = 0x334; // Vector3
+        inline constexpr ::std::ptrdiff_t cachedLeftFootNormal = 0x340; // Vector3
+        inline constexpr ::std::ptrdiff_t timeSinceRightFootTest = 0x34C; // TimeSince
+        inline constexpr ::std::ptrdiff_t cachedRightFootPos = 0x350; // Vector3
+        inline constexpr ::std::ptrdiff_t cachedRightFootNormal = 0x35C; // Vector3
     } // namespace PlayerModel
     namespace ModelState {
         inline constexpr ::std::ptrdiff_t ShouldPool = 0x10; // bool
