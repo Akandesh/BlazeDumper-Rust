@@ -48,7 +48,7 @@
         "triggers": 304,
         "updateParentingAction": 272
     },
-    "BaseEntity_TypeInfo": 49097120,
+    "BaseEntity_TypeInfo": 48941368,
     "BaseFishingRod": {
         "BobberPreview": 584,
         "ConditionLossOnFail": 564,
@@ -81,7 +81,7 @@
         "strainSoundDef": 600,
         "tensionBreakSoundDef": 616
     },
-    "BaseGameMode_TypeInfo": 48550056,
+    "BaseGameMode_TypeInfo": 48941992,
     "BasePlayer": {
         "Belt": 1728,
         "ClientCurrentDeathNote": 1504,
@@ -215,12 +215,12 @@
         "automatic": 656,
         "cachedModHash": 848,
         "cachedUnderground": 916,
-        "canChangeFireModes": 787,
+        "canChangeFireModes": 788,
         "canUnloadAmmo": 700,
         "createdProjectiles": 920,
         "currentBurst": 904,
         "damageScale": 644,
-        "defaultOn": 788,
+        "defaultOn": 789,
         "distanceScale": 648,
         "fractionalReload": 712,
         "fractionalReloadDesiredCount": 896,
@@ -232,7 +232,7 @@
         "internalBurstAimConeScale": 800,
         "internalBurstFireRateScale": 796,
         "internalBurstRecoilScale": 792,
-        "isBurstWeapon": 786,
+        "isBurstWeapon": 787,
         "isCycling": 784,
         "isReloading": 868,
         "lastShotTime": 876,
@@ -261,7 +261,8 @@
         "swaySampleTime": 872,
         "triggerReady": 908,
         "turretDamageScale": 660,
-        "usableByTurret": 657
+        "usableByTurret": 657,
+        "useEmptyAmmoState": 786
     },
     "BuildingPrivledge": {
         "__menuOption_MenuAuthorize": 1152,
@@ -275,7 +276,7 @@
         "cachedUpkeepCostFraction": 1440,
         "cachedUpkeepPeriodMinutes": 1436
     },
-    "Facepunch_Input_TypeInfo": 48857608,
+    "Facepunch_Input_TypeInfo": 49254176,
     "FishingBobber": {
         "HorizontalMoveSpeed": 608,
         "PullAwayMoveSpeed": 612,
@@ -334,7 +335,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 48928880,
+    "MainCamera_TypeInfo": 49325648,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -492,5 +493,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 48797344
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 49191000
 }
