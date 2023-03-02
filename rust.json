@@ -48,7 +48,7 @@
         "triggers": 304,
         "updateParentingAction": 272
     },
-    "BaseEntity_TypeInfo": 48941080,
+    "BaseEntity_TypeInfo": 49037936,
     "BaseFishingRod": {
         "BobberPreview": 584,
         "ConditionLossOnFail": 564,
@@ -81,7 +81,7 @@
         "strainSoundDef": 600,
         "tensionBreakSoundDef": 616
     },
-    "BaseGameMode_TypeInfo": 48941704,
+    "BaseGameMode_TypeInfo": 49038560,
     "BasePlayer": {
         "Belt": 1728,
         "ClientCurrentDeathNote": 1504,
@@ -235,7 +235,7 @@
         "isBurstWeapon": 787,
         "isCycling": 784,
         "isReloading": 868,
-        "lastShotTime": 876,
+        "lastShotTime": 880,
         "manualCycle": 782,
         "muzzleBrakeAttack": 680,
         "needsCycle": 783,
@@ -248,7 +248,7 @@
         "recoil": 736,
         "reloadEndDuration": 724,
         "reloadFractionDuration": 720,
-        "reloadPressTime": 880,
+        "reloadPressTime": 884,
         "reloadStartDuration": 716,
         "reloadTime": 696,
         "resetDuration": 824,
@@ -258,7 +258,8 @@
         "stancePenalty": 840,
         "stancePenaltyScale": 776,
         "startReloadTime": 836,
-        "swaySampleTime": 872,
+        "swaySampleTime": 876,
+        "timeSinceReloadFinished": 872,
         "triggerReady": 908,
         "turretDamageScale": 660,
         "usableByTurret": 657,
@@ -276,7 +277,7 @@
         "cachedUpkeepCostFraction": 1440,
         "cachedUpkeepPeriodMinutes": 1436
     },
-    "Facepunch_Input_TypeInfo": 49253992,
+    "Facepunch_Input_TypeInfo": 49353496,
     "FishingBobber": {
         "HorizontalMoveSpeed": 608,
         "PullAwayMoveSpeed": 612,
@@ -335,7 +336,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 49325464,
+    "MainCamera_TypeInfo": 49425048,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -493,5 +494,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 49190800
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 49289208
 }

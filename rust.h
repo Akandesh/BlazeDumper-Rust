@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x2EAC818;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x2EF8E68;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x2F0A598;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x2EE9790;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x2EACA88;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x2EC4270;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x2F11318;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x2F22A98;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x2F017F8;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x2EC44E0;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x240; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x298; // Option
@@ -238,9 +238,10 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t hipAimConeScale = 0x35C; // float
         constexpr ::std::ptrdiff_t hipAimConeOffset = 0x360; // float
         constexpr ::std::ptrdiff_t isReloading = 0x364; // bool
-        constexpr ::std::ptrdiff_t swaySampleTime = 0x368; // float
-        constexpr ::std::ptrdiff_t lastShotTime = 0x36C; // float
-        constexpr ::std::ptrdiff_t reloadPressTime = 0x370; // float
+        constexpr ::std::ptrdiff_t timeSinceReloadFinished = 0x368; // TimeSince
+        constexpr ::std::ptrdiff_t swaySampleTime = 0x36C; // float
+        constexpr ::std::ptrdiff_t lastShotTime = 0x370; // float
+        constexpr ::std::ptrdiff_t reloadPressTime = 0x374; // float
         constexpr ::std::ptrdiff_t ammoTypePreReload = 0x378; // ItemDefinition
         constexpr ::std::ptrdiff_t fractionalReloadDesiredCount = 0x380; // int
         constexpr ::std::ptrdiff_t fractionalReloadNumAdded = 0x384; // int
