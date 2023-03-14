@@ -88028,7 +88028,7 @@
     "address": "0x2F407B0"
   },
   {
-    "value": "-networkthread",
+    "value": "-nonetworkthread",
     "address": "0x2F407E0"
   },
   {
