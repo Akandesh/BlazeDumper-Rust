@@ -502,4 +502,43 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t fishLerp = 0x278; // float
         constexpr ::std::ptrdiff_t lastPosition = 0x27C; // Vector3
     } // namespace FishingBobber
+    namespace OcclusionCulling {
+        constexpr ::std::ptrdiff_t computeShader = 0x18; // ComputeShader
+        constexpr ::std::ptrdiff_t usePixelShaderFallback = 0x20; // bool
+        constexpr ::std::ptrdiff_t useAsyncReadAPI = 0x21; // bool
+        constexpr ::std::ptrdiff_t camera = 0x28; // Camera
+        constexpr ::std::ptrdiff_t frustumPlanes = 0x30; // Vector4[]
+        constexpr ::std::ptrdiff_t frustumPropNames = 0x38; // string[]
+        constexpr ::std::ptrdiff_t matrixToFloatTemp = 0x40; // float[]
+        constexpr ::std::ptrdiff_t fallbackMat = 0x48; // Material
+        constexpr ::std::ptrdiff_t depthCopyMat = 0x50; // Material
+        constexpr ::std::ptrdiff_t viewMatrix = 0x58; // Matrix4x4
+        constexpr ::std::ptrdiff_t projMatrix = 0x98; // Matrix4x4
+        constexpr ::std::ptrdiff_t viewProjMatrix = 0xD8; // Matrix4x4
+        constexpr ::std::ptrdiff_t prevViewProjMatrix = 0x118; // Matrix4x4
+        constexpr ::std::ptrdiff_t invViewProjMatrix = 0x158; // Matrix4x4
+        constexpr ::std::ptrdiff_t useNativePath = 0x198; // bool
+        constexpr ::std::ptrdiff_t debugSettings = 0x1A0; // OcclusionCulling.DebugSettings
+        constexpr ::std::ptrdiff_t debugMipMat = 0x1A8; // Material
+        constexpr ::std::ptrdiff_t downscaleMat = 0x1B0; // Material
+        constexpr ::std::ptrdiff_t blitCopyMat = 0x1B8; // Material
+        constexpr ::std::ptrdiff_t hiZLevelCount = 0x1C0; // int
+        constexpr ::std::ptrdiff_t hiZWidth = 0x1C4; // int
+        constexpr ::std::ptrdiff_t hiZHeight = 0x1C8; // int
+        constexpr ::std::ptrdiff_t depthTexture = 0x1D0; // RenderTexture
+        constexpr ::std::ptrdiff_t hiZTexture = 0x1D8; // RenderTexture
+        constexpr ::std::ptrdiff_t hiZLevels = 0x1E0; // RenderTexture[]
+    } // namespace OcclusionCulling
+    namespace OcclusionCulling_DebugSettings {
+        constexpr ::std::ptrdiff_t log = 0x10; // bool
+        constexpr ::std::ptrdiff_t showAllVisible = 0x11; // bool
+        constexpr ::std::ptrdiff_t showMipChain = 0x12; // bool
+        constexpr ::std::ptrdiff_t showMain = 0x13; // bool
+        constexpr ::std::ptrdiff_t showMainLod = 0x14; // int
+        constexpr ::std::ptrdiff_t showFallback = 0x18; // bool
+        constexpr ::std::ptrdiff_t showStats = 0x19; // bool
+        constexpr ::std::ptrdiff_t showScreenBounds = 0x1A; // bool
+        constexpr ::std::ptrdiff_t showMask = 0x1C; // OcclusionCulling.DebugMask
+        constexpr ::std::ptrdiff_t layerFilter = 0x20; // LayerMask
+    } // namespace OcclusionCulling_DebugSettings
 } // namespace blazedumper

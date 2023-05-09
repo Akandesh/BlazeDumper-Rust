@@ -530,4 +530,45 @@ namespace blazedumper {
         public const Int32 fishLerp = 0x278; // float
         public const Int32 lastPosition = 0x27C; // Vector3
     }
+    public static class OcclusionCulling
+    {
+        public const Int32 computeShader = 0x18; // ComputeShader
+        public const Int32 usePixelShaderFallback = 0x20; // bool
+        public const Int32 useAsyncReadAPI = 0x21; // bool
+        public const Int32 camera = 0x28; // Camera
+        public const Int32 frustumPlanes = 0x30; // Vector4[]
+        public const Int32 frustumPropNames = 0x38; // string[]
+        public const Int32 matrixToFloatTemp = 0x40; // float[]
+        public const Int32 fallbackMat = 0x48; // Material
+        public const Int32 depthCopyMat = 0x50; // Material
+        public const Int32 viewMatrix = 0x58; // Matrix4x4
+        public const Int32 projMatrix = 0x98; // Matrix4x4
+        public const Int32 viewProjMatrix = 0xD8; // Matrix4x4
+        public const Int32 prevViewProjMatrix = 0x118; // Matrix4x4
+        public const Int32 invViewProjMatrix = 0x158; // Matrix4x4
+        public const Int32 useNativePath = 0x198; // bool
+        public const Int32 debugSettings = 0x1A0; // OcclusionCulling.DebugSettings
+        public const Int32 debugMipMat = 0x1A8; // Material
+        public const Int32 downscaleMat = 0x1B0; // Material
+        public const Int32 blitCopyMat = 0x1B8; // Material
+        public const Int32 hiZLevelCount = 0x1C0; // int
+        public const Int32 hiZWidth = 0x1C4; // int
+        public const Int32 hiZHeight = 0x1C8; // int
+        public const Int32 depthTexture = 0x1D0; // RenderTexture
+        public const Int32 hiZTexture = 0x1D8; // RenderTexture
+        public const Int32 hiZLevels = 0x1E0; // RenderTexture[]
+    }
+    public static class OcclusionCulling_DebugSettings
+    {
+        public const Int32 log = 0x10; // bool
+        public const Int32 showAllVisible = 0x11; // bool
+        public const Int32 showMipChain = 0x12; // bool
+        public const Int32 showMain = 0x13; // bool
+        public const Int32 showMainLod = 0x14; // int
+        public const Int32 showFallback = 0x18; // bool
+        public const Int32 showStats = 0x19; // bool
+        public const Int32 showScreenBounds = 0x1A; // bool
+        public const Int32 showMask = 0x1C; // OcclusionCulling.DebugMask
+        public const Int32 layerFilter = 0x20; // LayerMask
+    }
 } // namespace blazedumper
