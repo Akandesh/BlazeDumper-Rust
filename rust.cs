@@ -536,6 +536,9 @@ namespace blazedumper {
         public const Int32 usePixelShaderFallback = 0x20; // bool
         public const Int32 useAsyncReadAPI = 0x21; // bool
         public const Int32 camera = 0x28; // Camera
+        public const Int32 static_staticSet = 0x58; // OcclusionCulling.BufferSet
+        public const Int32 static_dynamicSet = 0x60; // OcclusionCulling.BufferSet
+        public const Int32 static_gridSet = 0x68; // OcclusionCulling.BufferSet
         public const Int32 frustumPlanes = 0x30; // Vector4[]
         public const Int32 frustumPropNames = 0x38; // string[]
         public const Int32 matrixToFloatTemp = 0x40; // float[]
@@ -547,6 +550,10 @@ namespace blazedumper {
         public const Int32 prevViewProjMatrix = 0x118; // Matrix4x4
         public const Int32 invViewProjMatrix = 0x158; // Matrix4x4
         public const Int32 useNativePath = 0x198; // bool
+        public const Int32 static_instance = 0x70; // OcclusionCulling
+        public const Int32 static__enabled = 0x80; // bool
+        public const Int32 static__safeMode = 0x81; // bool
+        public const Int32 static__debugShow = 0x84; // OcclusionCulling.DebugFilter
         public const Int32 debugSettings = 0x1A0; // OcclusionCulling.DebugSettings
         public const Int32 debugMipMat = 0x1A8; // Material
         public const Int32 downscaleMat = 0x1B0; // Material

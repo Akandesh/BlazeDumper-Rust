@@ -507,6 +507,9 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t usePixelShaderFallback = 0x20; // bool
         constexpr ::std::ptrdiff_t useAsyncReadAPI = 0x21; // bool
         constexpr ::std::ptrdiff_t camera = 0x28; // Camera
+        constexpr ::std::ptrdiff_t static_staticSet = 0x58; // OcclusionCulling.BufferSet
+        constexpr ::std::ptrdiff_t static_dynamicSet = 0x60; // OcclusionCulling.BufferSet
+        constexpr ::std::ptrdiff_t static_gridSet = 0x68; // OcclusionCulling.BufferSet
         constexpr ::std::ptrdiff_t frustumPlanes = 0x30; // Vector4[]
         constexpr ::std::ptrdiff_t frustumPropNames = 0x38; // string[]
         constexpr ::std::ptrdiff_t matrixToFloatTemp = 0x40; // float[]
@@ -518,6 +521,10 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t prevViewProjMatrix = 0x118; // Matrix4x4
         constexpr ::std::ptrdiff_t invViewProjMatrix = 0x158; // Matrix4x4
         constexpr ::std::ptrdiff_t useNativePath = 0x198; // bool
+        constexpr ::std::ptrdiff_t static_instance = 0x70; // OcclusionCulling
+        constexpr ::std::ptrdiff_t static__enabled = 0x80; // bool
+        constexpr ::std::ptrdiff_t static__safeMode = 0x81; // bool
+        constexpr ::std::ptrdiff_t static__debugShow = 0x84; // OcclusionCulling.DebugFilter
         constexpr ::std::ptrdiff_t debugSettings = 0x1A0; // OcclusionCulling.DebugSettings
         constexpr ::std::ptrdiff_t debugMipMat = 0x1A8; // Material
         constexpr ::std::ptrdiff_t downscaleMat = 0x1B0; // Material
