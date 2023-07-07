@@ -10,7 +10,7 @@ namespace blazedumper {
     }
     public static class MainCamera_TypeInfo
     {
-    public const Int32 offset = 0x3010190;
+    public const Int32 offset = 0x3010198;
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
