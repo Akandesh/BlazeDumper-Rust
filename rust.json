@@ -48,7 +48,7 @@
         "triggers": 304,
         "updateParentingAction": 272
     },
-    "BaseEntity_TypeInfo": 53718936,
+    "BaseEntity_TypeInfo": 53718952,
     "BaseFishingRod": {
         "BobberPreview": 584,
         "ConditionLossOnFail": 564,
@@ -81,7 +81,7 @@
         "strainSoundDef": 600,
         "tensionBreakSoundDef": 616
     },
-    "BaseGameMode_TypeInfo": 53719592,
+    "BaseGameMode_TypeInfo": 53719608,
     "BasePlayer": {
         "Belt": 2280,
         "ClientCurrentDeathNote": 2016,
@@ -293,7 +293,7 @@
         "cachedUpkeepCostFraction": 1816,
         "cachedUpkeepPeriodMinutes": 1812
     },
-    "Facepunch_Input_TypeInfo": 54082160,
+    "Facepunch_Input_TypeInfo": 54082176,
     "FishingBobber": {
         "HorizontalMoveSpeed": 656,
         "PullAwayMoveSpeed": 660,
@@ -354,7 +354,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 54167896,
+    "MainCamera_TypeInfo": 54167912,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -563,5 +563,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 53977944
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 53977960
 }
