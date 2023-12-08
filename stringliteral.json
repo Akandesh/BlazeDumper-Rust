@@ -103828,7 +103828,7 @@
     "address": "0x349C820"
   },
   {
-    "value": "When spectating and global.toggleSpectateTeamInfo is set to true ont he server, this will filter which team is displayed ont he map. 0 = show all",
+    "value": "When spectating and global.toggleSpectateTeamInfo is set to true on the server, this will filter which team is displayed on the map. 0 = show all",
     "address": "0x349C828"
   },
   {
