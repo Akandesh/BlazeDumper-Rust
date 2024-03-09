@@ -14,11 +14,11 @@ namespace blazedumper {
     }
     public static class System_Collections_Generic_List_BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x3A15528;
+    public const Int32 offset = 0x3A15568;
     }
     public static class BaseGameMode_TypeInfo
     {
-    public const Int32 offset = 0x39DA4A8;
+    public const Int32 offset = 0x39DA4B0;
     }
     public static class BasePlayer
     {

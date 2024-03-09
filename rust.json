@@ -83,7 +83,7 @@
         "strainSoundDef": 616,
         "tensionBreakSoundDef": 632
     },
-    "BaseGameMode_TypeInfo": 60662952,
+    "BaseGameMode_TypeInfo": 60662960,
     "BasePlayer": {
         "Belt": 2344,
         "ClientCurrentDeathNote": 2048,
@@ -583,5 +583,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 60904744
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 60904808
 }
