@@ -2,11 +2,11 @@
 #include <cstdint>
 
 namespace blazedumper {
-    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x39DA1E0;
-    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x39A32F8;
-    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x39BCF00;
-    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3A15568;
-    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x39DA4B0;
+    constexpr ::std::ptrdiff_t BaseEntity_TypeInfo = 0x39DB318;
+    constexpr ::std::ptrdiff_t Facepunch_Input_TypeInfo = 0x39A44E8;
+    constexpr ::std::ptrdiff_t MainCamera_TypeInfo = 0x39BE120;
+    constexpr ::std::ptrdiff_t System_Collections_Generic_List_BaseGameMode_TypeInfo = 0x3A165E0;
+    constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x39DB5E8;
     namespace BasePlayer {
         constexpr ::std::ptrdiff_t __menuOption_Climb = 0x288; // Option
         constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
@@ -419,9 +419,10 @@ namespace blazedumper {
         constexpr ::std::ptrdiff_t Shoulders = 0x360; // Transform[]
         constexpr ::std::ptrdiff_t AdditionalSpineBones = 0x368; // Transform[]
         constexpr ::std::ptrdiff_t LegParts = 0x370; // List<SkinnedMeshRenderer>
-        constexpr ::std::ptrdiff_t fakeSpineBones = 0x378; // Transform[]
-        constexpr ::std::ptrdiff_t extraLeanBack = 0x380; // float
-        constexpr ::std::ptrdiff_t timeInArmsMode = 0x388; // float
+        constexpr ::std::ptrdiff_t fadeToggles = 0x378; // List<WearableFadeToggle>
+        constexpr ::std::ptrdiff_t fakeSpineBones = 0x380; // Transform[]
+        constexpr ::std::ptrdiff_t extraLeanBack = 0x388; // float
+        constexpr ::std::ptrdiff_t timeInArmsMode = 0x390; // float
     } // namespace PlayerModel
     namespace ModelState {
         constexpr ::std::ptrdiff_t waterLevel = 0x10; // float

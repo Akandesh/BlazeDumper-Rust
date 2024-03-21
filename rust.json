@@ -50,7 +50,7 @@
         "triggers": 320,
         "updateParentingAction": 272
     },
-    "BaseEntity_TypeInfo": 60662240,
+    "BaseEntity_TypeInfo": 60666648,
     "BaseFishingRod": {
         "BobberPreview": 600,
         "ConditionLossOnFail": 580,
@@ -83,7 +83,7 @@
         "strainSoundDef": 616,
         "tensionBreakSoundDef": 632
     },
-    "BaseGameMode_TypeInfo": 60662960,
+    "BaseGameMode_TypeInfo": 60667368,
     "BasePlayer": {
         "Belt": 2344,
         "ClientCurrentDeathNote": 2048,
@@ -303,7 +303,7 @@
         "clientAnyAuthed": 1837,
         "clientAuthed": 1836
     },
-    "Facepunch_Input_TypeInfo": 60437240,
+    "Facepunch_Input_TypeInfo": 60441832,
     "FishingBobber": {
         "HorizontalMoveSpeed": 680,
         "PullAwayMoveSpeed": 684,
@@ -365,7 +365,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 60542720,
+    "MainCamera_TypeInfo": 60547360,
     "Model": {
         "_lodGroup": 104,
         "animator": 56,
@@ -495,9 +495,10 @@
         "collision": 24,
         "defaultAnimatorController": 616,
         "drawShadowOnly": 548,
-        "extraLeanBack": 896,
+        "extraLeanBack": 904,
         "eyeController": 72,
-        "fakeSpineBones": 888,
+        "fadeToggles": 888,
+        "fakeSpineBones": 896,
         "fallingTime": 520,
         "flinchLocation": 552,
         "hairNumber": 360,
@@ -548,7 +549,7 @@
         "steeringTargetDegrees": 196,
         "subsurfaceProfile": 336,
         "tempPoseType": 380,
-        "timeInArmsMode": 904,
+        "timeInArmsMode": 912,
         "timeSinceLeftFootTest": 720,
         "timeSinceReactionStart": 716,
         "timeSinceRightFootTest": 748,
@@ -583,5 +584,5 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 60904808
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 60909024
 }
