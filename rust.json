@@ -220,6 +220,7 @@
         "weaponMoveSpeedScale": 2312,
         "wokeUpBefore": 1618
     },
+    "BasePlayer_TypeInfo": 63086096,
     "BaseProjectile": {
         "MuzzlePoint": 720,
         "NoiseRadius": 672,
@@ -304,6 +305,8 @@
         "clientAuthed": 1940,
         "lastProtectedMinuteUpdate": 1944
     },
+    "ConVar_Admin_TypeInfo": 63038816,
+    "ConVar_Graphics_TypeInfo": 62779880,
     "Facepunch_Input_TypeInfo": 62902304,
     "FishingBobber": {
         "HorizontalMoveSpeed": 688,
@@ -592,5 +595,6 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 63276392
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 63276392,
+    "TOD_Sky_TypeInfo": 62814712
 }

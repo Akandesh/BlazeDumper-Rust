@@ -16,9 +16,25 @@ namespace blazedumper {
     {
     public const Int32 offset = 0x3C58568;
     }
+    public static class ConVar_Admin_TypeInfo
+    {
+    public const Int32 offset = 0x3C1E560;
+    }
     public static class BaseGameMode_TypeInfo
     {
     public const Int32 offset = 0x3C29088;
+    }
+    public static class TOD_Sky_TypeInfo
+    {
+    public const Int32 offset = 0x3BE79F8;
+    }
+    public static class BasePlayer_TypeInfo
+    {
+    public const Int32 offset = 0x3C29E10;
+    }
+    public static class ConVar_Graphics_TypeInfo
+    {
+    public const Int32 offset = 0x3BDF1E8;
     }
     public static class BasePlayer
     {
