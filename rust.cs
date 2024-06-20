@@ -36,6 +36,10 @@ namespace blazedumper {
     {
     public const Int32 offset = 0x3BDF1E8;
     }
+    public static class OcclusionCulling_TypeInfo
+    {
+    public const Int32 offset = 0x3C29660;
+    }
     public static class BasePlayer
     {
         public const Int32 __menuOption_Climb = 0x290; // Option
@@ -641,5 +645,30 @@ namespace blazedumper {
         public const Int32 showScreenBounds = 0x1A; // bool
         public const Int32 showMask = 0x1C; // OcclusionCulling.DebugMask
         public const Int32 layerFilter = 0x20; // LayerMask
+    }
+    public static class PlayerInput
+    {
+        public const Int32 state = 0x28; // InputState
+        public const Int32 hadInputBuffer = 0x30; // bool
+        public const Int32 bodyRotation = 0x34; // Quaternion
+        public const Int32 bodyAngles = 0x44; // Vector3
+        public const Int32 bodyAnglesOverride = 0x50; // Vector3
+        public const Int32 clearBodyAnglesOverrideOnLerpComplete = 0x5C; // bool
+        public const Int32 bodyAnglesOverrideLerpSpeed = 0x60; // float
+        public const Int32 headRotation = 0x64; // Quaternion
+        public const Int32 headAngles = 0x74; // Vector3
+        public const Int32 recoilAngles = 0x80; // Vector3
+        public const Int32 viewDelta = 0x8C; // Vector2
+        public const Int32 headLerp = 0x94; // float
+        public const Int32 mouseWheelUp = 0x98; // int
+        public const Int32 mouseWheelDn = 0x9C; // int
+        public const Int32 autorun = 0xA0; // bool
+        public const Int32 toggleDuck = 0xA1; // bool
+        public const Int32 toggleAds = 0xA2; // bool
+        public const Int32 lastAdsEntity = 0xA8; // NetworkableId
+        public const Int32 pendingMouseDelta = 0xB0; // Vector3
+        public const Int32 offsetAngles = 0xBC; // Vector3
+        public const Int32 ignoredButtons = 0xC8; // int
+        public const Int32 hasKeyFocus = 0xCC; // bool
     }
 } // namespace blazedumper

@@ -11,6 +11,7 @@ namespace blazedumper {
     inline constexpr ::std::ptrdiff_t TOD_Sky_TypeInfo = 0x3BE79F8;
     inline constexpr ::std::ptrdiff_t BasePlayer_TypeInfo = 0x3C29E10;
     inline constexpr ::std::ptrdiff_t ConVar_Graphics_TypeInfo = 0x3BDF1E8;
+    inline constexpr ::std::ptrdiff_t OcclusionCulling_TypeInfo = 0x3C29660;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x290; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
@@ -600,4 +601,28 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t showMask = 0x1C; // OcclusionCulling.DebugMask
         inline constexpr ::std::ptrdiff_t layerFilter = 0x20; // LayerMask
     } // namespace OcclusionCulling_DebugSettings
+    namespace PlayerInput {
+        inline constexpr ::std::ptrdiff_t state = 0x28; // InputState
+        inline constexpr ::std::ptrdiff_t hadInputBuffer = 0x30; // bool
+        inline constexpr ::std::ptrdiff_t bodyRotation = 0x34; // Quaternion
+        inline constexpr ::std::ptrdiff_t bodyAngles = 0x44; // Vector3
+        inline constexpr ::std::ptrdiff_t bodyAnglesOverride = 0x50; // Vector3
+        inline constexpr ::std::ptrdiff_t clearBodyAnglesOverrideOnLerpComplete = 0x5C; // bool
+        inline constexpr ::std::ptrdiff_t bodyAnglesOverrideLerpSpeed = 0x60; // float
+        inline constexpr ::std::ptrdiff_t headRotation = 0x64; // Quaternion
+        inline constexpr ::std::ptrdiff_t headAngles = 0x74; // Vector3
+        inline constexpr ::std::ptrdiff_t recoilAngles = 0x80; // Vector3
+        inline constexpr ::std::ptrdiff_t viewDelta = 0x8C; // Vector2
+        inline constexpr ::std::ptrdiff_t headLerp = 0x94; // float
+        inline constexpr ::std::ptrdiff_t mouseWheelUp = 0x98; // int
+        inline constexpr ::std::ptrdiff_t mouseWheelDn = 0x9C; // int
+        inline constexpr ::std::ptrdiff_t autorun = 0xA0; // bool
+        inline constexpr ::std::ptrdiff_t toggleDuck = 0xA1; // bool
+        inline constexpr ::std::ptrdiff_t toggleAds = 0xA2; // bool
+        inline constexpr ::std::ptrdiff_t lastAdsEntity = 0xA8; // NetworkableId
+        inline constexpr ::std::ptrdiff_t pendingMouseDelta = 0xB0; // Vector3
+        inline constexpr ::std::ptrdiff_t offsetAngles = 0xBC; // Vector3
+        inline constexpr ::std::ptrdiff_t ignoredButtons = 0xC8; // int
+        inline constexpr ::std::ptrdiff_t hasKeyFocus = 0xCC; // bool
+    } // namespace PlayerInput
 } // namespace blazedumper
