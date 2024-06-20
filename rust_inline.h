@@ -12,6 +12,7 @@ namespace blazedumper {
     inline constexpr ::std::ptrdiff_t BasePlayer_TypeInfo = 0x3C29E10;
     inline constexpr ::std::ptrdiff_t ConVar_Graphics_TypeInfo = 0x3BDF1E8;
     inline constexpr ::std::ptrdiff_t OcclusionCulling_TypeInfo = 0x3C29660;
+    inline constexpr ::std::ptrdiff_t BaseNetworkable_TypeInfo = 0x3C29A10;
     namespace BasePlayer {
         inline constexpr ::std::ptrdiff_t __menuOption_Climb = 0x290; // Option
         inline constexpr ::std::ptrdiff_t __menuOption_Drink = 0x308; // Option
@@ -625,4 +626,52 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t ignoredButtons = 0xC8; // int
         inline constexpr ::std::ptrdiff_t hasKeyFocus = 0xCC; // bool
     } // namespace PlayerInput
+    namespace ItemDefinition {
+        inline constexpr ::std::ptrdiff_t itemid = 0x20; // int
+        inline constexpr ::std::ptrdiff_t shortname = 0x28; // string
+        inline constexpr ::std::ptrdiff_t displayName = 0x30; // Translate.Phrase
+        inline constexpr ::std::ptrdiff_t displayDescription = 0x38; // Translate.Phrase
+        inline constexpr ::std::ptrdiff_t iconSprite = 0x40; // Sprite
+        inline constexpr ::std::ptrdiff_t category = 0x48; // ItemCategory
+        inline constexpr ::std::ptrdiff_t selectionPanel = 0x4C; // ItemSelectionPanel
+        inline constexpr ::std::ptrdiff_t maxDraggable = 0x50; // int
+        inline constexpr ::std::ptrdiff_t itemType = 0x54; // ItemContainer.ContentsType
+        inline constexpr ::std::ptrdiff_t amountType = 0x58; // ItemDefinition.AmountType
+        inline constexpr ::std::ptrdiff_t occupySlots = 0x5C; // ItemSlot
+        inline constexpr ::std::ptrdiff_t stackable = 0x60; // int
+        inline constexpr ::std::ptrdiff_t volume = 0x64; // int
+        inline constexpr ::std::ptrdiff_t quickDespawn = 0x68; // bool
+        inline constexpr ::std::ptrdiff_t blockStealingInSafeZone = 0x69; // bool
+        inline constexpr ::std::ptrdiff_t tutorialAllowance = 0x6C; // BasePlayer.TutorialItemAllowance
+        inline constexpr ::std::ptrdiff_t rarity = 0x70; // Rarity
+        inline constexpr ::std::ptrdiff_t despawnRarity = 0x74; // Rarity
+        inline constexpr ::std::ptrdiff_t spawnAsBlueprint = 0x78; // bool
+        inline constexpr ::std::ptrdiff_t inventoryGrabSound = 0x80; // SoundDefinition
+        inline constexpr ::std::ptrdiff_t inventoryDropSound = 0x88; // SoundDefinition
+        inline constexpr ::std::ptrdiff_t physImpactSoundDef = 0x90; // SoundDefinition
+        inline constexpr ::std::ptrdiff_t condition = 0x98; // ItemDefinition.Condition
+        inline constexpr ::std::ptrdiff_t hidden = 0xB0; // bool
+        inline constexpr ::std::ptrdiff_t flags = 0xB4; // ItemDefinition.Flag
+        inline constexpr ::std::ptrdiff_t hideSelectedPanel = 0xB8; // bool
+        inline constexpr ::std::ptrdiff_t steamItem = 0xC0; // SteamInventoryItem
+        inline constexpr ::std::ptrdiff_t steamDlc = 0xC8; // SteamDLCItem
+        inline constexpr ::std::ptrdiff_t Parent = 0xD0; // ItemDefinition
+        inline constexpr ::std::ptrdiff_t worldModelPrefab = 0xD8; // GameObjectRef
+        inline constexpr ::std::ptrdiff_t treatAsComponentForRepairs = 0xE8; // bool
+        inline constexpr ::std::ptrdiff_t AlignWorldModelOnDrop = 0xE9; // bool
+        inline constexpr ::std::ptrdiff_t WorldModelDropOffset = 0xEC; // Vector3
+        inline constexpr ::std::ptrdiff_t isRedirectOf = 0xF8; // ItemDefinition
+        inline constexpr ::std::ptrdiff_t redirectVendingBehaviour = 0x100; // ItemDefinition.RedirectVendingBehaviour
+        inline constexpr ::std::ptrdiff_t itemMods = 0x108; // ItemMod[]
+        inline constexpr ::std::ptrdiff_t Traits = 0x110; // BaseEntity.TraitFlag
+        inline constexpr ::std::ptrdiff_t _skins2 = 0x120; // IPlayerItemDefinition[]
+        inline constexpr ::std::ptrdiff_t panel = 0x128; // GameObject
+        inline constexpr ::std::ptrdiff_t ItemModWearable = 0x130; // ItemModWearable
+        inline constexpr ::std::ptrdiff_t ItemModBurnable = 0x138; // ItemModBurnable
+        inline constexpr ::std::ptrdiff_t ItemModCookable = 0x140; // ItemModCookable
+        inline constexpr ::std::ptrdiff_t isHoldable = 0x148; // bool
+        inline constexpr ::std::ptrdiff_t isUsable = 0x149; // bool
+        inline constexpr ::std::ptrdiff_t CraftableWithSkin = 0x14A; // bool
+        inline constexpr ::std::ptrdiff_t Children = 0x150; // ItemDefinition[]
+    } // namespace ItemDefinition
 } // namespace blazedumper
