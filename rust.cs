@@ -607,9 +607,6 @@ namespace blazedumper {
         public const Int32 usePixelShaderFallback = 0x28; // bool
         public const Int32 useAsyncReadAPI = 0x29; // bool
         public const Int32 camera = 0x30; // Camera
-        public const Int32 static_staticSet = 0x58; // OcclusionCulling.BufferSet
-        public const Int32 static_dynamicSet = 0x60; // OcclusionCulling.BufferSet
-        public const Int32 static_gridSet = 0x68; // OcclusionCulling.BufferSet
         public const Int32 frustumPlanes = 0x38; // Vector4[]
         public const Int32 frustumPropNames = 0x40; // string[]
         public const Int32 matrixToFloatTemp = 0x48; // float[]
@@ -621,11 +618,6 @@ namespace blazedumper {
         public const Int32 prevViewProjMatrix = 0x120; // Matrix4x4
         public const Int32 invViewProjMatrix = 0x160; // Matrix4x4
         public const Int32 useNativePath = 0x1A0; // bool
-        public const Int32 static_instance = 0x70; // OcclusionCulling
-        public const Int32 static_Passthrough = 0x78; // bool
-        public const Int32 static__enabled = 0x88; // bool
-        public const Int32 static__safeMode = 0x89; // bool
-        public const Int32 static__debugShow = 0x8C; // OcclusionCulling.DebugFilter
         public const Int32 debugSettings = 0x1A8; // OcclusionCulling.DebugSettings
         public const Int32 debugMipMat = 0x1B0; // Material
         public const Int32 downscaleMat = 0x1B8; // Material
@@ -637,7 +629,7 @@ namespace blazedumper {
         public const Int32 hiZTexture = 0x1E0; // RenderTexture
         public const Int32 hiZLevels = 0x1E8; // RenderTexture[]
     }
-    public static class OcclusionCulling_DebugSettings
+    public static class OcclusionCulling.DebugSettings
     {
         public const Int32 log = 0x10; // bool
         public const Int32 showAllVisible = 0x11; // bool
@@ -723,5 +715,81 @@ namespace blazedumper {
         public const Int32 isUsable = 0x149; // bool
         public const Int32 CraftableWithSkin = 0x14A; // bool
         public const Int32 Children = 0x150; // ItemDefinition[]
+    }
+    public static class PlayerEyes
+    {
+        public const Int32 thirdPersonSleepingOffset = 0x28; // Vector3
+        public const Int32 defaultLazyAim = 0x38; // LazyAimProperties
+        public const Int32 viewOffset = 0x40; // Vector3
+        public const Int32 bodyRotation = 0x4C; // Quaternion
+        public const Int32 headAngles = 0x5C; // Vector3
+        public const Int32 rotationLook = 0x68; // Quaternion
+        public const Int32 postRotationLook = 0x78; // Quaternion
+        public const Int32 postRotationLookAlpha = 0x88; // float
+        public const Int32 IsAltLookingLegsThreshold = 0x8C; // bool
+    }
+    public static class Projectile
+    {
+        public const Int32 initialVelocity = 0x20; // Vector3
+        public const Int32 drag = 0x2C; // float
+        public const Int32 gravityModifier = 0x30; // float
+        public const Int32 thickness = 0x34; // float
+        public const Int32 initialDistance = 0x38; // float
+        public const Int32 remainInWorld = 0x3C; // bool
+        public const Int32 stickProbability = 0x40; // float
+        public const Int32 breakProbability = 0x44; // float
+        public const Int32 conditionLoss = 0x48; // float
+        public const Int32 ricochetChance = 0x4C; // float
+        public const Int32 penetrationPower = 0x50; // float
+        public const Int32 waterIntegrityLoss = 0x54; // float
+        public const Int32 damageProperties = 0x58; // DamageProperties
+        public const Int32 damageDistances = 0x60; // MinMax
+        public const Int32 damageMultipliers = 0x68; // MinMax
+        public const Int32 damageTypes = 0x70; // List<DamageTypeEntry>
+        public const Int32 rendererToScale = 0x78; // ScaleRenderer
+        public const Int32 firstPersonRenderer = 0x80; // ScaleRenderer
+        public const Int32 createDecals = 0x88; // bool
+        public const Int32 doDefaultHitEffects = 0x89; // bool
+        public const Int32 flybySound = 0x90; // SoundDefinition
+        public const Int32 flybySoundDistance = 0x98; // float
+        public const Int32 closeFlybySound = 0xA0; // SoundDefinition
+        public const Int32 closeFlybyDistance = 0xA8; // float
+        public const Int32 tumbleSpeed = 0xAC; // float
+        public const Int32 tumbleAxis = 0xB0; // Vector3
+        public const Int32 swimScale = 0xBC; // Vector3
+        public const Int32 swimSpeed = 0xC8; // Vector3
+        public const Int32 owner = 0xD8; // BasePlayer
+        public const Int32 sourceWeaponPrefab = 0xE0; // AttackEntity
+        public const Int32 sourceProjectilePrefab = 0xE8; // Projectile
+        public const Int32 mod = 0xF0; // ItemModProjectile
+        public const Int32 projectileID = 0xF8; // int
+        public const Int32 seed = 0xFC; // int
+        public const Int32 clientsideEffect = 0x100; // bool
+        public const Int32 clientsideAttack = 0x101; // bool
+        public const Int32 integrity = 0x104; // float
+        public const Int32 maxDistance = 0x108; // float
+        public const Int32 modifier = 0x10C; // Projectile.Modifier
+        public const Int32 invisible = 0x11C; // bool
+        public const Int32 noheadshots = 0x11D; // bool
+        public const Int32 currentThickness = 0x120; // float
+        public const Int32 currentVelocity = 0x124; // Vector3
+        public const Int32 currentPosition = 0x130; // Vector3
+        public const Int32 traveledDistance = 0x13C; // float
+        public const Int32 traveledTime = 0x140; // float
+        public const Int32 launchTime = 0x144; // float
+        public const Int32 sentPosition = 0x148; // Vector3
+        public const Int32 previousPosition = 0x154; // Vector3
+        public const Int32 previousVelocity = 0x160; // Vector3
+        public const Int32 previousTraveledTime = 0x16C; // float
+        public const Int32 isUnderwater = 0x170; // bool
+        public const Int32 isRicochet = 0x171; // bool
+        public const Int32 isRetiring = 0x172; // bool
+        public const Int32 flybyPlayed = 0x173; // bool
+        public const Int32 wasFacingPlayer = 0x174; // bool
+        public const Int32 flybyPlane = 0x178; // Plane
+        public const Int32 flybyRay = 0x188; // Ray
+        public const Int32 cleanupAction = 0x1A0; // Action
+        public const Int32 hitTest = 0x1A8; // HitTest
+        public const Int32 swimRandom = 0x1B0; // float
     }
 } // namespace blazedumper

@@ -560,9 +560,6 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t usePixelShaderFallback = 0x28; // bool
         inline constexpr ::std::ptrdiff_t useAsyncReadAPI = 0x29; // bool
         inline constexpr ::std::ptrdiff_t camera = 0x30; // Camera
-        inline constexpr ::std::ptrdiff_t static_staticSet = 0x58; // OcclusionCulling.BufferSet
-        inline constexpr ::std::ptrdiff_t static_dynamicSet = 0x60; // OcclusionCulling.BufferSet
-        inline constexpr ::std::ptrdiff_t static_gridSet = 0x68; // OcclusionCulling.BufferSet
         inline constexpr ::std::ptrdiff_t frustumPlanes = 0x38; // Vector4[]
         inline constexpr ::std::ptrdiff_t frustumPropNames = 0x40; // string[]
         inline constexpr ::std::ptrdiff_t matrixToFloatTemp = 0x48; // float[]
@@ -574,11 +571,6 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t prevViewProjMatrix = 0x120; // Matrix4x4
         inline constexpr ::std::ptrdiff_t invViewProjMatrix = 0x160; // Matrix4x4
         inline constexpr ::std::ptrdiff_t useNativePath = 0x1A0; // bool
-        inline constexpr ::std::ptrdiff_t static_instance = 0x70; // OcclusionCulling
-        inline constexpr ::std::ptrdiff_t static_Passthrough = 0x78; // bool
-        inline constexpr ::std::ptrdiff_t static__enabled = 0x88; // bool
-        inline constexpr ::std::ptrdiff_t static__safeMode = 0x89; // bool
-        inline constexpr ::std::ptrdiff_t static__debugShow = 0x8C; // OcclusionCulling.DebugFilter
         inline constexpr ::std::ptrdiff_t debugSettings = 0x1A8; // OcclusionCulling.DebugSettings
         inline constexpr ::std::ptrdiff_t debugMipMat = 0x1B0; // Material
         inline constexpr ::std::ptrdiff_t downscaleMat = 0x1B8; // Material
@@ -590,7 +582,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t hiZTexture = 0x1E0; // RenderTexture
         inline constexpr ::std::ptrdiff_t hiZLevels = 0x1E8; // RenderTexture[]
     } // namespace OcclusionCulling
-    namespace OcclusionCulling_DebugSettings {
+    namespace OcclusionCulling.DebugSettings {
         inline constexpr ::std::ptrdiff_t log = 0x10; // bool
         inline constexpr ::std::ptrdiff_t showAllVisible = 0x11; // bool
         inline constexpr ::std::ptrdiff_t showMipChain = 0x12; // bool
@@ -601,7 +593,7 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t showScreenBounds = 0x1A; // bool
         inline constexpr ::std::ptrdiff_t showMask = 0x1C; // OcclusionCulling.DebugMask
         inline constexpr ::std::ptrdiff_t layerFilter = 0x20; // LayerMask
-    } // namespace OcclusionCulling_DebugSettings
+    } // namespace OcclusionCulling.DebugSettings
     namespace PlayerInput {
         inline constexpr ::std::ptrdiff_t state = 0x28; // InputState
         inline constexpr ::std::ptrdiff_t hadInputBuffer = 0x30; // bool
@@ -674,4 +666,78 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t CraftableWithSkin = 0x14A; // bool
         inline constexpr ::std::ptrdiff_t Children = 0x150; // ItemDefinition[]
     } // namespace ItemDefinition
+    namespace PlayerEyes {
+        inline constexpr ::std::ptrdiff_t thirdPersonSleepingOffset = 0x28; // Vector3
+        inline constexpr ::std::ptrdiff_t defaultLazyAim = 0x38; // LazyAimProperties
+        inline constexpr ::std::ptrdiff_t viewOffset = 0x40; // Vector3
+        inline constexpr ::std::ptrdiff_t bodyRotation = 0x4C; // Quaternion
+        inline constexpr ::std::ptrdiff_t headAngles = 0x5C; // Vector3
+        inline constexpr ::std::ptrdiff_t rotationLook = 0x68; // Quaternion
+        inline constexpr ::std::ptrdiff_t postRotationLook = 0x78; // Quaternion
+        inline constexpr ::std::ptrdiff_t postRotationLookAlpha = 0x88; // float
+        inline constexpr ::std::ptrdiff_t IsAltLookingLegsThreshold = 0x8C; // bool
+    } // namespace PlayerEyes
+    namespace Projectile {
+        inline constexpr ::std::ptrdiff_t initialVelocity = 0x20; // Vector3
+        inline constexpr ::std::ptrdiff_t drag = 0x2C; // float
+        inline constexpr ::std::ptrdiff_t gravityModifier = 0x30; // float
+        inline constexpr ::std::ptrdiff_t thickness = 0x34; // float
+        inline constexpr ::std::ptrdiff_t initialDistance = 0x38; // float
+        inline constexpr ::std::ptrdiff_t remainInWorld = 0x3C; // bool
+        inline constexpr ::std::ptrdiff_t stickProbability = 0x40; // float
+        inline constexpr ::std::ptrdiff_t breakProbability = 0x44; // float
+        inline constexpr ::std::ptrdiff_t conditionLoss = 0x48; // float
+        inline constexpr ::std::ptrdiff_t ricochetChance = 0x4C; // float
+        inline constexpr ::std::ptrdiff_t penetrationPower = 0x50; // float
+        inline constexpr ::std::ptrdiff_t waterIntegrityLoss = 0x54; // float
+        inline constexpr ::std::ptrdiff_t damageProperties = 0x58; // DamageProperties
+        inline constexpr ::std::ptrdiff_t damageDistances = 0x60; // MinMax
+        inline constexpr ::std::ptrdiff_t damageMultipliers = 0x68; // MinMax
+        inline constexpr ::std::ptrdiff_t damageTypes = 0x70; // List<DamageTypeEntry>
+        inline constexpr ::std::ptrdiff_t rendererToScale = 0x78; // ScaleRenderer
+        inline constexpr ::std::ptrdiff_t firstPersonRenderer = 0x80; // ScaleRenderer
+        inline constexpr ::std::ptrdiff_t createDecals = 0x88; // bool
+        inline constexpr ::std::ptrdiff_t doDefaultHitEffects = 0x89; // bool
+        inline constexpr ::std::ptrdiff_t flybySound = 0x90; // SoundDefinition
+        inline constexpr ::std::ptrdiff_t flybySoundDistance = 0x98; // float
+        inline constexpr ::std::ptrdiff_t closeFlybySound = 0xA0; // SoundDefinition
+        inline constexpr ::std::ptrdiff_t closeFlybyDistance = 0xA8; // float
+        inline constexpr ::std::ptrdiff_t tumbleSpeed = 0xAC; // float
+        inline constexpr ::std::ptrdiff_t tumbleAxis = 0xB0; // Vector3
+        inline constexpr ::std::ptrdiff_t swimScale = 0xBC; // Vector3
+        inline constexpr ::std::ptrdiff_t swimSpeed = 0xC8; // Vector3
+        inline constexpr ::std::ptrdiff_t owner = 0xD8; // BasePlayer
+        inline constexpr ::std::ptrdiff_t sourceWeaponPrefab = 0xE0; // AttackEntity
+        inline constexpr ::std::ptrdiff_t sourceProjectilePrefab = 0xE8; // Projectile
+        inline constexpr ::std::ptrdiff_t mod = 0xF0; // ItemModProjectile
+        inline constexpr ::std::ptrdiff_t projectileID = 0xF8; // int
+        inline constexpr ::std::ptrdiff_t seed = 0xFC; // int
+        inline constexpr ::std::ptrdiff_t clientsideEffect = 0x100; // bool
+        inline constexpr ::std::ptrdiff_t clientsideAttack = 0x101; // bool
+        inline constexpr ::std::ptrdiff_t integrity = 0x104; // float
+        inline constexpr ::std::ptrdiff_t maxDistance = 0x108; // float
+        inline constexpr ::std::ptrdiff_t modifier = 0x10C; // Projectile.Modifier
+        inline constexpr ::std::ptrdiff_t invisible = 0x11C; // bool
+        inline constexpr ::std::ptrdiff_t noheadshots = 0x11D; // bool
+        inline constexpr ::std::ptrdiff_t currentThickness = 0x120; // float
+        inline constexpr ::std::ptrdiff_t currentVelocity = 0x124; // Vector3
+        inline constexpr ::std::ptrdiff_t currentPosition = 0x130; // Vector3
+        inline constexpr ::std::ptrdiff_t traveledDistance = 0x13C; // float
+        inline constexpr ::std::ptrdiff_t traveledTime = 0x140; // float
+        inline constexpr ::std::ptrdiff_t launchTime = 0x144; // float
+        inline constexpr ::std::ptrdiff_t sentPosition = 0x148; // Vector3
+        inline constexpr ::std::ptrdiff_t previousPosition = 0x154; // Vector3
+        inline constexpr ::std::ptrdiff_t previousVelocity = 0x160; // Vector3
+        inline constexpr ::std::ptrdiff_t previousTraveledTime = 0x16C; // float
+        inline constexpr ::std::ptrdiff_t isUnderwater = 0x170; // bool
+        inline constexpr ::std::ptrdiff_t isRicochet = 0x171; // bool
+        inline constexpr ::std::ptrdiff_t isRetiring = 0x172; // bool
+        inline constexpr ::std::ptrdiff_t flybyPlayed = 0x173; // bool
+        inline constexpr ::std::ptrdiff_t wasFacingPlayer = 0x174; // bool
+        inline constexpr ::std::ptrdiff_t flybyPlane = 0x178; // Plane
+        inline constexpr ::std::ptrdiff_t flybyRay = 0x188; // Ray
+        inline constexpr ::std::ptrdiff_t cleanupAction = 0x1A0; // Action
+        inline constexpr ::std::ptrdiff_t hitTest = 0x1A8; // HitTest
+        inline constexpr ::std::ptrdiff_t swimRandom = 0x1B0; // float
+    } // namespace Projectile
 } // namespace blazedumper
