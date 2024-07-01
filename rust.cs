@@ -28,6 +28,10 @@ namespace blazedumper {
     {
         public const Int32 offset = 0x3BE79F8;
     }
+    public static class ConsoleSystem_Index_TypeInfo
+    {
+        public const Int32 offset = 0x3C28130;
+    }
     public static class BasePlayer_TypeInfo
     {
         public const Int32 offset = 0x3C29E10;
@@ -607,6 +611,9 @@ namespace blazedumper {
         public const Int32 usePixelShaderFallback = 0x28; // bool
         public const Int32 useAsyncReadAPI = 0x29; // bool
         public const Int32 camera = 0x30; // Camera
+        public const Int32 static_staticSet = 0x58; // OcclusionCulling.BufferSet
+        public const Int32 static_dynamicSet = 0x60; // OcclusionCulling.BufferSet
+        public const Int32 static_gridSet = 0x68; // OcclusionCulling.BufferSet
         public const Int32 frustumPlanes = 0x38; // Vector4[]
         public const Int32 frustumPropNames = 0x40; // string[]
         public const Int32 matrixToFloatTemp = 0x48; // float[]
@@ -618,6 +625,11 @@ namespace blazedumper {
         public const Int32 prevViewProjMatrix = 0x120; // Matrix4x4
         public const Int32 invViewProjMatrix = 0x160; // Matrix4x4
         public const Int32 useNativePath = 0x1A0; // bool
+        public const Int32 static_instance = 0x70; // OcclusionCulling
+        public const Int32 static_Passthrough = 0x78; // bool
+        public const Int32 static__enabled = 0x88; // bool
+        public const Int32 static__safeMode = 0x89; // bool
+        public const Int32 static__debugShow = 0x8C; // OcclusionCulling.DebugFilter
         public const Int32 debugSettings = 0x1A8; // OcclusionCulling.DebugSettings
         public const Int32 debugMipMat = 0x1B0; // Material
         public const Int32 downscaleMat = 0x1B8; // Material
@@ -791,5 +803,20 @@ namespace blazedumper {
         public const Int32 cleanupAction = 0x1A0; // Action
         public const Int32 hitTest = 0x1A8; // HitTest
         public const Int32 swimRandom = 0x1B0; // float
+    }
+    public static class ItemModProjectile
+    {
+        public const Int32 projectileObject = 0x20; // GameObjectRef
+        public const Int32 mods = 0x28; // ItemModProjectileMod[]
+        public const Int32 ammoType = 0x30; // AmmoTypes
+        public const Int32 numProjectiles = 0x34; // int
+        public const Int32 projectileSpread = 0x38; // float
+        public const Int32 projectileVelocity = 0x3C; // float
+        public const Int32 projectileVelocitySpread = 0x40; // float
+        public const Int32 useCurve = 0x44; // bool
+        public const Int32 spreadScalar = 0x48; // AnimationCurve
+        public const Int32 attackEffectOverride = 0x50; // GameObjectRef
+        public const Int32 barrelConditionLoss = 0x58; // float
+        public const Int32 category = 0x60; // string
     }
 } // namespace blazedumper

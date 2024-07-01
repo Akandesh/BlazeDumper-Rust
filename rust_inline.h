@@ -9,6 +9,7 @@ namespace blazedumper {
     inline constexpr ::std::ptrdiff_t ConVar_Admin_TypeInfo = 0x3C1E560;
     inline constexpr ::std::ptrdiff_t BaseGameMode_TypeInfo = 0x3C29088;
     inline constexpr ::std::ptrdiff_t TOD_Sky_TypeInfo = 0x3BE79F8;
+    inline constexpr ::std::ptrdiff_t ConsoleSystem_Index_TypeInfo = 0x3C28130;
     inline constexpr ::std::ptrdiff_t BasePlayer_TypeInfo = 0x3C29E10;
     inline constexpr ::std::ptrdiff_t ConVar_Graphics_TypeInfo = 0x3BDF1E8;
     inline constexpr ::std::ptrdiff_t OcclusionCulling_TypeInfo = 0x3C29660;
@@ -560,6 +561,9 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t usePixelShaderFallback = 0x28; // bool
         inline constexpr ::std::ptrdiff_t useAsyncReadAPI = 0x29; // bool
         inline constexpr ::std::ptrdiff_t camera = 0x30; // Camera
+        inline constexpr ::std::ptrdiff_t static_staticSet = 0x58; // OcclusionCulling.BufferSet
+        inline constexpr ::std::ptrdiff_t static_dynamicSet = 0x60; // OcclusionCulling.BufferSet
+        inline constexpr ::std::ptrdiff_t static_gridSet = 0x68; // OcclusionCulling.BufferSet
         inline constexpr ::std::ptrdiff_t frustumPlanes = 0x38; // Vector4[]
         inline constexpr ::std::ptrdiff_t frustumPropNames = 0x40; // string[]
         inline constexpr ::std::ptrdiff_t matrixToFloatTemp = 0x48; // float[]
@@ -571,6 +575,11 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t prevViewProjMatrix = 0x120; // Matrix4x4
         inline constexpr ::std::ptrdiff_t invViewProjMatrix = 0x160; // Matrix4x4
         inline constexpr ::std::ptrdiff_t useNativePath = 0x1A0; // bool
+        inline constexpr ::std::ptrdiff_t static_instance = 0x70; // OcclusionCulling
+        inline constexpr ::std::ptrdiff_t static_Passthrough = 0x78; // bool
+        inline constexpr ::std::ptrdiff_t static__enabled = 0x88; // bool
+        inline constexpr ::std::ptrdiff_t static__safeMode = 0x89; // bool
+        inline constexpr ::std::ptrdiff_t static__debugShow = 0x8C; // OcclusionCulling.DebugFilter
         inline constexpr ::std::ptrdiff_t debugSettings = 0x1A8; // OcclusionCulling.DebugSettings
         inline constexpr ::std::ptrdiff_t debugMipMat = 0x1B0; // Material
         inline constexpr ::std::ptrdiff_t downscaleMat = 0x1B8; // Material
@@ -740,4 +749,18 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t hitTest = 0x1A8; // HitTest
         inline constexpr ::std::ptrdiff_t swimRandom = 0x1B0; // float
     } // namespace Projectile
+    namespace ItemModProjectile {
+        inline constexpr ::std::ptrdiff_t projectileObject = 0x20; // GameObjectRef
+        inline constexpr ::std::ptrdiff_t mods = 0x28; // ItemModProjectileMod[]
+        inline constexpr ::std::ptrdiff_t ammoType = 0x30; // AmmoTypes
+        inline constexpr ::std::ptrdiff_t numProjectiles = 0x34; // int
+        inline constexpr ::std::ptrdiff_t projectileSpread = 0x38; // float
+        inline constexpr ::std::ptrdiff_t projectileVelocity = 0x3C; // float
+        inline constexpr ::std::ptrdiff_t projectileVelocitySpread = 0x40; // float
+        inline constexpr ::std::ptrdiff_t useCurve = 0x44; // bool
+        inline constexpr ::std::ptrdiff_t spreadScalar = 0x48; // AnimationCurve
+        inline constexpr ::std::ptrdiff_t attackEffectOverride = 0x50; // GameObjectRef
+        inline constexpr ::std::ptrdiff_t barrelConditionLoss = 0x58; // float
+        inline constexpr ::std::ptrdiff_t category = 0x60; // string
+    } // namespace ItemModProjectile
 } // namespace blazedumper
