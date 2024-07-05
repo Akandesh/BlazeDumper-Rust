@@ -51,7 +51,7 @@
         "triggers": 336,
         "updateParentingAction": 288
     },
-    "BaseEntity_TypeInfo": 63384072,
+    "BaseEntity_TypeInfo": 63384352,
     "BaseFishingRod": {
         "BobberPreview": 616,
         "ConditionLossOnFail": 596,
@@ -84,8 +84,8 @@
         "strainSoundDef": 632,
         "tensionBreakSoundDef": 648
     },
-    "BaseGameMode_TypeInfo": 63384696,
-    "BaseNetworkable_TypeInfo": 63387192,
+    "BaseGameMode_TypeInfo": 63384976,
+    "BaseNetworkable_TypeInfo": 63387472,
     "BasePlayer": {
         "Belt": 2752,
         "ClientCurrentDeathNote": 2472,
@@ -225,7 +225,7 @@
         "weaponMoveSpeedScale": 2904,
         "wokeUpBefore": 2218
     },
-    "BasePlayer_TypeInfo": 63388232,
+    "BasePlayer_TypeInfo": 63388512,
     "BaseProjectile": {
         "MuzzlePoint": 720,
         "NoiseRadius": 672,
@@ -310,10 +310,10 @@
         "clientAuthed": 1940,
         "lastProtectedMinuteUpdate": 1944
     },
-    "ConVar_Admin_TypeInfo": 63338944,
-    "ConVar_Graphics_TypeInfo": 63080112,
-    "ConsoleSystem_Index_TypeInfo": 63384632,
-    "Facepunch_Input_TypeInfo": 63203408,
+    "ConVar_Admin_TypeInfo": 63339160,
+    "ConVar_Graphics_TypeInfo": 63080328,
+    "ConsoleSystem_Index_TypeInfo": 63384912,
+    "Facepunch_Input_TypeInfo": 63203624,
     "FishingBobber": {
         "HorizontalMoveSpeed": 688,
         "PullAwayMoveSpeed": 692,
@@ -439,7 +439,7 @@
         "contents": 28,
         "definition": 16
     },
-    "MainCamera_TypeInfo": 63303184,
+    "MainCamera_TypeInfo": 63303400,
     "Model": {
         "_lodGroup": 112,
         "animator": 64,
@@ -515,7 +515,7 @@
         "showScreenBounds": 26,
         "showStats": 25
     },
-    "OcclusionCulling_TypeInfo": 63388928,
+    "OcclusionCulling_TypeInfo": 63389208,
     "PlayerEyes": {
         "IsAltLookingLegsThreshold": 140,
         "bodyRotation": 76,
@@ -766,6 +766,6 @@
         "useCurves": 80,
         "yawCurve": 72
     },
-    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 63577496,
-    "TOD_Sky_TypeInfo": 63116264
+    "System_Collections_Generic_List_BaseGameMode_TypeInfo": 63577808,
+    "TOD_Sky_TypeInfo": 63116480
 }
