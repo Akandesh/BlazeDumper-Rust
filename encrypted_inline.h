@@ -2,359 +2,492 @@
 #include <cstdint>
 
 namespace blazedumper {
-    namespace _f316e4c0ae54d8b90aa6082541c73806201d0a72._6be383376ba964580b1747d3ed8203ea719ccc08 {
-        inline constexpr ::std::ptrdiff_t _f8ce3f67e31ad4345ae4cf2f983e3a5f1c48bfeb = 0x0; // float4
-        inline constexpr ::std::ptrdiff_t _b0861d0a943c6f87ef30c332f5cf1d1961c1b445 = 0x10; // float4
-        inline constexpr ::std::ptrdiff_t _69bbc406435560e65cf7b8d1c50ebf2b82655411 = 0x20; // float4
-        inline constexpr ::std::ptrdiff_t _94a676bce381746bd3aae3345f31fe6eb2cb1cd7 = 0x30; // float4
-        inline constexpr ::std::ptrdiff_t _1f59f0ad02ae1aeb1ad248b6bc8b05408483ec7d = 0x40; // float4
-        inline constexpr ::std::ptrdiff_t _f485710f7600cd00a2cb89836ac8b6f5f0d2c4c5 = 0x50; // float4
-    } // namespace _f316e4c0ae54d8b90aa6082541c73806201d0a72._6be383376ba964580b1747d3ed8203ea719ccc08
-    namespace _be5be76ba2f06d60a32019f02cdaa150fdc2c479._a9db4b2ee2515c4b2e47e91a2804dc306526f0c4<TInner> {
-        inline constexpr ::std::ptrdiff_t _b418166dfbd24138bbe9f10a359e4ffc60641191 = 0x0; // TInner
-    } // namespace _be5be76ba2f06d60a32019f02cdaa150fdc2c479._a9db4b2ee2515c4b2e47e91a2804dc306526f0c4<TInner>
-    namespace _871540617b93dcb56bb8f8c327a8e74b48f8feae {
-        inline constexpr ::std::ptrdiff_t _d22b197100d9dc3cc753bdbfad677284366b93aa = 0x0; // uint
-        inline constexpr ::std::ptrdiff_t _90d7537bede3b808c21b0895c39af1645759f086 = 0x8; // NetworkableId
-        inline constexpr ::std::ptrdiff_t _997fd1985a698180c4664d620b81fa6b2823086f = 0x10; // int
-        inline constexpr ::std::ptrdiff_t _5e1e66e8fed629b91805d1a22305401b549c239c = 0x18; // ulong
-        inline constexpr ::std::ptrdiff_t _5334c17fba922d1d341d163da058dbde1e07c7b4 = 0x20; // int
-        inline constexpr ::std::ptrdiff_t _f8ce3f67e31ad4345ae4cf2f983e3a5f1c48bfeb = 0x24; // Vector3
-        inline constexpr ::std::ptrdiff_t _21ce8113a6ee53f0d03fe67ad014b574cd99339a = 0x30; // Quaternion
-        inline constexpr ::std::ptrdiff_t _c3b7d2e98e70a9e0221aac4ef8fdd548ebe223f6 = 0x40; // Color
-        inline constexpr ::std::ptrdiff_t _8193949ee236d1e14ff819ef211efc5c8d268633 = 0x50; // int
-        inline constexpr ::std::ptrdiff_t _83299874cdd18e82f27830fec14f1901d00c8109 = 0x54; // bool
-        inline constexpr ::std::ptrdiff_t _b006466f86262382811e6f51ce072c00a40d1a5e = 0x55; // bool
-    } // namespace _871540617b93dcb56bb8f8c327a8e74b48f8feae
-    namespace _5954e4979c84c2c303fa56d8de480377c1305ac1 {
-        inline constexpr ::std::ptrdiff_t _02204b1fb4bba0e0997905d0dc6e12a8b838a5f3 = 0x0; // short
-        inline constexpr ::std::ptrdiff_t _b5e6c7f1bf96907ff2231821445d952bc409265b = 0x2; // short
-        inline constexpr ::std::ptrdiff_t _bf537a6a4d8836bbbd80915f92818cb5d58f6f00 = 0x4; // short
-    } // namespace _5954e4979c84c2c303fa56d8de480377c1305ac1
-    namespace _a0e0fe027a7ac8ee3031887ed64c6a3700f01b0c {
-        inline constexpr ::std::ptrdiff_t _140787fde4692d5be8eec6aec084e9c6fb17028a = 0x0; // BaseEntity
-        inline constexpr ::std::ptrdiff_t _c991c7407a2696e6d0621db42592c45e2ad4633b = 0x8; // NetworkableId
-    } // namespace _a0e0fe027a7ac8ee3031887ed64c6a3700f01b0c
-    namespace _8731af530d0e5cdf5ea2b0058086cecd329b068e {
-        inline constexpr ::std::ptrdiff_t _0b05153a6c843eda27c3ae9d0231199427adf200 = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _b5bc5be72bc5e3c5c149f021866a584bed0c85ad = 0x4; // int
-        inline constexpr ::std::ptrdiff_t _4bd14847f5208adcee23d5d7e322016bb253cbc8 = 0x8; // float
-        inline constexpr ::std::ptrdiff_t _33781df3c90200bf612077e47158dd76195441d5 = 0xC; // float
-        inline constexpr ::std::ptrdiff_t _a688b66d3b49a1c3d2036a163c1c0946be76a564 = 0x10; // ShadowCastingMode
-    } // namespace _8731af530d0e5cdf5ea2b0058086cecd329b068e
-    namespace _8f4bb236b0fade7de44368b76b31166ac73e291e._0ae67d0a841e3690a69e82d398c06b9beb1d1116 {
-        inline constexpr ::std::ptrdiff_t _4523a9a1e478a56372b292543f854117b8b12a8e = 0x0; // Renderer
-    } // namespace _8f4bb236b0fade7de44368b76b31166ac73e291e._0ae67d0a841e3690a69e82d398c06b9beb1d1116
-    namespace _4e6cd838900c459e60555555baf5191a94a11f12 {
-        inline constexpr ::std::ptrdiff_t _506747df297c481160e4d0e2e2126d92bbdb44f3 = 0x0; // Transform
-        inline constexpr ::std::ptrdiff_t _30ef9a0066e6012d8b0caa8fedd9915397d587e3 = 0x8; // Rigidbody
-        inline constexpr ::std::ptrdiff_t _448f8e8a446b0043f4ae133ee1732f2f6cf0c289 = 0x10; // Collider
-        inline constexpr ::std::ptrdiff_t _a51d713703d17bed5628b8a68b9cdf4583695c51 = 0x18; // OBB
-        inline constexpr ::std::ptrdiff_t _ea9560c81406b0556d16815167bbb277e9dfe1e6 = 0x68; // Vector3
-        inline constexpr ::std::ptrdiff_t _03a70105f6bfa7e0e33085345068c4987b666de6 = 0x74; // Quaternion
-        inline constexpr ::std::ptrdiff_t _b4d8468064c127b5a1ab66618328868d6aebc4f3 = 0x84; // Vector3
-        inline constexpr ::std::ptrdiff_t _91ad72d3d5d9a6db566b405fbd0e3d783f13a60f = 0x90; // %fab3e8b4ee96caf4045f404d2c864b0865e19fca.Data
-    } // namespace _4e6cd838900c459e60555555baf5191a94a11f12
-    namespace _26a1d7907ea95ba5e7858063d05bde82235439a3 {
-        inline constexpr ::std::ptrdiff_t _887db24566e27f74888129b35947431e826d1f68 = 0x0; // ulong
-        inline constexpr ::std::ptrdiff_t _6f83ff07b6c5aaa670720ba5e36072928b4e12e9 = 0x8; // long
-    } // namespace _26a1d7907ea95ba5e7858063d05bde82235439a3
-    namespace _7bb95348d662fa1451f95b43b6214260fc97fe02 {
-        inline constexpr ::std::ptrdiff_t _77ce756a1b982111ba5620e92a117e87a2c52131 = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _f1e30645685048d846a58efffc1ce460657712f0 = 0x4; // int
-        inline constexpr ::std::ptrdiff_t _e406635ce7c49a8f19fb29039f36921697ac857c = 0x8; // int
-        inline constexpr ::std::ptrdiff_t _d0f98ee39edd39c4c68c8ea42e7975f1c8d5ee50 = 0xC; // int
-        inline constexpr ::std::ptrdiff_t _3f43077756886d3ff7b59e4d1eea5331b0022705 = 0x10; // float3
-        inline constexpr ::std::ptrdiff_t _50e7003d06dea387d25e722229cd85c0e7e0d25a = 0x1C; // float3
-        inline constexpr ::std::ptrdiff_t _35f881922e741da5e11733209c812d24d410e325 = 0x28; // bool
-        inline constexpr ::std::ptrdiff_t _42dade19101ef7891c47bdc9cbb6df8b2ed21e54 = 0x29; // bool
-    } // namespace _7bb95348d662fa1451f95b43b6214260fc97fe02
-    namespace _080fe49e26da22b38a68f14b204724fd731904f3 {
-        inline constexpr ::std::ptrdiff_t _f485710f7600cd00a2cb89836ac8b6f5f0d2c4c5 = 0x0; // float4
-    } // namespace _080fe49e26da22b38a68f14b204724fd731904f3
-    namespace _ef6ebfb5142470d94b09d5d2fbf59a815db5c761._a9db4b2ee2515c4b2e47e91a2804dc306526f0c4<TInner> {
-        inline constexpr ::std::ptrdiff_t _b418166dfbd24138bbe9f10a359e4ffc60641191 = 0x0; // TInner
-    } // namespace _ef6ebfb5142470d94b09d5d2fbf59a815db5c761._a9db4b2ee2515c4b2e47e91a2804dc306526f0c4<TInner>
-    namespace _5b1f23c36d2fbede39030d7e78af39c44a83512d._51276d25a82b3d8ef6408c985a4aa2586d1ceab1 {
-        inline constexpr ::std::ptrdiff_t _69c32831d6c468721a129471dc2b8372b160b4a0 = 0x0; // ComputeShader
-        inline constexpr ::std::ptrdiff_t _20664f978f7b2e6987917952ccba5fc4067ae53d = 0x8; // ComputeShader
-        inline constexpr ::std::ptrdiff_t _8a20d6e36cbd83f7b7793687055ac4625eee2bca = 0x10; // int
-        inline constexpr ::std::ptrdiff_t _1fe073eac6164e89b98bf3549539fbae80073c3a = 0x14; // Vector3
-        inline constexpr ::std::ptrdiff_t _ac58983cb22732a8a0ca950c899591c485a85420 = 0x20; // float
-        inline constexpr ::std::ptrdiff_t _6e9f9768160a15c241989b541aed056a3545ec41 = 0x24; // float
-        inline constexpr ::std::ptrdiff_t _edc70154effb57b16f79af4f8cc7e6f3fba368c8 = 0x28; // %73dd4bb306a83cc241dc1dca9b2837f7ffade7ab<float4>
-        inline constexpr ::std::ptrdiff_t _6a4223d3dc3e7a384973d290d5ffbf5c80d9192c = 0x30; // bool
-        inline constexpr ::std::ptrdiff_t _8de3d3433e6826a15be8781ea309272c7d2478c5 = 0x38; // %73dd4bb306a83cc241dc1dca9b2837f7ffade7ab<%717f41b46efc40045b0a91ea0dbf9bd785af3962>
-        inline constexpr ::std::ptrdiff_t _f0d9ea6d4de02dd1241ebf69c53f98616acc5904 = 0x40; // int
-        inline constexpr ::std::ptrdiff_t _7366945565b3347e4952b53582ec2193ca35d841 = 0x48; // %73dd4bb306a83cc241dc1dca9b2837f7ffade7ab<%8f3dcb4e935f3fe1f8c2afd1e4d542f3299c15fb>
-        inline constexpr ::std::ptrdiff_t _b1921d19109cda4ea126cdfceaf4041dd83af3fb = 0x50; // int
-        inline constexpr ::std::ptrdiff_t _e01d0f55b875eb4f6214aa8fefc434a87c901b31 = 0x58; // %73dd4bb306a83cc241dc1dca9b2837f7ffade7ab<%444df3f86c61734abe58ce58895097feff470ede>
-        inline constexpr ::std::ptrdiff_t _2e8288d51a6aed77afed4e5f9d622287425733b5 = 0x60; // int
-        inline constexpr ::std::ptrdiff_t _f71972c6e4593a4fea7f4358cd0c64ea738f8a99 = 0x68; // %73dd4bb306a83cc241dc1dca9b2837f7ffade7ab<uint>
-        inline constexpr ::std::ptrdiff_t _d2ed18c1fdbcca070a7bdaa5b107513f8d08515d = 0x70; // %73dd4bb306a83cc241dc1dca9b2837f7ffade7ab<uint>
-        inline constexpr ::std::ptrdiff_t _14ce3e6db96aabe1f58e7656c6194de12b88f3db = 0x78; // %73dd4bb306a83cc241dc1dca9b2837f7ffade7ab<uint>
-    } // namespace _5b1f23c36d2fbede39030d7e78af39c44a83512d._51276d25a82b3d8ef6408c985a4aa2586d1ceab1
-    namespace _8f3dcb4e935f3fe1f8c2afd1e4d542f3299c15fb {
-        inline constexpr ::std::ptrdiff_t _795f7224a659170de51f79e79bec3f74e9686a98 = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _3b0ed43a0ec3d75e893e523e9a5fe4d741873d33 = 0x4; // int
-        inline constexpr ::std::ptrdiff_t _a2430f1ad0d065ae2b4ac32c8c0a3c82ca12c219 = 0x8; // uint
-        inline constexpr ::std::ptrdiff_t _b498c29e40ae0eb944cb0b7869e293508853ede9 = 0xC; // uint
-        inline constexpr ::std::ptrdiff_t _7dbb1936015e69caba6fa466bf0c1cdb3692085d = 0x10; // uint
-        inline constexpr ::std::ptrdiff_t _bf9175f0d9294f3c48862d134492d8b71c52ed43 = 0x14; // uint
-        inline constexpr ::std::ptrdiff_t _6bf23c499107659082dd2aca719cda6cb48e66da = 0x18; // uint
-        inline constexpr ::std::ptrdiff_t _f1d37a91dcb46a144feee1c9feab29c35f616442 = 0x1C; // int
-    } // namespace _8f3dcb4e935f3fe1f8c2afd1e4d542f3299c15fb
-    namespace _7aa129083a50c7006d163e6d4a8aad25e760937a._fff1333e96f0bcf17f8eacde57310f9668828f81 {
-        inline constexpr ::std::ptrdiff_t _2f0f74a9cb639cc281a2aeb1026f86ac3413208f = 0x0; // string
-        inline constexpr ::std::ptrdiff_t _6feef0f233afc69d70d706b00a7edc59253b0b4f = 0x8; // %1b14a0b9672551165a1d11866760630847bd3e48
-        inline constexpr ::std::ptrdiff_t _ea9560c81406b0556d16815167bbb277e9dfe1e6 = 0x10; // Vector3
-        inline constexpr ::std::ptrdiff_t _03a70105f6bfa7e0e33085345068c4987b666de6 = 0x1C; // Quaternion
-        inline constexpr ::std::ptrdiff_t _b4d8468064c127b5a1ab66618328868d6aebc4f3 = 0x2C; // Vector3
-        inline constexpr ::std::ptrdiff_t _1959d7866628ec6ad892239eb3dd5b409b4d09f5 = 0x38; // TimeSpan
-    } // namespace _7aa129083a50c7006d163e6d4a8aad25e760937a._fff1333e96f0bcf17f8eacde57310f9668828f81
-    namespace _ed019b366e7bc4892d629ca1502d90fdf40f4656._be97a075f97effb079d6f22164de3a8e3459b933 {
-        inline constexpr ::std::ptrdiff_t _f50b14cea2aff1e1e28e118f71b188c55892e794 = 0x0; // bool
-        inline constexpr ::std::ptrdiff_t _b5ce073a60c139a07ec1ea32a4bfab5970ce8d3b = 0x1; // bool
-        inline constexpr ::std::ptrdiff_t _44e046664c0520fee4a14629bac09de9617798f9 = 0x2; // bool
-        inline constexpr ::std::ptrdiff_t _437e8bfc0bd5bda05f973d1c5c6f5002143e246a = 0x3; // bool
-        inline constexpr ::std::ptrdiff_t _998acbd4dca678b639c393f8bf286ea0d85e8a05 = 0x4; // float
-        inline constexpr ::std::ptrdiff_t _31e84d9294e241addf9695e4985f24beccb1f193 = 0x8; // float
-        inline constexpr ::std::ptrdiff_t _b9193c9d27a35eb00276adee8fd04c37079bcf50 = 0xC; // int
-        inline constexpr ::std::ptrdiff_t _4bc62dae8b6ac6f0012315913e12cabbfc142411 = 0x10; // int
-        inline constexpr ::std::ptrdiff_t _632cb81f6de3ed6a7d212621cb4a6bf0215f7bdf = 0x14; // int
-        inline constexpr ::std::ptrdiff_t _55d820f8bcf5805db7390005389c9204d9d11773 = 0x18; // int
-        inline constexpr ::std::ptrdiff_t _8be5ac69e3ef45acb65caa1b01dd1ffb7399fb25 = 0x1C; // int
-        inline constexpr ::std::ptrdiff_t _8fc7b9e74833999c139cfd888a6d8a57bc4d95e1 = 0x20; // int
-        inline constexpr ::std::ptrdiff_t _e2ac615673ad93109f0e8d64a6965de18355e0cd = 0x28; // string
-        inline constexpr ::std::ptrdiff_t _db646635b2f0acd61d5fb4efcbb47c4e973847c9 = 0x30; // string
-        inline constexpr ::std::ptrdiff_t _e8a8bbaa8753ae979f44f8b2e0f98ce68cf84999 = 0x38; // string
-        inline constexpr ::std::ptrdiff_t _79ba30e8b27be14afa75dd8102d49ee634dc8c58 = 0x40; // string
-        inline constexpr ::std::ptrdiff_t _713a0d3ea2a790676002f7463eb379c762b7e8ff = 0x48; // ulong
-        inline constexpr ::std::ptrdiff_t _4a4fc6bc31b5eb49bb9ade93459a4087bd281bc1 = 0x50; // bool
-        inline constexpr ::std::ptrdiff_t _f2d20cc313e6bf343b741be5670285c90e6934b0 = 0x54; // int
-    } // namespace _ed019b366e7bc4892d629ca1502d90fdf40f4656._be97a075f97effb079d6f22164de3a8e3459b933
-    namespace _857e67d71b6712d987a8954a4ad8c2b561494142._d501f32c229d8f600eb2200ee9b7dc34688e9db9 {
-        inline constexpr ::std::ptrdiff_t _b4d8468064c127b5a1ab66618328868d6aebc4f3 = 0x0; // float
-        inline constexpr ::std::ptrdiff_t _8a7c25594697b96f42b93461e3b4f573ac3806a5 = 0x4; // float
-        inline constexpr ::std::ptrdiff_t _26a24da379a135e13bd71686ee4acc47bb34ef86 = 0x8; // float
-    } // namespace _857e67d71b6712d987a8954a4ad8c2b561494142._d501f32c229d8f600eb2200ee9b7dc34688e9db9
-    namespace _2f928cbb05a0d6ab6cd056ad256a953ceb0d7c08._2b02af5f76765ba96dcaf318dfe109e7a281693e {
-        inline constexpr ::std::ptrdiff_t _6113f778661048879223dca1d704b85172c73c6a = 0x18; // string
-    } // namespace _2f928cbb05a0d6ab6cd056ad256a953ceb0d7c08._2b02af5f76765ba96dcaf318dfe109e7a281693e
-    namespace _0ac6ccea7978856cfe5fc0767d1a5e11339223a6 {
-        inline constexpr ::std::ptrdiff_t _8f465698dd4d5f8dde7a247d31c26c95fb3a233f = 0x0; // Translate.Phrase
-        inline constexpr ::std::ptrdiff_t _322b860f94b69950ac72034859113c6cd42ae8a0 = 0x8; // Translate.Phrase
-        inline constexpr ::std::ptrdiff_t _eecdb24d143e8c31bbafc98632294ccf527fcc00 = 0x10; // string
-        inline constexpr ::std::ptrdiff_t _7282dcdfdeb2852a2c585123fcc6fda800de65a0 = 0x18; // string
-        inline constexpr ::std::ptrdiff_t _ff8d926ffde8638190f4b614b33a29edd71c6670 = 0x20; // bool
-        inline constexpr ::std::ptrdiff_t _ad1315efac92d757c52118824c0d2608f90b71a0 = 0x24; // int
-        inline constexpr ::std::ptrdiff_t _1959d7866628ec6ad892239eb3dd5b409b4d09f5 = 0x28; // float
-        inline constexpr ::std::ptrdiff_t _743b24d7da620c917d248b9a21d6491414e07c21 = 0x2C; // float
-        inline constexpr ::std::ptrdiff_t _5e8fb77c8557cd9177a99e649e1d215d0d4ba748 = 0x30; // Nullable<float>
-        inline constexpr ::std::ptrdiff_t _da30d2b4d4959f8014961f7dc2696187e663c43d = 0x38; // bool
-        inline constexpr ::std::ptrdiff_t _32da61ca7f0497d66fd0edbe529f13e1133abb36 = 0x39; // bool
-        inline constexpr ::std::ptrdiff_t _12260ea70f9739d1b9d4996cc38be88def3af5c9 = 0x3A; // bool
-        inline constexpr ::std::ptrdiff_t _2473af598e8bc2a87ffa0445037cc8e3d3a3a8c4 = 0x3B; // bool
-        inline constexpr ::std::ptrdiff_t _052481278474f94edcfaf864f3dd7e792d53ee38 = 0x40; // Action<BasePlayer>
-        inline constexpr ::std::ptrdiff_t _27a6677d671b3f62c4df373aa3eac92434c2c2a7 = 0x48; // Action<BasePlayer>
-        inline constexpr ::std::ptrdiff_t _6f31547b3355e59e10c78be50c3b931c1083e6f6 = 0x50; // Action<BasePlayer>
-        inline constexpr ::std::ptrdiff_t _abeb41ce5793580bacc244a3545d3725331956a2 = 0x58; // Action
-        inline constexpr ::std::ptrdiff_t _fb9cd1f9830d3c9a2bb841e6bb93871ef475c595 = 0x60; // Action
-        inline constexpr ::std::ptrdiff_t _c49701742a39fe0190525dd0d61c3f47e4322c71 = 0x68; // Sprite
-        inline constexpr ::std::ptrdiff_t _e8d4409feeedeec0f6cbe0ebf0cba8772acd450f = 0x70; // string
-    } // namespace _0ac6ccea7978856cfe5fc0767d1a5e11339223a6
-    namespace _1d6e476281c22e094caf3dc2d707bfc9c7d48d80 {
-        inline constexpr ::std::ptrdiff_t _aca30a5442a57b22984d4cae766914aeebbae262 = 0x0; // float
-        inline constexpr ::std::ptrdiff_t _c8c1e94f09e0c31991446189ed4066424522e996 = 0x4; // Vector3
-        inline constexpr ::std::ptrdiff_t _1bb4375dd487c4a20b366d52081835838e2d2564 = 0x10; // Quaternion
-    } // namespace _1d6e476281c22e094caf3dc2d707bfc9c7d48d80
-    namespace _5076fcf5fd445fb381ae9324e6aebd5859c65b45._f2d08c819097b356a7338ba56ec097fc1e603334 {
-        inline constexpr ::std::ptrdiff_t _fdcfcc4ab5fba4727c23f249c44b14e8130a71e4 = 0x0; // string
-        inline constexpr ::std::ptrdiff_t _810ec31b27da3f0b06ca5ba7734ae0ff85957457 = 0x8; // string
-        inline constexpr ::std::ptrdiff_t _da526dc38e70f5cda7fffbfa839052b9f4866cf8 = 0x10; // string
-        inline constexpr ::std::ptrdiff_t _25ef82565ebe79fa4e63d4beb992848d21cbf4a0 = 0x18; // int
-    } // namespace _5076fcf5fd445fb381ae9324e6aebd5859c65b45._f2d08c819097b356a7338ba56ec097fc1e603334
-    namespace _b8d80468b8e67eb33965543d470d94893a916718._13c526968557cd2beadb03c57c59b215fd49dbb4 {
-        inline constexpr ::std::ptrdiff_t _229c725ef811c5737313dfb03050283980f9bae8 = 0x0; // Vector4
-        inline constexpr ::std::ptrdiff_t _daab4f2663bf155a939d97ff0461d5f570a6e418 = 0x10; // float
-        inline constexpr ::std::ptrdiff_t _526c3bf510367f0c6e16f14f73e01d7e5b4251d9 = 0x14; // float
-        inline constexpr ::std::ptrdiff_t _fc0f6f1952465a64c8c50eb5ba3c58ee22b59ffa = 0x18; // uint
-        inline constexpr ::std::ptrdiff_t _8f5463ef8143cf22280aeb39d51e3ba08aabee20 = 0x1C; // byte
-        inline constexpr ::std::ptrdiff_t _5ac7573f9e6ab60bd3a4c8c6006284b208336566 = 0x1D; // byte
-        inline constexpr ::std::ptrdiff_t _d6bda64b3828162a02f931ad2cd5ed8f2bee8d17 = 0x1E; // byte
-        inline constexpr ::std::ptrdiff_t _ca698d6dde471278c34aee4ee3fc629b1bb0f45d = 0x1F; // byte
-        inline constexpr ::std::ptrdiff_t static__81ddcb120333ba1a911d190f2d0f42c73370dffa = 0x0; // %b8d80468b8e67eb33965543d470d94893a916718.%13c526968557cd2beadb03c57c59b215fd49dbb4
-    } // namespace _b8d80468b8e67eb33965543d470d94893a916718._13c526968557cd2beadb03c57c59b215fd49dbb4
-    namespace _f9f0fc74e8f8042effdcf38b0cdab0e9a0bf68c7 {
-        inline constexpr ::std::ptrdiff_t _86429bc94dfd79a75ce4c62b7d807ff3d830b3db = 0x0; // long
-        inline constexpr ::std::ptrdiff_t _403f9897c834c97aa3d4c5c4bd8d0cb2a5ade889 = 0x8; // bool
-    } // namespace _f9f0fc74e8f8042effdcf38b0cdab0e9a0bf68c7
-    namespace _bff278e0775a18bbcd93ba38585ceae51a486f9c {
-        inline constexpr ::std::ptrdiff_t _162c74bb6e42f01145325b019ecda35914d4910b = 0x0; // string
-        inline constexpr ::std::ptrdiff_t _9a4cbca858edfe56a49cbddfc4bf8e54855d5f3b = 0x8; // ProfilerRecorder
-    } // namespace _bff278e0775a18bbcd93ba38585ceae51a486f9c
-    namespace _a29d10f3aa977edad2eee01b47978667ef7445e1<T> {
-        inline constexpr ::std::ptrdiff_t _f2e51db05fdae3f5667f75dbee45e6372b799883 = 0x0; // T
-        inline constexpr ::std::ptrdiff_t _ea9560c81406b0556d16815167bbb277e9dfe1e6 = 0x0; // Vector3
-        inline constexpr ::std::ptrdiff_t _03a70105f6bfa7e0e33085345068c4987b666de6 = 0x0; // Quaternion
-        inline constexpr ::std::ptrdiff_t _2edc0ac5976672d3a855e76bff76d48373a74eaa = 0x0; // Vector3
-    } // namespace _a29d10f3aa977edad2eee01b47978667ef7445e1<T>
-    namespace _0ccd8a7c78db124ad1c79c53786c31d6bfdaa63c {
-        inline constexpr ::std::ptrdiff_t _68118018556017831652e21fadd5a9dac0c91ece = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _41ff074ffa7c38af2332c958f5378959948e3c58 = 0x4; // int
-        inline constexpr ::std::ptrdiff_t _c6d1142f9e8a3c654e0ec1c3f26eec22c4f11be1 = 0x8; // Color32[]
-    } // namespace _0ccd8a7c78db124ad1c79c53786c31d6bfdaa63c
-    namespace _f4de3eac81866aed5373bd14ccb6995a2a38c669._b96b499265ce2669f79066fbc2a7de3693a9ab23<T> {
-        inline constexpr ::std::ptrdiff_t _71859c9928e4d2065a78a9fb9cdc1d02943faab7 = 0x0; // T
-        inline constexpr ::std::ptrdiff_t _6ecae38e7ec4d55a18f7c254eef2b115c9529a1d = 0x0; // T
-        inline constexpr ::std::ptrdiff_t _7777eba41324550dccf91741301e49b0a21dc8c7 = 0x0; // T
-    } // namespace _f4de3eac81866aed5373bd14ccb6995a2a38c669._b96b499265ce2669f79066fbc2a7de3693a9ab23<T>
-    namespace _ffcec55b0fbeefb82b6fef0098fe2eb70fff0ae8 {
-        inline constexpr ::std::ptrdiff_t _69caab436a72ef805a52258ee12a06a752858ccf = 0x0; // Mesh
-        inline constexpr ::std::ptrdiff_t _7f487ecedb57ba66e83e3e2d88e1536d8129d8c6 = 0x8; // Material[]
-        inline constexpr ::std::ptrdiff_t _b5ce073a60c139a07ec1ea32a4bfab5970ce8d3b = 0x10; // ShadowCastingMode
-        inline constexpr ::std::ptrdiff_t _437e8bfc0bd5bda05f973d1c5c6f5002143e246a = 0x14; // bool
-        inline constexpr ::std::ptrdiff_t _a1c9e1482bed4f9f138c9953bce60fbf7fd44c96 = 0x18; // LightProbeUsage
-    } // namespace _ffcec55b0fbeefb82b6fef0098fe2eb70fff0ae8
-    namespace _3c79f061fbd546ecf561eae5919271d0910fab92 {
-        inline constexpr ::std::ptrdiff_t _b9311348f45d39f38bddcdf65d941a5c134fe585 = 0x0; // int
-    } // namespace _3c79f061fbd546ecf561eae5919271d0910fab92
-    namespace _d7488c8c51bee55a315813ca33db8c697e3fe195._9832c37176efd4df63d76f9173fa1d25407418ae {
-        inline constexpr ::std::ptrdiff_t _ced838d37c37c3e03f2929ace38baebe4025ecc8 = 0x0; // float3
-        inline constexpr ::std::ptrdiff_t _e83713ffb998230a064c2c04313f348db6fadc53 = 0xC; // float3
-    } // namespace _d7488c8c51bee55a315813ca33db8c697e3fe195._9832c37176efd4df63d76f9173fa1d25407418ae
-    namespace _d7488c8c51bee55a315813ca33db8c697e3fe195._9d90c2e49cf632149a49a7dabf1086f73457cc05 {
-        inline constexpr ::std::ptrdiff_t _1d54163b9dff5180fd6c40ca50bfe6dbdb040173 = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _efc058aa43419fee8bd6be9cb5c5b33fb8462d0d = 0x4; // float4x4
-        inline constexpr ::std::ptrdiff_t _d1c3792504dc4632b15581fbb6e3656ab9ef01d4 = 0x44; // %d7488c8c51bee55a315813ca33db8c697e3fe195.%9832c37176efd4df63d76f9173fa1d25407418ae
-    } // namespace _d7488c8c51bee55a315813ca33db8c697e3fe195._9d90c2e49cf632149a49a7dabf1086f73457cc05
-    namespace _22bc66be684cf75ce3f81cc3b1ad93a15bff35ee._11a8435e53b71e0f48e3e9cd53599d63d625abbf {
-        inline constexpr ::std::ptrdiff_t _dc47e498165ee7b083ca322a5bc1f4b0ceea834e = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _6900c27ad1c17214f6c0bf7b44fbccc7201267d9 = 0x8; // string
-        inline constexpr ::std::ptrdiff_t _e791328d1945710ff50fc71315fec44bcfa06ab9 = 0x10; // Texture
-    } // namespace _22bc66be684cf75ce3f81cc3b1ad93a15bff35ee._11a8435e53b71e0f48e3e9cd53599d63d625abbf
-    namespace _22bc66be684cf75ce3f81cc3b1ad93a15bff35ee._d23f0f25bb7a2df0f62c546a1ff9ac133b3df35f {
-        inline constexpr ::std::ptrdiff_t _dc47e498165ee7b083ca322a5bc1f4b0ceea834e = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _07111bec8a7e8c7b21b2b3a6e44cbd1455b43ffa = 0x4; // int
-    } // namespace _22bc66be684cf75ce3f81cc3b1ad93a15bff35ee._d23f0f25bb7a2df0f62c546a1ff9ac133b3df35f
-    namespace _9ba1e989cf9cb8f9f36bfac590ee1de9e5d15d60 {
-        inline constexpr ::std::ptrdiff_t _f1e30645685048d846a58efffc1ce460657712f0 = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _d0f98ee39edd39c4c68c8ea42e7975f1c8d5ee50 = 0x4; // int
-    } // namespace _9ba1e989cf9cb8f9f36bfac590ee1de9e5d15d60
-    namespace _366ac1205aca99b7b64b3764cb7dd3c69a08a1bb {
-        inline constexpr ::std::ptrdiff_t _02204b1fb4bba0e0997905d0dc6e12a8b838a5f3 = 0x0; // sbyte
-        inline constexpr ::std::ptrdiff_t _b5e6c7f1bf96907ff2231821445d952bc409265b = 0x1; // sbyte
-        inline constexpr ::std::ptrdiff_t _bf537a6a4d8836bbbd80915f92818cb5d58f6f00 = 0x2; // sbyte
-    } // namespace _366ac1205aca99b7b64b3764cb7dd3c69a08a1bb
-    namespace _022cafbf36b5577dde5d028451ee0c44af4e4cb7._8aa49d038aadd90ea51699f6fe37512eac01f8e1 {
-        inline constexpr ::std::ptrdiff_t _ea9560c81406b0556d16815167bbb277e9dfe1e6 = 0x0; // Vector3
-        inline constexpr ::std::ptrdiff_t _015ffb2b77e015e258cfff91df900fb5fe4dc89e = 0xC; // Vector3
-        inline constexpr ::std::ptrdiff_t _568c805c33d2c2915a36284e80e75da5b4190d31 = 0x18; // Vector4
-        inline constexpr ::std::ptrdiff_t _3faeb5127c483fa4efee3be160f112ea009a7b71 = 0x28; // Color32
-        inline constexpr ::std::ptrdiff_t _07ef44d14a4225419ada3b995f50570cafef55e7 = 0x2C; // Vector2
-        inline constexpr ::std::ptrdiff_t _fcffe2a0e52a0c89d5449f04d9fc03bf109c7cfa = 0x34; // Vector4
-    } // namespace _022cafbf36b5577dde5d028451ee0c44af4e4cb7._8aa49d038aadd90ea51699f6fe37512eac01f8e1
-    namespace _fdc86884e8409036d5b580a8603b48e0835c53a9._87d0dccd8797a6320f44b7c265cf9f8d70ffe152 {
-        inline constexpr ::std::ptrdiff_t _6c6771b7325b16b08e46e85c79c49bf2b742c5cd = 0x0; // Vector4
-        inline constexpr ::std::ptrdiff_t _62ef4145e50461a474d758b9fcb69efa85f94cfe = 0x10; // Vector4
-    } // namespace _fdc86884e8409036d5b580a8603b48e0835c53a9._87d0dccd8797a6320f44b7c265cf9f8d70ffe152
-    namespace _5a7171dd0f40cb0442b96c11d0925116d42e3f3f {
-        inline constexpr ::std::ptrdiff_t _b9f6f2ffee43ddbc458054b32647423489f5ac59 = 0x0; // uint
-        inline constexpr ::std::ptrdiff_t _f8ce3f67e31ad4345ae4cf2f983e3a5f1c48bfeb = 0x4; // Vector3
-        inline constexpr ::std::ptrdiff_t _21ce8113a6ee53f0d03fe67ad014b574cd99339a = 0x10; // Quaternion
-    } // namespace _5a7171dd0f40cb0442b96c11d0925116d42e3f3f
-    namespace _a9db4b2ee2515c4b2e47e91a2804dc306526f0c4<TInner> {
-        inline constexpr ::std::ptrdiff_t _b418166dfbd24138bbe9f10a359e4ffc60641191 = 0x0; // TInner
-        inline constexpr ::std::ptrdiff_t _4f1b067ec415fc36578f73aebc7aa28b9f9ba866 = 0x0; // int
-    } // namespace _a9db4b2ee2515c4b2e47e91a2804dc306526f0c4<TInner>
-    namespace _2c0ecf2ce422943fb29ffffcb2720b2b6f42d136._0435304f814374243e0a5751b49f774dbfe2a75c {
-        inline constexpr ::std::ptrdiff_t _48df23674914645de40100e6c4460a231f6801cd = 0x0; // string
-        inline constexpr ::std::ptrdiff_t _9bf2e0ace2c38a01ee61bbb11561af6011ff451d = 0x8; // NetworkableId
-    } // namespace _2c0ecf2ce422943fb29ffffcb2720b2b6f42d136._0435304f814374243e0a5751b49f774dbfe2a75c
-    namespace _991cf3857ecfe0a9900dcd8418ff21840141a50e {
-        inline constexpr ::std::ptrdiff_t _7366945565b3347e4952b53582ec2193ca35d841 = 0x0; // %d7488c8c51bee55a315813ca33db8c697e3fe195.%9d90c2e49cf632149a49a7dabf1086f73457cc05*
-    } // namespace _991cf3857ecfe0a9900dcd8418ff21840141a50e
-    namespace _5c22f5bade48fa6030b76a80afc3b4f4aa3abdac {
-        inline constexpr ::std::ptrdiff_t _4523a9a1e478a56372b292543f854117b8b12a8e = 0x0; // Renderer
-        inline constexpr ::std::ptrdiff_t _a51d713703d17bed5628b8a68b9cdf4583695c51 = 0x8; // OBB
-        inline constexpr ::std::ptrdiff_t _ea9560c81406b0556d16815167bbb277e9dfe1e6 = 0x58; // Vector3
-        inline constexpr ::std::ptrdiff_t _03a70105f6bfa7e0e33085345068c4987b666de6 = 0x64; // Quaternion
-        inline constexpr ::std::ptrdiff_t _b4d8468064c127b5a1ab66618328868d6aebc4f3 = 0x74; // Vector3
-        inline constexpr ::std::ptrdiff_t _91ad72d3d5d9a6db566b405fbd0e3d783f13a60f = 0x80; // %fab3e8b4ee96caf4045f404d2c864b0865e19fca.Data
-    } // namespace _5c22f5bade48fa6030b76a80afc3b4f4aa3abdac
-    namespace _ce2e306b31b53a1bac5c2ba3387bdee953268828 {
-        inline constexpr ::std::ptrdiff_t _7dbb1936015e69caba6fa466bf0c1cdb3692085d = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _632cb81f6de3ed6a7d212621cb4a6bf0215f7bdf = 0x4; // int
-        inline constexpr ::std::ptrdiff_t _b498c29e40ae0eb944cb0b7869e293508853ede9 = 0x8; // int
-    } // namespace _ce2e306b31b53a1bac5c2ba3387bdee953268828
-    namespace _71eb895e3008febe5694896b8fdfd26fa20f30cb._a9db4b2ee2515c4b2e47e91a2804dc306526f0c4<TInner> {
-        inline constexpr ::std::ptrdiff_t _b418166dfbd24138bbe9f10a359e4ffc60641191 = 0x0; // TInner
-    } // namespace _71eb895e3008febe5694896b8fdfd26fa20f30cb._a9db4b2ee2515c4b2e47e91a2804dc306526f0c4<TInner>
-    namespace _2aeede91ea10d7884219e4c9c523a78da8757ced {
-        inline constexpr ::std::ptrdiff_t _4edf2085183d86f9b4737a99ffd8d457cc2d94c8 = 0x0; // string
-        inline constexpr ::std::ptrdiff_t _526b3766ee84df87ba002e011d195c6142ed8964 = 0x8; // string
-        inline constexpr ::std::ptrdiff_t _50b02a4948a561c45e4d487f954096308aeb1675 = 0x10; // string
-        inline constexpr ::std::ptrdiff_t _eaa295266455fd4417db6dcb52ef3414ba31c9c2 = 0x18; // Nullable<long>
-        inline constexpr ::std::ptrdiff_t _9a8c012df6f1a1825e563dbd51e6bbbf498e6818 = 0x28; // Nullable<double>
-        inline constexpr ::std::ptrdiff_t _9174328cb6ad4df974763c07678d3afbf240994a = 0x38; // Nullable<Vector3>
-        inline constexpr ::std::ptrdiff_t _039d8b9764d032b78e2f9648888037fee8c3ff8c = 0x48; // Nullable<Guid>
-        inline constexpr ::std::ptrdiff_t _0e860c9c73fc0390d9f84cfbc86e490431337505 = 0x60; // DateTime
-        inline constexpr ::std::ptrdiff_t _7bd345b77b9d4d07f8c7076f97633640d889ae64 = 0x68; // bool
-    } // namespace _2aeede91ea10d7884219e4c9c523a78da8757ced
-    namespace _937e05db0d06307c051325f8f0aa6f62fbc61842 {
-        inline constexpr ::std::ptrdiff_t _93b618e22dfc739470eb48d3a3ac37773ba37301 = 0x0; // Material
-        inline constexpr ::std::ptrdiff_t _a688b66d3b49a1c3d2036a163c1c0946be76a564 = 0x8; // ShadowCastingMode
-        inline constexpr ::std::ptrdiff_t _ce3c0c0484d505dc8dc2f88ab8b47dd6dcb6d551 = 0xC; // bool
-        inline constexpr ::std::ptrdiff_t _eeb95f01691537ed7a8bfeae613ed07b59b8f93d = 0x10; // LightProbeUsage
-    } // namespace _937e05db0d06307c051325f8f0aa6f62fbc61842
-    namespace _717f41b46efc40045b0a91ea0dbf9bd785af3962 {
-        inline constexpr ::std::ptrdiff_t _c65ec62ec6b6fe796ca2c42e94076fa675b18d63 = 0x0; // float3
-        inline constexpr ::std::ptrdiff_t _9be6ec344026a4edf70c61ef159dab1c2de87d6a = 0xC; // float3
-        inline constexpr ::std::ptrdiff_t _8ba2200afb78f7ac7b25f90ef3eb7ceda066ba57 = 0x18; // float3
-        inline constexpr ::std::ptrdiff_t _4bd14847f5208adcee23d5d7e322016bb253cbc8 = 0x24; // float
-        inline constexpr ::std::ptrdiff_t _33781df3c90200bf612077e47158dd76195441d5 = 0x28; // float
-        inline constexpr ::std::ptrdiff_t _1add83e5c5a5cecd51f84a0f2bdf692cc4f3bffd = 0x2C; // int
-        inline constexpr ::std::ptrdiff_t _27fa13565b507049aca652a31d946ecebbe25667 = 0x30; // int
-        inline constexpr ::std::ptrdiff_t _2e3e8d9fd315129e098e439130aa60d3220ea0df = 0x34; // %717f41b46efc40045b0a91ea0dbf9bd785af3962.BitFlags
-        inline constexpr ::std::ptrdiff_t _9cf4115c2f2671924900a4b7e06e81c172f9e26e = 0x38; // long
-    } // namespace _717f41b46efc40045b0a91ea0dbf9bd785af3962
-    namespace _fafa2e4a4b4190cf27dd4d9c448c917cb05159d3 {
-        inline constexpr ::std::ptrdiff_t _0232bee81f3fd449239517ad5ea22e76f8e3f682 = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _25f634dab8de68d1343609181818fe430a4a62d9 = 0x4; // int
-        inline constexpr ::std::ptrdiff_t _c18ce10459430dfd7de5730adf43a79e26638677 = 0x8; // int
-        inline constexpr ::std::ptrdiff_t _5a5f8fb5481e328de4b8f8588bb9f2f244028f79 = 0x10; // TimeSpan
-        inline constexpr ::std::ptrdiff_t _84a75f8588c83d8fb0465754c68b993c4b30b97b = 0x18; // TimeSpan
-        inline constexpr ::std::ptrdiff_t _9574d7a7e17fcb05be46831339c10839cccb0ae5 = 0x20; // TimeSpan
-        inline constexpr ::std::ptrdiff_t _0428d66d19db2b5b74b6a88f1038df0c8baaf79b = 0x28; // TimeSpan
-        inline constexpr ::std::ptrdiff_t _ea037c357af31094834bd669431a5f0d4a1178bf = 0x30; // TimeSpan
-        inline constexpr ::std::ptrdiff_t _db0220b057c55e4965564fca0f10308bdeb52d3a = 0x38; // TimeSpan
-        inline constexpr ::std::ptrdiff_t _5a9de4b9015df929f7bb9d4f66befaddd3d751bb = 0x40; // TimeSpan
-        inline constexpr ::std::ptrdiff_t _a6f537ab4ae23e529d0de4e5a24ed04bfec4136e = 0x48; // int
-    } // namespace _fafa2e4a4b4190cf27dd4d9c448c917cb05159d3
-    namespace _73d935ee268d831a7c7dd7c16efc336f2fe43cc5 {
-        inline constexpr ::std::ptrdiff_t _5bde6fa508b6473b3d8e65291afdef1396c09f04 = 0x0; // string
-        inline constexpr ::std::ptrdiff_t _b35a3e04c4a71298ce74ca326f57e5a579337e98 = 0x8; // SendInfo
-        inline constexpr ::std::ptrdiff_t _672cf275a774eea6ed061d4dc06eeeb3b2187cd3 = 0x28; // bool
-        inline constexpr ::std::ptrdiff_t _46b4e5e29a4d92a6a68f7ea06dd9faeb0b92d42f = 0x29; // bool
-    } // namespace _73d935ee268d831a7c7dd7c16efc336f2fe43cc5
-    namespace _5b90b68c40add0cf336b5ece52748084aaab3321 {
-        inline constexpr ::std::ptrdiff_t _aa17fea895b72aa56c3921d6edf7121b32c11428 = 0x0; // %717f41b46efc40045b0a91ea0dbf9bd785af3962
-        inline constexpr ::std::ptrdiff_t _1a42dbf9f464de37d9400065adc362090cce6d6f = 0x40; // float4x4
-    } // namespace _5b90b68c40add0cf336b5ece52748084aaab3321
-    namespace _76d031e69be33a289b64dea7985678a8a7dedf88 {
-        inline constexpr ::std::ptrdiff_t _fe48ce8f9fca6015b6e41611f035f01182cc4df8 = 0x0; // Material
-    } // namespace _76d031e69be33a289b64dea7985678a8a7dedf88
-    namespace _5494844c1ea416882ccd9b771befadafc2b3b517 {
-        inline constexpr ::std::ptrdiff_t _8f354b8bf0d47235ba1ed81d79ba1270a2291b3e = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _949cb4fe63ff50a6d227dd88c721cffd08c391e0 = 0x8; // Type
-    } // namespace _5494844c1ea416882ccd9b771befadafc2b3b517
-    namespace _8c60ce2fe45dc40f8c9b558a8815f47626b4b464 {
-        inline constexpr ::std::ptrdiff_t _77e04b4fea9d3938763419cc3eab3d86b96057ab = 0x0; // bool
-        inline constexpr ::std::ptrdiff_t _adde7e4a3ac114939931d1a15f54c8fcd0aa2f04 = 0x1; // bool
-        inline constexpr ::std::ptrdiff_t _a95e1220d8e6721019f478933443fe530da93309 = 0x2; // bool
-        inline constexpr ::std::ptrdiff_t _ca71504e359f179bcfcebbd7854e405e801f2d81 = 0x3; // bool
-    } // namespace _8c60ce2fe45dc40f8c9b558a8815f47626b4b464
-    namespace _ceaeffaa20b56f406845a9c7cbdb2d981d2ff450.PlayerInfo {
+    namespace _2f2170b937a4e72722401687a509e947ad5486cb._7925563b1a61f344f61b6fe60e67a90d9d2b6424 {
+        inline constexpr ::std::ptrdiff_t _25590d4892505be770ea496b9e70a68edec6002c = 0x0; // ComputeShader
+        inline constexpr ::std::ptrdiff_t _22f1bfdd775adecf09b2b3b0ea9ad3fcbf98c1e8 = 0x8; // ComputeShader
+        inline constexpr ::std::ptrdiff_t _a1489088517bb12dc440833b47d3ed3c2b837805 = 0x10; // int
+        inline constexpr ::std::ptrdiff_t _fcc671ad89c957414c5c35f1a57b9c0541f956a4 = 0x14; // Vector3
+        inline constexpr ::std::ptrdiff_t _927835b7bb19c1c218cbda18556918f8f62c2922 = 0x20; // float
+        inline constexpr ::std::ptrdiff_t _b8616b4f6387fab1444cda2c4b240934a36293b9 = 0x24; // float
+        inline constexpr ::std::ptrdiff_t _7c1fb8724cbc4f3b7ab1020ba1f18f5bc3caacb7 = 0x28; // %36d253b1f9447fc9f54b07a23862e2f44ca24201<float4>
+        inline constexpr ::std::ptrdiff_t _af0cc51ddf977628da50eb761db20bbe4f56ffff = 0x30; // bool
+        inline constexpr ::std::ptrdiff_t _2c59426001ce45a35fcbb696f993a18e1333e88c = 0x38; // %36d253b1f9447fc9f54b07a23862e2f44ca24201<%a25eaf509d27a33ca360e6c61678b3b2c146a4e2>
+        inline constexpr ::std::ptrdiff_t _8b5f6da9ab989565ec2a84a1df6a97fc7176c9c7 = 0x40; // int
+        inline constexpr ::std::ptrdiff_t _7e36e8819519be818be89e47bbec94e8a1d90474 = 0x48; // %36d253b1f9447fc9f54b07a23862e2f44ca24201<%0b98b7476eaea73e69b5cc753486eecf416f0fe2>
+        inline constexpr ::std::ptrdiff_t _6e68c8fdc55a546f47214ee82ebe95bd5d4e4d0a = 0x50; // int
+        inline constexpr ::std::ptrdiff_t _2842d6ed39959e624c4b8da5a4ca76d039faa02c = 0x58; // %36d253b1f9447fc9f54b07a23862e2f44ca24201<%85cc39f93a40a77c25fd94f8f63cecd653b59797>
+        inline constexpr ::std::ptrdiff_t _12bc04eb282d7a271025aaf1666216315692c61c = 0x60; // int
+        inline constexpr ::std::ptrdiff_t _bb499db0d3309d8438438a0fe1c0cc2c21567016 = 0x68; // %36d253b1f9447fc9f54b07a23862e2f44ca24201<uint>
+        inline constexpr ::std::ptrdiff_t _96e5baf43aa0bf48db08abc78298125b47d18518 = 0x70; // %36d253b1f9447fc9f54b07a23862e2f44ca24201<uint>
+        inline constexpr ::std::ptrdiff_t _3bb38be4abb77ea9e9ab7fe8f2314c42855116a5 = 0x78; // %36d253b1f9447fc9f54b07a23862e2f44ca24201<uint>
+    } // namespace _2f2170b937a4e72722401687a509e947ad5486cb._7925563b1a61f344f61b6fe60e67a90d9d2b6424
+    namespace _0d17317718ead5a2597a112c62f0f93ef208cb0d {
+        inline constexpr ::std::ptrdiff_t _2e791314b2a2784a0c9c254d7a782774d707d19f = 0x0; // sbyte
+        inline constexpr ::std::ptrdiff_t _b1c9f8b512c5a2e9d0f89ea12d5c4aa8a9266bd0 = 0x1; // sbyte
+        inline constexpr ::std::ptrdiff_t _a86e059a3a66352a686b4b8e4931c79eb5da1d41 = 0x2; // sbyte
+    } // namespace _0d17317718ead5a2597a112c62f0f93ef208cb0d
+    namespace _4600c316cc0bc9065e6108ec42b182e2ba27b99e._0ef53c713c10bb039a4cfec7724bb19904bfc631 {
+        inline constexpr ::std::ptrdiff_t _8a347eabe342bdc2b1cb8d9b1d9d0cc8cb5fb513 = 0x0; // bool
+        inline constexpr ::std::ptrdiff_t _4755a95ca5971e35c9ca09a3f5e527fce5166ff7 = 0x1; // bool
+        inline constexpr ::std::ptrdiff_t _c3ac2ee9d89ac291544b03c364a0c1b9f38b0b0c = 0x2; // bool
+        inline constexpr ::std::ptrdiff_t _b0eddb7a9eae9922167308a0b136f6d8a9b4a828 = 0x3; // bool
+        inline constexpr ::std::ptrdiff_t _b675df01c0a64f19e8fbcfc5da56766f98c97e97 = 0x4; // float
+        inline constexpr ::std::ptrdiff_t _298e389249e70baa925e2d6b3f3b3361cae672b3 = 0x8; // float
+        inline constexpr ::std::ptrdiff_t _660a6fa05a4fcb9db80e12d87e399b9798039cc8 = 0xC; // int
+        inline constexpr ::std::ptrdiff_t _4959b84cc7de1cdfecf6c9bf9faa499bfff82473 = 0x10; // int
+        inline constexpr ::std::ptrdiff_t _bbdfbda1c9277125433abccedf904a5efc4dcec9 = 0x14; // int
+        inline constexpr ::std::ptrdiff_t _6f7dda81770cff997745dc518660345de76e7eae = 0x18; // int
+        inline constexpr ::std::ptrdiff_t _aec6e77cb888b0b01cf6ed94ed9cff015a323490 = 0x1C; // int
+        inline constexpr ::std::ptrdiff_t _2a91d8c9e818c883c2d50a964577a55e7f4760c2 = 0x20; // int
+        inline constexpr ::std::ptrdiff_t _ba1ba176379ab6d5584f6ba0d1ebcb36b7861bba = 0x28; // string
+        inline constexpr ::std::ptrdiff_t _fbe7a1f03faa2c48f0f52a68023976369b65b727 = 0x30; // string
+        inline constexpr ::std::ptrdiff_t _2e67832c3d121487f76f478464d5b9c159bcc1c2 = 0x38; // string
+        inline constexpr ::std::ptrdiff_t _3606ad0ed8c873ca1594251c52e8673952808a0c = 0x40; // string
+        inline constexpr ::std::ptrdiff_t _50fad1b3df06beaf9e0d54281bbb287ac3eb8a86 = 0x48; // ulong
+        inline constexpr ::std::ptrdiff_t _b693a673dcc911e57d7a949ff4866924fa700488 = 0x50; // bool
+        inline constexpr ::std::ptrdiff_t _5f2aef921efaafee464b0a4123d23054668d837b = 0x54; // int
+    } // namespace _4600c316cc0bc9065e6108ec42b182e2ba27b99e._0ef53c713c10bb039a4cfec7724bb19904bfc631
+    namespace _b9ef6eb7c2fb31636309293c8934ecb108659d12._c4b8b06d1bec2c261403a6347e9adf94ead382b5<T> {
+        inline constexpr ::std::ptrdiff_t _2be6b1e7df2362d0ac93a55785170139ba4c6358 = 0x0; // T
+        inline constexpr ::std::ptrdiff_t _a9037e4e5a565943b8b1b9ff0313336aa331db15 = 0x0; // T
+        inline constexpr ::std::ptrdiff_t _56a8321665054e79d8c6fb673ccaebc54b5ca133 = 0x0; // T
+    } // namespace _b9ef6eb7c2fb31636309293c8934ecb108659d12._c4b8b06d1bec2c261403a6347e9adf94ead382b5<T>
+    namespace _f6ecdaa653d62d0b0be5f47bc59bec8a51e7133b._d02b26a458923cbc0a8a3b550632dddaaee24017 {
+        inline constexpr ::std::ptrdiff_t _8ca57fb553c0755db0630b2315f476bbc551750e = 0x18; // string
+    } // namespace _f6ecdaa653d62d0b0be5f47bc59bec8a51e7133b._d02b26a458923cbc0a8a3b550632dddaaee24017
+    namespace _be6bde9469e416691111ca0b1cb9e24846de20b4 {
+        inline constexpr ::std::ptrdiff_t _48e1c6f2551521f470e3dd65bf955f558e02d370 = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _2099716a4b7b032312a6a27cdb2184c9a9d54fd5 = 0x4; // int
+        inline constexpr ::std::ptrdiff_t _d8e02725db1e8f42f7edcbbde00b4d7e626e5643 = 0x8; // int
+        inline constexpr ::std::ptrdiff_t _ce0a2f6516f2d4580d9f0d88b6f7b3a53e830887 = 0xC; // int
+        inline constexpr ::std::ptrdiff_t _8cc7ffbb46a3b5a147b1c5e92ee27ace80e76da2 = 0x10; // float3
+        inline constexpr ::std::ptrdiff_t _f82fad88d5d815f45a7bde7182b2efbc7b611bba = 0x1C; // float3
+        inline constexpr ::std::ptrdiff_t _253d3441e2e6a6cd42b8fb199fada4e09c32fd32 = 0x28; // bool
+        inline constexpr ::std::ptrdiff_t _c03f0fd6247fa28d0a55207f229fd0fcc7a24d94 = 0x29; // bool
+    } // namespace _be6bde9469e416691111ca0b1cb9e24846de20b4
+    namespace _a78f79ce993551d07327d73b5263c41c72c07ee1<T> {
+        inline constexpr ::std::ptrdiff_t _e43d1a1e87c3f826766d81b986ef8d63fb50d07d = 0x0; // %63c804bbfeb8aa8b966bd79d75f954505bbbdcc0
+    } // namespace _a78f79ce993551d07327d73b5263c41c72c07ee1<T>
+    namespace _32881fa455e662cfe29d3e19bbd7df598cfafa9b._1e2b8a9e940df2cf2747e7bba0393e38b5a7300f {
+        inline constexpr ::std::ptrdiff_t _00616567c13b2c5df6505fb73316882a9cfbc9cc = 0x0; // Vector4
+        inline constexpr ::std::ptrdiff_t _b034833ab62de734d19e01be66fd69fc31853cd0 = 0x10; // float
+        inline constexpr ::std::ptrdiff_t _a21e4c886079a07368215986309c513d76c0d1c6 = 0x14; // float
+        inline constexpr ::std::ptrdiff_t _195b1da42f75262d069615c9ff29e05bb005aed0 = 0x18; // uint
+        inline constexpr ::std::ptrdiff_t _3c0a738da5820198d9e20cc76fe4d97cf237af32 = 0x1C; // byte
+        inline constexpr ::std::ptrdiff_t _dc72ae953e89247d60216ed398412a79f054c1ed = 0x1D; // byte
+        inline constexpr ::std::ptrdiff_t _78efcf2560e1206a919e86ff7479aa44af7f2243 = 0x1E; // byte
+        inline constexpr ::std::ptrdiff_t _b2ef0e1f545245f3b618c6134376c7646d0231e6 = 0x1F; // byte
+        inline constexpr ::std::ptrdiff_t static__31cdd727461fbb52703570186cd5aaf6a470d5f1 = 0x0; // %32881fa455e662cfe29d3e19bbd7df598cfafa9b.%1e2b8a9e940df2cf2747e7bba0393e38b5a7300f
+    } // namespace _32881fa455e662cfe29d3e19bbd7df598cfafa9b._1e2b8a9e940df2cf2747e7bba0393e38b5a7300f
+    namespace _8eaaf5a06e0dcda53afe62a62b1339156497881c._048242937c42954ab06f25cdc644bc8086fbaae2 {
+        inline constexpr ::std::ptrdiff_t _827050ec04870e08dc716c12bd3fc8904660660c = 0x0; // string
+        inline constexpr ::std::ptrdiff_t _a4f14b8f79cf209ac358684070734d57d1b166f8 = 0x8; // Action
+    } // namespace _8eaaf5a06e0dcda53afe62a62b1339156497881c._048242937c42954ab06f25cdc644bc8086fbaae2
+    namespace _d487af114405a58cde8cb84404a231e91377c377._d3a128ec5bcf5d66ae8bb9bda0264020193eb697 {
+        inline constexpr ::std::ptrdiff_t _95b5d747d0cf40bc75c6ac7ddb982cd7caa41d32 = 0x0; // Renderer
+    } // namespace _d487af114405a58cde8cb84404a231e91377c377._d3a128ec5bcf5d66ae8bb9bda0264020193eb697
+    namespace _791c86b55f99d05529c26d9c059a92e0c5dfb34f._a99f2efd390e27250b9dcf89371f968a2892f550 {
+        inline constexpr ::std::ptrdiff_t _5477e155f4141399f85a701dbca2c2aa07c8a450 = 0x0; // float
+        inline constexpr ::std::ptrdiff_t _489d4fa37f4d10ef44334a90eb1ccafb8f840f31 = 0x4; // float
+        inline constexpr ::std::ptrdiff_t _2c03484ea5c2700a213a9172b506ac33231da3a2 = 0x8; // float
+        inline constexpr ::std::ptrdiff_t _20a9fb2af372dcb99500a51cfe5e74357dca74b5 = 0x10; // Action<uint>
+    } // namespace _791c86b55f99d05529c26d9c059a92e0c5dfb34f._a99f2efd390e27250b9dcf89371f968a2892f550
+    namespace _a1f0f41593843ffe4b680f2bc7f8c11909baeedd._93f08a8e7f459144ce1cbf806325932fa1f679aa {
+        inline constexpr ::std::ptrdiff_t _ebbfd25ea4c0f2c18d3451453b0b34f715f607aa = 0x0; // bool
+        inline constexpr ::std::ptrdiff_t _bcedb5ee962eae4efff73d46d43729015b2b53c1 = 0x4; // float
+        inline constexpr ::std::ptrdiff_t _8ac7997696a46292269d65d1aa61c93a4ad52f15 = 0x8; // float
+        inline constexpr ::std::ptrdiff_t _a17b8e605508f31f9d72a5113cca62ab22390b09 = 0xC; // float
+    } // namespace _a1f0f41593843ffe4b680f2bc7f8c11909baeedd._93f08a8e7f459144ce1cbf806325932fa1f679aa
+    namespace _d601453e2e83bc8630014af63b34d9c28fab460e._ec68c5ed7d8bff377243f2f4334eb804aa6721f8 {
+        inline constexpr ::std::ptrdiff_t _331ed3d0a62b6c493ae2b572896f4635067802df = 0x0; // Vector4
+        inline constexpr ::std::ptrdiff_t _93d31b063ab1751c31fae55aa5b1fb813981da6b = 0x10; // Vector4
+    } // namespace _d601453e2e83bc8630014af63b34d9c28fab460e._ec68c5ed7d8bff377243f2f4334eb804aa6721f8
+    namespace _90cb54e9fc12e5414ff9fc95f0b35f9b80f0aba0 {
+        inline constexpr ::std::ptrdiff_t _7e36e8819519be818be89e47bbec94e8a1d90474 = 0x0; // %ace43744ce2badc764d1279073629650281033e4.%2ec540d86c04da676379396997172da950070514*
+    } // namespace _90cb54e9fc12e5414ff9fc95f0b35f9b80f0aba0
+    namespace _ef055870d27181cd872c11084ed06a777e6b2309 {
+        inline constexpr ::std::ptrdiff_t _31ec8d98a29126a07a7e52b4fe4cb5a36c93bae3 = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _a38a2f994e187d56965f701be4e76222cf50f5bb = 0x4; // int
+        inline constexpr ::std::ptrdiff_t _61d10bf0312b3dc35c17c85e288cc64f9721ee70 = 0x8; // int
+        inline constexpr ::std::ptrdiff_t _d6ede75f47b18cabf4bee9cb81eb012fbc7380b7 = 0x10; // TimeSpan
+        inline constexpr ::std::ptrdiff_t _5b65ae4da33c9f84c9f5f211945effba86a68fe7 = 0x18; // TimeSpan
+        inline constexpr ::std::ptrdiff_t _cb6bdffd8dae86422dd8d78ebcdd97988aa9b70c = 0x20; // TimeSpan
+        inline constexpr ::std::ptrdiff_t _cf96d68242d751ee24275880421566eacf33ab88 = 0x28; // TimeSpan
+        inline constexpr ::std::ptrdiff_t _28cb0e8eaf791d7d76acd5fe99223dddc21130af = 0x30; // TimeSpan
+        inline constexpr ::std::ptrdiff_t _de566a035d894ae199f695ce98cabb2bc9bbbac7 = 0x38; // TimeSpan
+        inline constexpr ::std::ptrdiff_t _29b6d57beae4886546edbbc20b2596e6591f2afe = 0x40; // TimeSpan
+        inline constexpr ::std::ptrdiff_t _535ab2ea0c457b0ce922a5b9dd5ab48390c8a48a = 0x48; // int
+    } // namespace _ef055870d27181cd872c11084ed06a777e6b2309
+    namespace _dc6cb2f31658e1c31a289b65588eb96c1e918c18._a99f2efd390e27250b9dcf89371f968a2892f550 {
+        inline constexpr ::std::ptrdiff_t _5477e155f4141399f85a701dbca2c2aa07c8a450 = 0x0; // float
+        inline constexpr ::std::ptrdiff_t _489d4fa37f4d10ef44334a90eb1ccafb8f840f31 = 0x4; // float
+        inline constexpr ::std::ptrdiff_t _2c03484ea5c2700a213a9172b506ac33231da3a2 = 0x8; // float
+        inline constexpr ::std::ptrdiff_t _20a9fb2af372dcb99500a51cfe5e74357dca74b5 = 0x10; // Action
+    } // namespace _dc6cb2f31658e1c31a289b65588eb96c1e918c18._a99f2efd390e27250b9dcf89371f968a2892f550
+    namespace _e5ee96fef1e47b8abaf93d4051e4081fc8ec64a8 {
+        inline constexpr ::std::ptrdiff_t _9bd806f77df7e24059ed62eada56fdf40f41543d = 0x0; // NativeArray<int>
+    } // namespace _e5ee96fef1e47b8abaf93d4051e4081fc8ec64a8
+    namespace _95b139e23770f2cb3eec891efcd042a399a44d98 {
+        inline constexpr ::std::ptrdiff_t _e4e9f36f19f0032a1fc29938d1b206428cc917d7 = 0x0; // Material
+    } // namespace _95b139e23770f2cb3eec891efcd042a399a44d98
+    namespace _4f9431a68f5506c2914c6157a83237c71898c3bd {
+        inline constexpr ::std::ptrdiff_t _2099716a4b7b032312a6a27cdb2184c9a9d54fd5 = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _ce0a2f6516f2d4580d9f0d88b6f7b3a53e830887 = 0x4; // int
+    } // namespace _4f9431a68f5506c2914c6157a83237c71898c3bd
+    namespace _545095d20ceb31eba16cec346a2864bb5f33f268.FishType {
+        inline constexpr ::std::ptrdiff_t mesh = 0x0; // Mesh
+        inline constexpr ::std::ptrdiff_t material = 0x8; // Material
+        inline constexpr ::std::ptrdiff_t castsPerFrame = 0x10; // int
+        inline constexpr ::std::ptrdiff_t maxCount = 0x14; // int
+        inline constexpr ::std::ptrdiff_t minSpeed = 0x18; // float
+        inline constexpr ::std::ptrdiff_t maxSpeed = 0x1C; // float
+        inline constexpr ::std::ptrdiff_t idealDepth = 0x20; // float
+        inline constexpr ::std::ptrdiff_t minTurnSpeed = 0x24; // float
+        inline constexpr ::std::ptrdiff_t maxTurnSpeed = 0x28; // float
+    } // namespace _545095d20ceb31eba16cec346a2864bb5f33f268.FishType
+    namespace _545095d20ceb31eba16cec346a2864bb5f33f268._69ae51457893baba76f2990202138893ad4f9087 {
+        inline constexpr ::std::ptrdiff_t _b949bb69c0e0f91724c797599e10230b1d9b5563 = 0x0; // bool
+        inline constexpr ::std::ptrdiff_t _bcde5e5cdf7e4fda18967cf9659846a308f3b620 = 0x4; // float
+        inline constexpr ::std::ptrdiff_t _e8e1bec02c0d1573d3465060eb0c88ad63bfb199 = 0x8; // float
+        inline constexpr ::std::ptrdiff_t _2beced68e37438e618713168bfadb61e0d5b8a64 = 0xC; // float
+        inline constexpr ::std::ptrdiff_t _06a83dc42a8fb9563d01e1982040dd2bdcf345ab = 0x10; // float
+        inline constexpr ::std::ptrdiff_t _e514c69121c09af9ac867239bd8063acc3b1a9c7 = 0x14; // float
+        inline constexpr ::std::ptrdiff_t _48723c7b65f994f4d5696671e604f99eafef424b = 0x18; // float
+        inline constexpr ::std::ptrdiff_t _5e323fc19f5c5a56f17782169d1b3c4aef405d3d = 0x1C; // float
+        inline constexpr ::std::ptrdiff_t _141efc57d8012cd0c0ca7157eb1eee2434f4c682 = 0x20; // float
+        inline constexpr ::std::ptrdiff_t _7be342db33fa80d81c88e4d370f46b789355004e = 0x24; // float
+        inline constexpr ::std::ptrdiff_t _439a2db34d994d11c400eb266c0015d4b409f9c9 = 0x28; // float
+    } // namespace _545095d20ceb31eba16cec346a2864bb5f33f268._69ae51457893baba76f2990202138893ad4f9087
+    namespace _545095d20ceb31eba16cec346a2864bb5f33f268._c7589a1f0d9b5d8d1cf40a98ce4db5e13d13332d {
+        inline constexpr ::std::ptrdiff_t _bfbe3edffe5e57984a0d81557dbde25f16ec98e9 = 0x0; // float3
+        inline constexpr ::std::ptrdiff_t _b3aff0ac9f664719f68669858c7d1fd727105021 = 0xC; // float
+        inline constexpr ::std::ptrdiff_t _439a2db34d994d11c400eb266c0015d4b409f9c9 = 0x10; // float
+        inline constexpr ::std::ptrdiff_t _82fb7158433e49af3ff38c7ee7dbb5e8a56764f8 = 0x14; // float
+    } // namespace _545095d20ceb31eba16cec346a2864bb5f33f268._c7589a1f0d9b5d8d1cf40a98ce4db5e13d13332d
+    namespace _545095d20ceb31eba16cec346a2864bb5f33f268._20b5c514f8066691afebbb51358f7b23c5c0fbcc {
+        inline constexpr ::std::ptrdiff_t _7c86d168db9b8d6e34965140dc355ed2da01485a = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _fb5d4cda1d6b17003a93d5089946a77a9f2df22e = 0x4; // uint
+        inline constexpr ::std::ptrdiff_t _3a10d0b64396329da6a0db32a773bba7846ba7a2 = 0x8; // int
+        inline constexpr ::std::ptrdiff_t _516707bb7f7653f0783476f68556a8de3dcd69b2 = 0xC; // int
+        inline constexpr ::std::ptrdiff_t _e2cefc31c018b318adadfd3a2e65e5947b2e01e7 = 0x10; // NativeArray<RaycastCommand>
+        inline constexpr ::std::ptrdiff_t _ff211bb1367723c5b567dfda601ff4dfd5888173 = 0x40; // NativeArray<int>
+    } // namespace _545095d20ceb31eba16cec346a2864bb5f33f268._20b5c514f8066691afebbb51358f7b23c5c0fbcc
+    namespace _545095d20ceb31eba16cec346a2864bb5f33f268._c6ed016e3f28165055e8f93bda215c278512882f {
+        inline constexpr ::std::ptrdiff_t _3a10d0b64396329da6a0db32a773bba7846ba7a2 = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _492d1459d9a69a6c0f6bb93bbf83eea1c1e59f6e = 0x18; // NativeArray<RaycastHit>
+        inline constexpr ::std::ptrdiff_t _ff211bb1367723c5b567dfda601ff4dfd5888173 = 0x28; // NativeArray<int>
+    } // namespace _545095d20ceb31eba16cec346a2864bb5f33f268._c6ed016e3f28165055e8f93bda215c278512882f
+    namespace _545095d20ceb31eba16cec346a2864bb5f33f268._c933cbfaa14faa14ac62d898255368b7a965b0c8 {
+        inline constexpr ::std::ptrdiff_t _fcc671ad89c957414c5c35f1a57b9c0541f956a4 = 0x0; // float3
+        inline constexpr ::std::ptrdiff_t _fb5d4cda1d6b17003a93d5089946a77a9f2df22e = 0xC; // uint
+        inline constexpr ::std::ptrdiff_t _eb8398b9ad5095b38d36379c39c259606de4caab = 0x10; // float
+        inline constexpr ::std::ptrdiff_t _ca024718037a892235a5f94264ed74100899d7fc = 0x14; // float
+        inline constexpr ::std::ptrdiff_t _b9fcf50e0313c86db8947f58c53e54cc911f2f0a = 0x18; // float
+        inline constexpr ::std::ptrdiff_t _cdfd1ca0477a4cbe291ec722b1cbcd13790a04ad = 0x1C; // float
+        inline constexpr ::std::ptrdiff_t _351d5b8b6a4a0a11f3973fcf11e5a690feaddd08 = 0x20; // float
+        inline constexpr ::std::ptrdiff_t _acf9633130aa2b674f9c6b1c1a64f9db5702bb2d = 0x24; // float
+        inline constexpr ::std::ptrdiff_t _1fa2d06aab9256fddb6429861a4559b6c17cdfe1 = 0x28; // %545095d20ceb31eba16cec346a2864bb5f33f268.%69ae51457893baba76f2990202138893ad4f9087*
+        inline constexpr ::std::ptrdiff_t _7c45e02dbd315bfa67eadf2ae791af3ab9ec6ddf = 0x30; // %545095d20ceb31eba16cec346a2864bb5f33f268.%c7589a1f0d9b5d8d1cf40a98ce4db5e13d13332d*
+    } // namespace _545095d20ceb31eba16cec346a2864bb5f33f268._c933cbfaa14faa14ac62d898255368b7a965b0c8
+    namespace _545095d20ceb31eba16cec346a2864bb5f33f268._bb83287ddf47d16800365cadf822b01d5a008340 {
+        inline constexpr ::std::ptrdiff_t _516707bb7f7653f0783476f68556a8de3dcd69b2 = 0x20; // NativeArray<int>
+    } // namespace _545095d20ceb31eba16cec346a2864bb5f33f268._bb83287ddf47d16800365cadf822b01d5a008340
+    namespace _22297070b445e5b5990f6111c4eb3a9f4eaf4b00 {
+        inline constexpr ::std::ptrdiff_t _6921e5f1a27cc99f36e5c445ada576bcbb02e479 = 0x0; // Translate.Phrase
+        inline constexpr ::std::ptrdiff_t _9c92665f3073704784fd4d7c63baf6a63a50334a = 0x8; // Translate.Phrase
+        inline constexpr ::std::ptrdiff_t _b10b1dbe7a3548183623fa0b8e6c3f5aa13e8dbd = 0x10; // string
+        inline constexpr ::std::ptrdiff_t _ff705bd3bd91bb8c4903c0959a960dc067622a8d = 0x18; // string
+        inline constexpr ::std::ptrdiff_t _1b96a9fcd96d047074f27068d1530acbb6f25ade = 0x20; // bool
+        inline constexpr ::std::ptrdiff_t _599139c12196221fd5af795d392980907cfe139d = 0x24; // int
+        inline constexpr ::std::ptrdiff_t _5477e155f4141399f85a701dbca2c2aa07c8a450 = 0x28; // float
+        inline constexpr ::std::ptrdiff_t _7f7cae041d7b8e0cee0ab4d2f40ed849980ba8a4 = 0x2C; // float
+        inline constexpr ::std::ptrdiff_t _3953e168641f4d30b5dac50f55d74a22dd01b26b = 0x30; // Nullable<float>
+        inline constexpr ::std::ptrdiff_t _b6990f6d787f4c80414cb755543935db4df7141b = 0x38; // bool
+        inline constexpr ::std::ptrdiff_t _6fa5ac199d458633073380f8a4d6626783851647 = 0x39; // bool
+        inline constexpr ::std::ptrdiff_t _df59c5857c47dba583826353942ba8717dce2f6a = 0x3A; // bool
+        inline constexpr ::std::ptrdiff_t _044111d2d3b351f007723a4c69d9de03f41511e4 = 0x3B; // bool
+        inline constexpr ::std::ptrdiff_t _6319f3a9c44c847cd439e98e84f6bc3269a895bd = 0x40; // Action<BasePlayer>
+        inline constexpr ::std::ptrdiff_t _d709067957254895a37ae78c7adaa774203646db = 0x48; // Action<BasePlayer>
+        inline constexpr ::std::ptrdiff_t _0604050e19ebfc6e9f93b9f5c5af4bc46da1664e = 0x50; // Action<BasePlayer>
+        inline constexpr ::std::ptrdiff_t _a6bc4809b4597184c46c1c540ee4c9ced52e8fc0 = 0x58; // Action
+        inline constexpr ::std::ptrdiff_t _cfc6492a5953e1b143abfc928e0f8b5552a8ca38 = 0x60; // Action
+        inline constexpr ::std::ptrdiff_t _f09b55c26881d84896bad00200ae0e7dbd5cfc2d = 0x68; // Sprite
+        inline constexpr ::std::ptrdiff_t _ac5fc4b62964aff40354547788d1d269c657bf79 = 0x70; // string
+    } // namespace _22297070b445e5b5990f6111c4eb3a9f4eaf4b00
+    namespace _ace43744ce2badc764d1279073629650281033e4._ae6e627c2728ca85df180d8f5f1ab2fb0ef9bd9d {
+        inline constexpr ::std::ptrdiff_t _aae59a5425d7ebb6d83e68a38a4cb520ef80d050 = 0x0; // float3
+        inline constexpr ::std::ptrdiff_t _883bca85cc28488c06b42f625df6cb3900b8ed7a = 0xC; // float3
+    } // namespace _ace43744ce2badc764d1279073629650281033e4._ae6e627c2728ca85df180d8f5f1ab2fb0ef9bd9d
+    namespace _ace43744ce2badc764d1279073629650281033e4._2ec540d86c04da676379396997172da950070514 {
+        inline constexpr ::std::ptrdiff_t _deef12532e135b2cc6b246f055fe3cc9b125e980 = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _943387a8c8b58d7e84b17a95660fc339f427b430 = 0x4; // float4x4
+        inline constexpr ::std::ptrdiff_t _2b94cce94017284b1d5ddb9799297034c6bbac28 = 0x44; // %ace43744ce2badc764d1279073629650281033e4.%ae6e627c2728ca85df180d8f5f1ab2fb0ef9bd9d
+    } // namespace _ace43744ce2badc764d1279073629650281033e4._2ec540d86c04da676379396997172da950070514
+    namespace _7e5d38c058e9cf13f5dc412d7428e88e2f9f2bd5._d3a128ec5bcf5d66ae8bb9bda0264020193eb697 {
+        inline constexpr ::std::ptrdiff_t _74de780f0920260fa8e4cb63ef3fd6bf77926d97 = 0x0; // Transform
+        inline constexpr ::std::ptrdiff_t _537aa9022e7c8fe9afa0991102a5490fb2191b30 = 0x8; // Rigidbody
+        inline constexpr ::std::ptrdiff_t _54fb4a76149c0bcfd8b82d090935994df66e3214 = 0x10; // Collider
+        inline constexpr ::std::ptrdiff_t _dfc59903b469f7c7401ced2715521abd1670369c = 0x18; // OBB
+    } // namespace _7e5d38c058e9cf13f5dc412d7428e88e2f9f2bd5._d3a128ec5bcf5d66ae8bb9bda0264020193eb697
+    namespace _039b040de9926c6ac3de8789346bdf791e4f907b {
+        inline constexpr ::std::ptrdiff_t _848994258ad44350ace2557548562ddc9ee7971a = 0x0; // bool
+        inline constexpr ::std::ptrdiff_t _82fb7158433e49af3ff38c7ee7dbb5e8a56764f8 = 0x4; // float
+        inline constexpr ::std::ptrdiff_t _0b99d1761a9444ce16bf3e8621deb9fe5b0907b9 = 0x8; // BaseEntity
+        inline constexpr ::std::ptrdiff_t _c68bd3ae424ce9532e1f54892a77c7b40fd6a567 = 0x10; // Vector3
+        inline constexpr ::std::ptrdiff_t _ec597f60ca682edcd65f22fca01bd02bb2eeb621 = 0x1C; // Vector3
+        inline constexpr ::std::ptrdiff_t _8a1955c9c9188ba7429e3807587f36058d6e8962 = 0x28; // Transform
+        inline constexpr ::std::ptrdiff_t _e4e9f36f19f0032a1fc29938d1b206428cc917d7 = 0x30; // PhysicMaterial
+        inline constexpr ::std::ptrdiff_t _8cb3d7d90a59e106305793d544918f7a497528bb = 0x38; // uint
+        inline constexpr ::std::ptrdiff_t _54fb4a76149c0bcfd8b82d090935994df66e3214 = 0x40; // Collider
+    } // namespace _039b040de9926c6ac3de8789346bdf791e4f907b
+    namespace _db0e401199b7c28b5337bffc611146f27e396698 {
+        inline constexpr ::std::ptrdiff_t _2e791314b2a2784a0c9c254d7a782774d707d19f = 0x0; // short
+        inline constexpr ::std::ptrdiff_t _b1c9f8b512c5a2e9d0f89ea12d5c4aa8a9266bd0 = 0x2; // short
+        inline constexpr ::std::ptrdiff_t _a86e059a3a66352a686b4b8e4931c79eb5da1d41 = 0x4; // short
+    } // namespace _db0e401199b7c28b5337bffc611146f27e396698
+    namespace _e0c14c79a8a10fe803fe38d08eb54ec212cc8d12 {
+        inline constexpr ::std::ptrdiff_t _2e791314b2a2784a0c9c254d7a782774d707d19f = 0x0; // ushort
+        inline constexpr ::std::ptrdiff_t _b1c9f8b512c5a2e9d0f89ea12d5c4aa8a9266bd0 = 0x2; // ushort
+        inline constexpr ::std::ptrdiff_t _a86e059a3a66352a686b4b8e4931c79eb5da1d41 = 0x4; // ushort
+    } // namespace _e0c14c79a8a10fe803fe38d08eb54ec212cc8d12
+    namespace _4efd8ea4eda7cdd9a520e6140562d4dd7557ece8 {
+        inline constexpr ::std::ptrdiff_t _95b5d747d0cf40bc75c6ac7ddb982cd7caa41d32 = 0x0; // Renderer
+        inline constexpr ::std::ptrdiff_t _dfc59903b469f7c7401ced2715521abd1670369c = 0x8; // OBB
+        inline constexpr ::std::ptrdiff_t _bfbe3edffe5e57984a0d81557dbde25f16ec98e9 = 0x58; // Vector3
+        inline constexpr ::std::ptrdiff_t _b3aff0ac9f664719f68669858c7d1fd727105021 = 0x64; // Quaternion
+        inline constexpr ::std::ptrdiff_t _439a2db34d994d11c400eb266c0015d4b409f9c9 = 0x74; // Vector3
+        inline constexpr ::std::ptrdiff_t _16550e42ea1e38d41a106426939f1fd37c1ddcb5 = 0x80; // %a5d18940ce7ad01174042425a36c9861807670ff.Data
+    } // namespace _4efd8ea4eda7cdd9a520e6140562d4dd7557ece8
+    namespace _63c804bbfeb8aa8b966bd79d75f954505bbbdcc0 {
+        inline constexpr ::std::ptrdiff_t _b1b53393bd743ff6313e7b321ef1e295f72307aa = 0x0; // BaseEntity
+        inline constexpr ::std::ptrdiff_t _e55bcf6cb730b5d866c3cfc496429cf3b40e0be2 = 0x8; // NetworkableId
+    } // namespace _63c804bbfeb8aa8b966bd79d75f954505bbbdcc0
+    namespace _75e32c5378b2fbf2058e782a97832c3e60e7fae1._cbc1fac1321b6e75a21ac7a2cb56148dd5846f56 {
+        inline constexpr ::std::ptrdiff_t _827050ec04870e08dc716c12bd3fc8904660660c = 0x0; // string
+        inline constexpr ::std::ptrdiff_t _5b1ed5d3938f6409e669f2123c3fee04a35a968f = 0x8; // string
+        inline constexpr ::std::ptrdiff_t _cc6f184d058081ea004c041467774602db953a05 = 0x10; // int
+        inline constexpr ::std::ptrdiff_t _3c0dee4a2c88df96b5a4cc77fc8db8ed17157e5b = 0x18; // string
+        inline constexpr ::std::ptrdiff_t _7a507138da9200a7a49d6c7b1873f53ec300d199 = 0x20; // string
+    } // namespace _75e32c5378b2fbf2058e782a97832c3e60e7fae1._cbc1fac1321b6e75a21ac7a2cb56148dd5846f56
+    namespace _3fcaae3bde878b0c4d0da0d048c78dd12136848f {
+        inline constexpr ::std::ptrdiff_t _d93c1fb2cfdb1cbbdb19a63c93eec40ec4fb8bf4 = 0x0; // uint
+        inline constexpr ::std::ptrdiff_t _0c8d1512fd25213df82b846bb890170191e33677 = 0x4; // Vector3
+        inline constexpr ::std::ptrdiff_t _5e46c58e9098da8fdb8b40615efd9e9a5a3b0365 = 0x10; // Quaternion
+    } // namespace _3fcaae3bde878b0c4d0da0d048c78dd12136848f
+    namespace _23c67e37ae3cf2390f2ae9ce5c7b80fa5c4c75d9._11bfad8d47713ec057ea0b96ccb27fde1345f459 {
+        inline constexpr ::std::ptrdiff_t _1d3c49b89bbf8c5d0e48ade6e338bc73fa0e5e70 = 0x0; // %23c67e37ae3cf2390f2ae9ce5c7b80fa5c4c75d9.ChatChannel
+        inline constexpr ::std::ptrdiff_t _85faab7731d6b466c2fe9b231fcf6c9aa8ba6447 = 0x8; // string
+        inline constexpr ::std::ptrdiff_t _01f8bfcd5fd38e08767a760a92faf1776bc3aca8 = 0x10; // string
+        inline constexpr ::std::ptrdiff_t _974724290d69f8121794a9ea769a9f186c7ba947 = 0x18; // string
+        inline constexpr ::std::ptrdiff_t _63252674a7855cd183d91e17713a6357017d5bfa = 0x20; // string
+        inline constexpr ::std::ptrdiff_t _43db48d22613ca59d5fa33ce8e94c60608173257 = 0x28; // int
+    } // namespace _23c67e37ae3cf2390f2ae9ce5c7b80fa5c4c75d9._11bfad8d47713ec057ea0b96ccb27fde1345f459
+    namespace _23c67e37ae3cf2390f2ae9ce5c7b80fa5c4c75d9.MuteEntry {
+        inline constexpr ::std::ptrdiff_t UserID = 0x0; // ulong
+        inline constexpr ::std::ptrdiff_t UserName = 0x8; // string
+        inline constexpr ::std::ptrdiff_t DateTime = 0x10; // string
+    } // namespace _23c67e37ae3cf2390f2ae9ce5c7b80fa5c4c75d9.MuteEntry
+    namespace _708a3e3f7b9e2d0cd6ccd588ee3530ade0dd2615._b56656b55c94cd9b569e8efae3edcc467dc0a094 {
+        inline constexpr ::std::ptrdiff_t _bfbe3edffe5e57984a0d81557dbde25f16ec98e9 = 0x0; // Vector3
+        inline constexpr ::std::ptrdiff_t _ec597f60ca682edcd65f22fca01bd02bb2eeb621 = 0xC; // Vector3
+        inline constexpr ::std::ptrdiff_t _3350905c383dab7a397705e58ba811c98e1c9fce = 0x18; // Vector4
+        inline constexpr ::std::ptrdiff_t _57ff4a6a25abed3076c90a2967132b642b1d5b88 = 0x28; // Color32
+        inline constexpr ::std::ptrdiff_t _df84f42294a777306e3bd91d55742a734c1e425d = 0x2C; // Vector2
+        inline constexpr ::std::ptrdiff_t _801d76885e8c116bf9411c6ed3b84d8bdd5a5a44 = 0x34; // Vector4
+    } // namespace _708a3e3f7b9e2d0cd6ccd588ee3530ade0dd2615._b56656b55c94cd9b569e8efae3edcc467dc0a094
+    namespace _a37e185e5c6a103d00f28ad39be330b9f4d2e195<T> {
+        inline constexpr ::std::ptrdiff_t _88ae16252aa7ad4c0f36e5eace1f19cdb34ac3c8 = 0x0; // T
+        inline constexpr ::std::ptrdiff_t _bfbe3edffe5e57984a0d81557dbde25f16ec98e9 = 0x0; // Vector3
+        inline constexpr ::std::ptrdiff_t _b3aff0ac9f664719f68669858c7d1fd727105021 = 0x0; // Quaternion
+        inline constexpr ::std::ptrdiff_t _51a543c72cfef9e205ccfab0e9f1df5a6ca05cfa = 0x0; // Vector3
+    } // namespace _a37e185e5c6a103d00f28ad39be330b9f4d2e195<T>
+    namespace _ffd8cd892e29c62172f36e54d8e39422d789d845 {
+        inline constexpr ::std::ptrdiff_t _43db48d22613ca59d5fa33ce8e94c60608173257 = 0x0; // float
+        inline constexpr ::std::ptrdiff_t _8a71902d653029315b0553a536ae27cc389aaef5 = 0x4; // float
+    } // namespace _ffd8cd892e29c62172f36e54d8e39422d789d845
+    namespace _5172ff6612c8bd7c7cac4abc4c7978237f442dc8 {
+        inline constexpr ::std::ptrdiff_t _6a6a4ab5a040e283dd5fbddcd4f6b89d474fc3d1 = 0x0; // float4
+    } // namespace _5172ff6612c8bd7c7cac4abc4c7978237f442dc8
+    namespace _9a708d2ae4275d95cced67c1e24b10cd55e5ff8f {
+        inline constexpr ::std::ptrdiff_t _6921e5f1a27cc99f36e5c445ada576bcbb02e479 = 0x0; // Translate.Phrase
+        inline constexpr ::std::ptrdiff_t _ff705bd3bd91bb8c4903c0959a960dc067622a8d = 0x8; // string
+        inline constexpr ::std::ptrdiff_t _2d99e02b8c10fb7d835aca7d3d7e5d24ecac3a69 = 0x10; // bool
+        inline constexpr ::std::ptrdiff_t _e3632e9947913d3cb21860deb3a609b00f7dbff1 = 0x18; // string
+        inline constexpr ::std::ptrdiff_t _f09b55c26881d84896bad00200ae0e7dbd5cfc2d = 0x20; // Sprite
+    } // namespace _9a708d2ae4275d95cced67c1e24b10cd55e5ff8f
+    namespace _03511bebe8219cf25e88b3731de4a0c68c90add5 {
+        inline constexpr ::std::ptrdiff_t _067a7f71d8af4c67a6d8c26550ef3afacc5fc876 = 0x0; // Stopwatch
+        inline constexpr ::std::ptrdiff_t _827050ec04870e08dc716c12bd3fc8904660660c = 0x8; // string
+    } // namespace _03511bebe8219cf25e88b3731de4a0c68c90add5
+    namespace _fe1204dbc730949957ee461b143b956da98702aa {
+        inline constexpr ::std::ptrdiff_t _2099716a4b7b032312a6a27cdb2184c9a9d54fd5 = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _d8e02725db1e8f42f7edcbbde00b4d7e626e5643 = 0x4; // int
+        inline constexpr ::std::ptrdiff_t _cd96598ac74438cb415e066c71af08f8f7cd3bc8 = 0x8; // int
+    } // namespace _fe1204dbc730949957ee461b143b956da98702aa
+    namespace _e608e4261217f36d17280b06b5bebae2becc04ca._7510c8b92927c8e054dcfdeb582766ac6e2db11b {
+        inline constexpr ::std::ptrdiff_t _bfae70ba26d33f77aaf862542b74dcb618d50fea = 0x0; // string
+        inline constexpr ::std::ptrdiff_t _8e5d2cf6a8665df17995152d95f6655c02ebe34b = 0x8; // string
+        inline constexpr ::std::ptrdiff_t _c91e6ef26dcdddfd93e0875e13b9a14b2878395b = 0x10; // string
+        inline constexpr ::std::ptrdiff_t _eb9da42f2dd91c56bb834fdb62d1319f7f63abb9 = 0x18; // int
+    } // namespace _e608e4261217f36d17280b06b5bebae2becc04ca._7510c8b92927c8e054dcfdeb582766ac6e2db11b
+    namespace _d210b9bbab2620a08d1a64add737a798e4e6d675 {
+        inline constexpr ::std::ptrdiff_t _2e791314b2a2784a0c9c254d7a782774d707d19f = 0x0; // sbyte
+        inline constexpr ::std::ptrdiff_t _b1c9f8b512c5a2e9d0f89ea12d5c4aa8a9266bd0 = 0x1; // sbyte
+        inline constexpr ::std::ptrdiff_t _a86e059a3a66352a686b4b8e4931c79eb5da1d41 = 0x2; // sbyte
+        inline constexpr ::std::ptrdiff_t _71c2eaca4497445dbce85aae5a93b6f8704c5b91 = 0x3; // sbyte
+    } // namespace _d210b9bbab2620a08d1a64add737a798e4e6d675
+    namespace _415d7ac98b7846f6675c5bc538141330e0f687dc._ca3332853891821716b5a643d15ec5d4c2c316d5<TInner> {
+        inline constexpr ::std::ptrdiff_t _20181abeee46fffa9f6ea63c69785217c2f13697 = 0x0; // TInner
+    } // namespace _415d7ac98b7846f6675c5bc538141330e0f687dc._ca3332853891821716b5a643d15ec5d4c2c316d5<TInner>
+    namespace _b79bde1481d29f2969451e2b08c24a0a80e9b86e._6b16044009f5924cfc9676d79b71517fc4b2ac9b {
+        inline constexpr ::std::ptrdiff_t _61bb766ae4c347e1ac93f3d2977c847e4529326a = 0x0; // string
+        inline constexpr ::std::ptrdiff_t _cfd39bbec031c10f8dc33bb77e3499e2c4d9ff51 = 0x8; // %3d54ea8882b7f38d7dba478c482edfc39349b48c
+        inline constexpr ::std::ptrdiff_t _bfbe3edffe5e57984a0d81557dbde25f16ec98e9 = 0x10; // Vector3
+        inline constexpr ::std::ptrdiff_t _b3aff0ac9f664719f68669858c7d1fd727105021 = 0x1C; // Quaternion
+        inline constexpr ::std::ptrdiff_t _439a2db34d994d11c400eb266c0015d4b409f9c9 = 0x2C; // Vector3
+        inline constexpr ::std::ptrdiff_t _5477e155f4141399f85a701dbca2c2aa07c8a450 = 0x38; // TimeSpan
+    } // namespace _b79bde1481d29f2969451e2b08c24a0a80e9b86e._6b16044009f5924cfc9676d79b71517fc4b2ac9b
+    namespace _7aec2e3606cafbbafc6165bc488fb166d5d28803 {
+        inline constexpr ::std::ptrdiff_t _2e791314b2a2784a0c9c254d7a782774d707d19f = 0x0; // ushort
+        inline constexpr ::std::ptrdiff_t _b1c9f8b512c5a2e9d0f89ea12d5c4aa8a9266bd0 = 0x2; // ushort
+        inline constexpr ::std::ptrdiff_t _a86e059a3a66352a686b4b8e4931c79eb5da1d41 = 0x4; // ushort
+        inline constexpr ::std::ptrdiff_t _71c2eaca4497445dbce85aae5a93b6f8704c5b91 = 0x6; // ushort
+    } // namespace _7aec2e3606cafbbafc6165bc488fb166d5d28803
+    namespace _161143c31d27489882c92c7fc59afb9f27585812 {
+        inline constexpr ::std::ptrdiff_t _b1ef3361f58cbc97a05588c4377f38ae9a8a1fbc = 0x0; // bool
+        inline constexpr ::std::ptrdiff_t _59e2d5d49979ea9a2e401ed5a589e59112119d72 = 0x1; // bool
+        inline constexpr ::std::ptrdiff_t _8912cf0b39e6760e5f0dc3db4d5328dd6c6686b3 = 0x2; // bool
+        inline constexpr ::std::ptrdiff_t _6cf0b7bec78b10a98a59b9165e53671338acff76 = 0x3; // bool
+    } // namespace _161143c31d27489882c92c7fc59afb9f27585812
+    namespace _eb96cfdd2a0dbdc08f6951efeec7bf7df2aeb9ce._467bbee3a1996634ab7e5f2e577265d6653eeeda {
+        inline constexpr ::std::ptrdiff_t _f872fc15725bd521deb38034271067373932e604 = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _204f3916fd80dcf7dee308c2b74f96fef2f1c233 = 0x8; // string
+        inline constexpr ::std::ptrdiff_t _e0513a57245c9e54b1d2897924bb5d4105da9769 = 0x10; // Texture
+    } // namespace _eb96cfdd2a0dbdc08f6951efeec7bf7df2aeb9ce._467bbee3a1996634ab7e5f2e577265d6653eeeda
+    namespace _eb96cfdd2a0dbdc08f6951efeec7bf7df2aeb9ce._0476c416f4e40f1a3fd4881787f2b6bb24cbe514 {
+        inline constexpr ::std::ptrdiff_t _f872fc15725bd521deb38034271067373932e604 = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _fa798b008d3e3e2e0744eb902c2533795a44dd29 = 0x4; // int
+    } // namespace _eb96cfdd2a0dbdc08f6951efeec7bf7df2aeb9ce._0476c416f4e40f1a3fd4881787f2b6bb24cbe514
+    namespace _682f2cf7937939736768a9484b0c9f11b43f698d._2f889e9c1259fc1a883eb43f26451d0b55f1b019<TInner> {
+        inline constexpr ::std::ptrdiff_t _20181abeee46fffa9f6ea63c69785217c2f13697 = 0x0; // TInner
+    } // namespace _682f2cf7937939736768a9484b0c9f11b43f698d._2f889e9c1259fc1a883eb43f26451d0b55f1b019<TInner>
+    namespace _a8e6f8a7ba6e5195ba3a2d49f068a8f3e24da8d5._114a5ed62d7a1c24f34c1a67854dca13e57906e1 {
+        inline constexpr ::std::ptrdiff_t _439a2db34d994d11c400eb266c0015d4b409f9c9 = 0x0; // float
+        inline constexpr ::std::ptrdiff_t _bbd032894221df5bc34b8b35b34fa2d9d77b2ea6 = 0x4; // float
+        inline constexpr ::std::ptrdiff_t _b49834b5813f7b0de33cbe4d8c00527f106aaa90 = 0x8; // float
+    } // namespace _a8e6f8a7ba6e5195ba3a2d49f068a8f3e24da8d5._114a5ed62d7a1c24f34c1a67854dca13e57906e1
+    namespace _4ce77fafa9376ed46ca7c679703164bcfa8d147a {
+        inline constexpr ::std::ptrdiff_t _ac7bc0986bc78d074ad1141a463cccee82a8cb72 = 0x0; // long
+        inline constexpr ::std::ptrdiff_t _cad77d6926748621e3e4584589687991d6d32408 = 0x8; // string
+        inline constexpr ::std::ptrdiff_t _2a9040ee66606d62b84a7585afc722dd95cbb6cf = 0x10; // int
+        inline constexpr ::std::ptrdiff_t _6a6a4ab5a040e283dd5fbddcd4f6b89d474fc3d1 = 0x14; // Color32
+    } // namespace _4ce77fafa9376ed46ca7c679703164bcfa8d147a
+    namespace _b80eb003bb5353fc9c94dc299a52e5689ef53dc4 {
+        inline constexpr ::std::ptrdiff_t _b49a4fcf1496a10e7902adadd4cbab64aa8248b1 = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _52eb95f1d23af4803170c61d287b3109beaaaec8 = 0x8; // %32881fa455e662cfe29d3e19bbd7df598cfafa9b
+        inline constexpr ::std::ptrdiff_t _79e5f5f9ada22fcfea9f3cb21a54a447f6243953 = 0x10; // OcclusionCulling.%07e56ff127dd25e26848f6f0faac1f1b10f58719
+    } // namespace _b80eb003bb5353fc9c94dc299a52e5689ef53dc4
+    namespace _efdbf118e2a1762514dcf3d4254f6b45338e6afc {
+        inline constexpr ::std::ptrdiff_t _8f8c5eb26e14a606aae4a5589dd9e94a8b70309c = 0x0; // Mesh
+        inline constexpr ::std::ptrdiff_t _ca53876f282cb422f01e76c0384a235614f2d4f4 = 0x8; // Material[]
+        inline constexpr ::std::ptrdiff_t _4755a95ca5971e35c9ca09a3f5e527fce5166ff7 = 0x10; // ShadowCastingMode
+        inline constexpr ::std::ptrdiff_t _b0eddb7a9eae9922167308a0b136f6d8a9b4a828 = 0x14; // bool
+        inline constexpr ::std::ptrdiff_t _0a990330eb0f8f746f0d002de3d95a4ca6490448 = 0x18; // LightProbeUsage
+    } // namespace _efdbf118e2a1762514dcf3d4254f6b45338e6afc
+    namespace _8fe99d88b6cb634be7e0d3c33f8b7fd0f8549c8f._2f889e9c1259fc1a883eb43f26451d0b55f1b019<TInner> {
+        inline constexpr ::std::ptrdiff_t _20181abeee46fffa9f6ea63c69785217c2f13697 = 0x0; // TInner
+    } // namespace _8fe99d88b6cb634be7e0d3c33f8b7fd0f8549c8f._2f889e9c1259fc1a883eb43f26451d0b55f1b019<TInner>
+    namespace _edf3aa21b680ed7d80a8e28ebacd98ba51229615 {
+        inline constexpr ::std::ptrdiff_t _e4e9f36f19f0032a1fc29938d1b206428cc917d7 = 0x0; // Material
+        inline constexpr ::std::ptrdiff_t _08fb81d2a23e1af4758d44a082aa9a8452e37e9e = 0x8; // ShadowCastingMode
+        inline constexpr ::std::ptrdiff_t _0cb79e1be0f5e6faa75547f8161ed236a9b9b7ee = 0xC; // int
+        inline constexpr ::std::ptrdiff_t _57ff4a6a25abed3076c90a2967132b642b1d5b88 = 0x10; // Color
+    } // namespace _edf3aa21b680ed7d80a8e28ebacd98ba51229615
+    namespace _a69e90c6952742c20df9c1a4f5ab72d9626d9e66 {
+        inline constexpr ::std::ptrdiff_t _43db48d22613ca59d5fa33ce8e94c60608173257 = 0x0; // float
+        inline constexpr ::std::ptrdiff_t _2fa93a94bd46f8addc6f8a363e7f0bbeb4bf620e = 0x4; // Vector3
+        inline constexpr ::std::ptrdiff_t _18539b47f9ee51cb3917e51213235ac8494ad8c3 = 0x10; // Quaternion
+    } // namespace _a69e90c6952742c20df9c1a4f5ab72d9626d9e66
+    namespace _f0c7872b03e70b3db032013d6496341efbcd3aed._2f889e9c1259fc1a883eb43f26451d0b55f1b019<TInner> {
+        inline constexpr ::std::ptrdiff_t _20181abeee46fffa9f6ea63c69785217c2f13697 = 0x0; // TInner
+    } // namespace _f0c7872b03e70b3db032013d6496341efbcd3aed._2f889e9c1259fc1a883eb43f26451d0b55f1b019<TInner>
+    namespace _244e82ccf64fba67b22ac2ed6c9fd235166dedd5._cb5c04e58d58c6145d66d9a4009b96e8465bdeb5 {
+        inline constexpr ::std::ptrdiff_t _0c8d1512fd25213df82b846bb890170191e33677 = 0x0; // float4
+        inline constexpr ::std::ptrdiff_t _6e7e2afcba9d7d229c0006aa2a145e29a8875984 = 0x10; // float4
+        inline constexpr ::std::ptrdiff_t _396b359f316fc600ceb5ee485ba80766bbdb5f0c = 0x20; // float4
+        inline constexpr ::std::ptrdiff_t _79eb55b7ed7ad0dba2122b1d14ea94eb2ed57f01 = 0x30; // float4
+        inline constexpr ::std::ptrdiff_t _cb673ae1800b23653b16ca59329618be08d4eb4e = 0x40; // float4
+        inline constexpr ::std::ptrdiff_t _6a6a4ab5a040e283dd5fbddcd4f6b89d474fc3d1 = 0x50; // float4
+    } // namespace _244e82ccf64fba67b22ac2ed6c9fd235166dedd5._cb5c04e58d58c6145d66d9a4009b96e8465bdeb5
+    namespace _e6a38ca76bf165abfd56e90d361c1946c0a5174c._6418fa9436c763b1ba4f5b2cdbe4d9a89fc90d8e {
+        inline constexpr ::std::ptrdiff_t _2e791314b2a2784a0c9c254d7a782774d707d19f = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _b1c9f8b512c5a2e9d0f89ea12d5c4aa8a9266bd0 = 0x4; // int
+    } // namespace _e6a38ca76bf165abfd56e90d361c1946c0a5174c._6418fa9436c763b1ba4f5b2cdbe4d9a89fc90d8e
+    namespace _fdcd380504605904536dbe7e42631ab21da5163c {
+        inline constexpr ::std::ptrdiff_t _5477e155f4141399f85a701dbca2c2aa07c8a450 = 0x0; // double
+    } // namespace _fdcd380504605904536dbe7e42631ab21da5163c
+    namespace _de26dac0a5f097e779c4f232c4bf7c2607ad1725 {
+        inline constexpr ::std::ptrdiff_t _bbc4afaac749a76291a4277f74cfdc99fb7a16f4 = 0x0; // uint
+        inline constexpr ::std::ptrdiff_t _8ca2907f3a744282e32949923d342088adb5af79 = 0x8; // NetworkableId
+        inline constexpr ::std::ptrdiff_t _8db5b0d5c48266dd082d3b9164d21792789b36c1 = 0x10; // int
+        inline constexpr ::std::ptrdiff_t _bc47ca9306cd388ffc14ca21d1da57766c9e5430 = 0x18; // ulong
+        inline constexpr ::std::ptrdiff_t _37ed125800c758df4dafc941a11ca468cf9c6ac2 = 0x20; // int
+        inline constexpr ::std::ptrdiff_t _0c8d1512fd25213df82b846bb890170191e33677 = 0x24; // Vector3
+        inline constexpr ::std::ptrdiff_t _5e46c58e9098da8fdb8b40615efd9e9a5a3b0365 = 0x30; // Quaternion
+        inline constexpr ::std::ptrdiff_t _fe04e536df7abb3c2d0507a75fe8f9ae2e10816c = 0x40; // Color
+        inline constexpr ::std::ptrdiff_t _f58f55176a51a1001e04a3a7a44614bcd9f4beac = 0x50; // int
+        inline constexpr ::std::ptrdiff_t _33b92844e052de1dd10e8fb70284a12b973bf443 = 0x54; // bool
+        inline constexpr ::std::ptrdiff_t _bbdad8009aa8d9c566261651acfd7c2e6473cafb = 0x55; // bool
+    } // namespace _de26dac0a5f097e779c4f232c4bf7c2607ad1725
+    namespace _20d1463b3314cbb0673cf473a23e9645c41f931f._093619314f8611c870d4674f1bc304d39d2a995d {
+        inline constexpr ::std::ptrdiff_t _827050ec04870e08dc716c12bd3fc8904660660c = 0x0; // string
+        inline constexpr ::std::ptrdiff_t _8141254c99b9bda9029b871bd7069e55d0397acb = 0x8; // NetworkableId
+    } // namespace _20d1463b3314cbb0673cf473a23e9645c41f931f._093619314f8611c870d4674f1bc304d39d2a995d
+    namespace _d71005ddaa69bd0c72bbc3ea78f50519a584978c {
+        inline constexpr ::std::ptrdiff_t _4e3528b18a56cf1edf8880308315ee303ffa5e98 = 0x0; // Material
+        inline constexpr ::std::ptrdiff_t _2a2f9971fe84279a59ec12f8164f9334b6a2fea8 = 0x8; // ShadowCastingMode
+        inline constexpr ::std::ptrdiff_t _c676e4496d2b2980ebf9d407ad7790548cb5ce28 = 0xC; // bool
+        inline constexpr ::std::ptrdiff_t _cc492adadb4b938e19bc79f4f1e6d80860bc7c27 = 0x10; // LightProbeUsage
+    } // namespace _d71005ddaa69bd0c72bbc3ea78f50519a584978c
+    namespace _ffb7d319bf9b77977653ce6cf9a28a0a94e38271 {
+        inline constexpr ::std::ptrdiff_t _bbc4afaac749a76291a4277f74cfdc99fb7a16f4 = 0x0; // uint
+        inline constexpr ::std::ptrdiff_t _8db5b0d5c48266dd082d3b9164d21792789b36c1 = 0x4; // int
+        inline constexpr ::std::ptrdiff_t _bc47ca9306cd388ffc14ca21d1da57766c9e5430 = 0x8; // ulong
+    } // namespace _ffb7d319bf9b77977653ce6cf9a28a0a94e38271
+    namespace _34795634511145cd5883ecb35481d541fa72f170 {
+        inline constexpr ::std::ptrdiff_t _ee656dd32958923d24be1bc1b4445c92d7a5a9a4 = 0x0; // string
+        inline constexpr ::std::ptrdiff_t _a617f2202c7999c6f43ca0d776bb28aea7959618 = 0x8; // SendInfo
+        inline constexpr ::std::ptrdiff_t _b4c728695b4551a77c31116fb10ab0f0629d7f7e = 0x28; // bool
+        inline constexpr ::std::ptrdiff_t _1447c64a0b382f0b0d05375f0fc8299c23f19e5b = 0x29; // bool
+    } // namespace _34795634511145cd5883ecb35481d541fa72f170
+    namespace _9606c48ae742e0f561e9a9a6bd111d57a170400f {
+        inline constexpr ::std::ptrdiff_t _e38a87db9059a9a4d7b99f160b479a5e04790394 = 0x0; // IPAddress
+        inline constexpr ::std::ptrdiff_t _3fe5ce4146a7b378d4dd4c2e73d0a596cd8d066d = 0x8; // int
+    } // namespace _9606c48ae742e0f561e9a9a6bd111d57a170400f
+    namespace _81e7e7e9d1256f0ea34bd478619eba667fac7363._ca3332853891821716b5a643d15ec5d4c2c316d5<TInner> {
+        inline constexpr ::std::ptrdiff_t _20181abeee46fffa9f6ea63c69785217c2f13697 = 0x0; // TInner
+    } // namespace _81e7e7e9d1256f0ea34bd478619eba667fac7363._ca3332853891821716b5a643d15ec5d4c2c316d5<TInner>
+    namespace _85cc39f93a40a77c25fd94f8f63cecd653b59797 {
+        inline constexpr ::std::ptrdiff_t _2099716a4b7b032312a6a27cdb2184c9a9d54fd5 = 0x0; // uint
+        inline constexpr ::std::ptrdiff_t _02cae21f558c9dab1a0dfce89ca51e46de5f67bf = 0x4; // uint
+    } // namespace _85cc39f93a40a77c25fd94f8f63cecd653b59797
+    namespace _73c141aa2e81dec025c483b15e9dc5ccda6530ed {
+        inline constexpr ::std::ptrdiff_t _74de780f0920260fa8e4cb63ef3fd6bf77926d97 = 0x0; // Transform
+        inline constexpr ::std::ptrdiff_t _537aa9022e7c8fe9afa0991102a5490fb2191b30 = 0x8; // Rigidbody
+        inline constexpr ::std::ptrdiff_t _54fb4a76149c0bcfd8b82d090935994df66e3214 = 0x10; // Collider
+        inline constexpr ::std::ptrdiff_t _dfc59903b469f7c7401ced2715521abd1670369c = 0x18; // OBB
+        inline constexpr ::std::ptrdiff_t _bfbe3edffe5e57984a0d81557dbde25f16ec98e9 = 0x68; // Vector3
+        inline constexpr ::std::ptrdiff_t _b3aff0ac9f664719f68669858c7d1fd727105021 = 0x74; // Quaternion
+        inline constexpr ::std::ptrdiff_t _439a2db34d994d11c400eb266c0015d4b409f9c9 = 0x84; // Vector3
+        inline constexpr ::std::ptrdiff_t _16550e42ea1e38d41a106426939f1fd37c1ddcb5 = 0x90; // %a5d18940ce7ad01174042425a36c9861807670ff.Data
+    } // namespace _73c141aa2e81dec025c483b15e9dc5ccda6530ed
+    namespace _be109c4b6d39ade933ebea1c24ac58f6d397439a {
+        inline constexpr ::std::ptrdiff_t _bfbe3edffe5e57984a0d81557dbde25f16ec98e9 = 0x0; // Vector3
+        inline constexpr ::std::ptrdiff_t _b3aff0ac9f664719f68669858c7d1fd727105021 = 0xC; // Quaternion
+        inline constexpr ::std::ptrdiff_t _439a2db34d994d11c400eb266c0015d4b409f9c9 = 0x1C; // Vector3
+        inline constexpr ::std::ptrdiff_t _16550e42ea1e38d41a106426939f1fd37c1ddcb5 = 0x28; // %a5d18940ce7ad01174042425a36c9861807670ff.Data
+    } // namespace _be109c4b6d39ade933ebea1c24ac58f6d397439a
+    namespace _85cc89bf27a31bda09da00ac99be7c566824b2ba.PlayerInfo {
         inline constexpr ::std::ptrdiff_t SteamID = 0x0; // string
         inline constexpr ::std::ptrdiff_t OwnerSteamID = 0x8; // string
         inline constexpr ::std::ptrdiff_t DisplayName = 0x10; // string
@@ -365,8 +498,8 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t CurrentLevel = 0x30; // float
         inline constexpr ::std::ptrdiff_t UnspentXp = 0x34; // float
         inline constexpr ::std::ptrdiff_t Health = 0x38; // float
-    } // namespace _ceaeffaa20b56f406845a9c7cbdb2d981d2ff450.PlayerInfo
-    namespace _ceaeffaa20b56f406845a9c7cbdb2d981d2ff450.ServerInfoOutput {
+    } // namespace _85cc89bf27a31bda09da00ac99be7c566824b2ba.PlayerInfo
+    namespace _85cc89bf27a31bda09da00ac99be7c566824b2ba.ServerInfoOutput {
         inline constexpr ::std::ptrdiff_t Hostname = 0x0; // string
         inline constexpr ::std::ptrdiff_t MaxPlayers = 0x8; // int
         inline constexpr ::std::ptrdiff_t Players = 0xC; // int
@@ -386,179 +519,125 @@ namespace blazedumper {
         inline constexpr ::std::ptrdiff_t SaveCreatedTime = 0x58; // string
         inline constexpr ::std::ptrdiff_t Version = 0x60; // int
         inline constexpr ::std::ptrdiff_t Protocol = 0x68; // string
-    } // namespace _ceaeffaa20b56f406845a9c7cbdb2d981d2ff450.ServerInfoOutput
-    namespace _ceaeffaa20b56f406845a9c7cbdb2d981d2ff450.ServerConvarInfo {
+    } // namespace _85cc89bf27a31bda09da00ac99be7c566824b2ba.ServerInfoOutput
+    namespace _85cc89bf27a31bda09da00ac99be7c566824b2ba.ServerConvarInfo {
         inline constexpr ::std::ptrdiff_t FullName = 0x0; // string
         inline constexpr ::std::ptrdiff_t Value = 0x8; // string
         inline constexpr ::std::ptrdiff_t Help = 0x10; // string
-    } // namespace _ceaeffaa20b56f406845a9c7cbdb2d981d2ff450.ServerConvarInfo
-    namespace _ceaeffaa20b56f406845a9c7cbdb2d981d2ff450.ServerUGCInfo {
+    } // namespace _85cc89bf27a31bda09da00ac99be7c566824b2ba.ServerConvarInfo
+    namespace _85cc89bf27a31bda09da00ac99be7c566824b2ba.ServerUGCInfo {
         inline constexpr ::std::ptrdiff_t entityId = 0x0; // NetworkableId
         inline constexpr ::std::ptrdiff_t crcs = 0x8; // uint[]
         inline constexpr ::std::ptrdiff_t contentType = 0x10; // UGCType
         inline constexpr ::std::ptrdiff_t entityPrefabID = 0x14; // uint
         inline constexpr ::std::ptrdiff_t shortPrefabName = 0x18; // string
         inline constexpr ::std::ptrdiff_t playerIds = 0x20; // ulong[]
-    } // namespace _ceaeffaa20b56f406845a9c7cbdb2d981d2ff450.ServerUGCInfo
-    namespace _ceaeffaa20b56f406845a9c7cbdb2d981d2ff450._a9db4b2ee2515c4b2e47e91a2804dc306526f0c4<TInner> {
-        inline constexpr ::std::ptrdiff_t _b418166dfbd24138bbe9f10a359e4ffc60641191 = 0x0; // TInner
-    } // namespace _ceaeffaa20b56f406845a9c7cbdb2d981d2ff450._a9db4b2ee2515c4b2e47e91a2804dc306526f0c4<TInner>
-    namespace _14348d1cc0f61d053d244af9679c6d9dbf6d084c {
-        inline constexpr ::std::ptrdiff_t _02204b1fb4bba0e0997905d0dc6e12a8b838a5f3 = 0x0; // sbyte
-        inline constexpr ::std::ptrdiff_t _b5e6c7f1bf96907ff2231821445d952bc409265b = 0x1; // sbyte
-        inline constexpr ::std::ptrdiff_t _bf537a6a4d8836bbbd80915f92818cb5d58f6f00 = 0x2; // sbyte
-        inline constexpr ::std::ptrdiff_t _4670bc8d1e626a83b0078ad5a7f95568b39084ab = 0x3; // sbyte
-    } // namespace _14348d1cc0f61d053d244af9679c6d9dbf6d084c
-    namespace _cdb9aec126984be25b2deb17e347ce2365513cd8._59cc9177f432a43784a1d7a2f2cdc9dc26e12c2f {
-        inline constexpr ::std::ptrdiff_t _a2efb57477535f4424c18b5ebcbdda43ecc006b3 = 0x0; // bool
-        inline constexpr ::std::ptrdiff_t _ff09b3eb56cc6d777b2dce5362883b57c4b8ce2f = 0x4; // float
-        inline constexpr ::std::ptrdiff_t _d083cd6f049eff6bdbe1f99d8ae18ce03c4852ca = 0x8; // float
-        inline constexpr ::std::ptrdiff_t _4f4b37df7a94cf8769de0624d704aebedad390a9 = 0xC; // float
-    } // namespace _cdb9aec126984be25b2deb17e347ce2365513cd8._59cc9177f432a43784a1d7a2f2cdc9dc26e12c2f
-    namespace _efe3e10a33734d7cd66fdaa38eb5e51c41b2065e {
-        inline constexpr ::std::ptrdiff_t _fe48ce8f9fca6015b6e41611f035f01182cc4df8 = 0x0; // Material
-        inline constexpr ::std::ptrdiff_t _ea2dba9fc41835fa1c705dc00571a6b77350431f = 0x8; // ShadowCastingMode
-        inline constexpr ::std::ptrdiff_t _546946e02c5b3c862fe092e5571a62a498df89b7 = 0xC; // int
-        inline constexpr ::std::ptrdiff_t _3faeb5127c483fa4efee3be160f112ea009a7b71 = 0x10; // Color
-    } // namespace _efe3e10a33734d7cd66fdaa38eb5e51c41b2065e
-    namespace _13e581b57238870ef8ffe918e487380813c2f528._d2469d78e9eeaa1760228fc2206f23f65b999e71<TInner> {
-        inline constexpr ::std::ptrdiff_t _b418166dfbd24138bbe9f10a359e4ffc60641191 = 0x0; // TInner
-    } // namespace _13e581b57238870ef8ffe918e487380813c2f528._d2469d78e9eeaa1760228fc2206f23f65b999e71<TInner>
-    namespace _bd94e8ffe1323b204061bb330c22b64f340a843a {
-        inline constexpr ::std::ptrdiff_t _02204b1fb4bba0e0997905d0dc6e12a8b838a5f3 = 0x0; // ushort
-        inline constexpr ::std::ptrdiff_t _b5e6c7f1bf96907ff2231821445d952bc409265b = 0x2; // ushort
-        inline constexpr ::std::ptrdiff_t _bf537a6a4d8836bbbd80915f92818cb5d58f6f00 = 0x4; // ushort
-        inline constexpr ::std::ptrdiff_t _4670bc8d1e626a83b0078ad5a7f95568b39084ab = 0x6; // ushort
-    } // namespace _bd94e8ffe1323b204061bb330c22b64f340a843a
-    namespace _d2318c3c539b680e74643be10afd284f33f797ae {
-        inline constexpr ::std::ptrdiff_t _32bd7cab26169323eda743aec55ff9fa775b4e32 = 0x0; // bool
-        inline constexpr ::std::ptrdiff_t _1fc0ff53584f51a9d44daa621a5f5eae4e5fe0e6 = 0x4; // float
-        inline constexpr ::std::ptrdiff_t _022932d2228479dc0a0e37435b541b99d36baf92 = 0x8; // BaseEntity
-        inline constexpr ::std::ptrdiff_t _67bf77127716cf0a013af5eb6ff5872487c147ac = 0x10; // Vector3
-        inline constexpr ::std::ptrdiff_t _015ffb2b77e015e258cfff91df900fb5fe4dc89e = 0x1C; // Vector3
-        inline constexpr ::std::ptrdiff_t _207e1757f27c9479613d59999bb8975e2355d147 = 0x28; // Transform
-        inline constexpr ::std::ptrdiff_t _fe48ce8f9fca6015b6e41611f035f01182cc4df8 = 0x30; // PhysicMaterial
-        inline constexpr ::std::ptrdiff_t _91afde99cdaf2298baae19349220397d98e968e2 = 0x38; // uint
-        inline constexpr ::std::ptrdiff_t _448f8e8a446b0043f4ae133ee1732f2f6cf0c289 = 0x40; // Collider
-    } // namespace _d2318c3c539b680e74643be10afd284f33f797ae
-    namespace _bf508e74a42629f167417df357e23fdb01e6af9e {
-        inline constexpr ::std::ptrdiff_t _8f465698dd4d5f8dde7a247d31c26c95fb3a233f = 0x0; // Translate.Phrase
-        inline constexpr ::std::ptrdiff_t _7282dcdfdeb2852a2c585123fcc6fda800de65a0 = 0x8; // string
-        inline constexpr ::std::ptrdiff_t _6c33386fbd6988d251dbf56263f963e70f235ea2 = 0x10; // bool
-        inline constexpr ::std::ptrdiff_t _8bd33a4f221fe65e7bc9ed7d32d7cf6824558d79 = 0x18; // string
-        inline constexpr ::std::ptrdiff_t _c49701742a39fe0190525dd0d61c3f47e4322c71 = 0x20; // Sprite
-    } // namespace _bf508e74a42629f167417df357e23fdb01e6af9e
-    namespace _467d626b64eed3449a0f21c13da13fc0b40d5897 {
-        inline constexpr ::std::ptrdiff_t _93eabc1a687b2550d18a57f64243981d3bb6a60d = 0x0; // Stopwatch
-        inline constexpr ::std::ptrdiff_t _48df23674914645de40100e6c4460a231f6801cd = 0x8; // string
-    } // namespace _467d626b64eed3449a0f21c13da13fc0b40d5897
-    namespace _fb3328688f46f43963136e1a296f23a29162198a {
-        inline constexpr ::std::ptrdiff_t _aa817d0761317b3cb4425e3ee4bc07bcccb4aec5 = 0x0; // long
-        inline constexpr ::std::ptrdiff_t _b26b4e4df87cc5a0c5ae3b23c62ae57ad11ca067 = 0x8; // string
-        inline constexpr ::std::ptrdiff_t _6cd6974790f0531d5a9f4a1a6442897f6dea31eb = 0x10; // int
-        inline constexpr ::std::ptrdiff_t _f485710f7600cd00a2cb89836ac8b6f5f0d2c4c5 = 0x14; // Color32
-    } // namespace _fb3328688f46f43963136e1a296f23a29162198a
-    namespace _f29042c9e3fc919aeee1ed8977cb41a25d151a65._f90713f6c2d00770f7d4f78ecc34f86601e9e9b1 {
-        inline constexpr ::std::ptrdiff_t _1959d7866628ec6ad892239eb3dd5b409b4d09f5 = 0x0; // float
-        inline constexpr ::std::ptrdiff_t _0b1f8176c8c303d295e362d0cb87042530dc13f5 = 0x4; // float
-        inline constexpr ::std::ptrdiff_t _e7c10b7edd1a27d02dccc983b7f55f040644811a = 0x8; // float
-        inline constexpr ::std::ptrdiff_t _38ab5c1b8c0301f91f0f38f64b0317fa507f77a7 = 0x10; // Action<uint>
-    } // namespace _f29042c9e3fc919aeee1ed8977cb41a25d151a65._f90713f6c2d00770f7d4f78ecc34f86601e9e9b1
-    namespace _392aa33e59f08cbfdebafdb139c5565ebe32d5f5._a07635e645896d58eb9246f9905fc8c6db3371dc {
-        inline constexpr ::std::ptrdiff_t _02204b1fb4bba0e0997905d0dc6e12a8b838a5f3 = 0x0; // int
-        inline constexpr ::std::ptrdiff_t _b5e6c7f1bf96907ff2231821445d952bc409265b = 0x4; // int
-    } // namespace _392aa33e59f08cbfdebafdb139c5565ebe32d5f5._a07635e645896d58eb9246f9905fc8c6db3371dc
-    namespace _e954ea11f49ba04079414287676224099bf7f01f._cb9ee984699da2e9cae92453306eb42bfdd189b5 {
-        inline constexpr ::std::ptrdiff_t _48df23674914645de40100e6c4460a231f6801cd = 0x0; // string
-        inline constexpr ::std::ptrdiff_t _0cfc5abcc61c957c11407124160f16b0a00b8ee8 = 0x8; // string
-        inline constexpr ::std::ptrdiff_t _ccd3ab8e0f7f4f5d2fb98f656c05c1fb7c1c68e0 = 0x10; // int
-        inline constexpr ::std::ptrdiff_t _079f69c3c762ccb0699207249b8e7883a0332b64 = 0x18; // string
-        inline constexpr ::std::ptrdiff_t _0a4c268a5450a0fadfe09533f2ee30cf469e39de = 0x20; // string
-    } // namespace _e954ea11f49ba04079414287676224099bf7f01f._cb9ee984699da2e9cae92453306eb42bfdd189b5
-    namespace _9287c720a74658aa11fa49e044634b9deefede0c<T> {
-        inline constexpr ::std::ptrdiff_t _d0f8772dd21cdc242daea4363b67f14050141849 = 0x0; // %a0e0fe027a7ac8ee3031887ed64c6a3700f01b0c
-    } // namespace _9287c720a74658aa11fa49e044634b9deefede0c<T>
-    namespace _a1255bf345ff592eb8e4846446e15b1b277a4583 {
-        inline constexpr ::std::ptrdiff_t _1959d7866628ec6ad892239eb3dd5b409b4d09f5 = 0x0; // double
-    } // namespace _a1255bf345ff592eb8e4846446e15b1b277a4583
-    namespace _e2557132ba8947e7cfb2b80581e4159574fe2f88._0ae67d0a841e3690a69e82d398c06b9beb1d1116 {
-        inline constexpr ::std::ptrdiff_t _506747df297c481160e4d0e2e2126d92bbdb44f3 = 0x0; // Transform
-        inline constexpr ::std::ptrdiff_t _30ef9a0066e6012d8b0caa8fedd9915397d587e3 = 0x8; // Rigidbody
-        inline constexpr ::std::ptrdiff_t _448f8e8a446b0043f4ae133ee1732f2f6cf0c289 = 0x10; // Collider
-        inline constexpr ::std::ptrdiff_t _a51d713703d17bed5628b8a68b9cdf4583695c51 = 0x18; // OBB
-    } // namespace _e2557132ba8947e7cfb2b80581e4159574fe2f88._0ae67d0a841e3690a69e82d398c06b9beb1d1116
-    namespace _1c2baeb0548e8a9f02a0a5403074fe4b2b12c0f0._a4b3f5f9e68eee2bb8a2e88e93ae5448cfa60e01 {
-        inline constexpr ::std::ptrdiff_t _48df23674914645de40100e6c4460a231f6801cd = 0x0; // string
-        inline constexpr ::std::ptrdiff_t _04990c7226f5ce44c90fccb0c311c236fcfa7da9 = 0x8; // Action
-    } // namespace _1c2baeb0548e8a9f02a0a5403074fe4b2b12c0f0._a4b3f5f9e68eee2bb8a2e88e93ae5448cfa60e01
-    namespace _3e3edde216bd5b94baf2a929ed90219fce1b13d2._f90713f6c2d00770f7d4f78ecc34f86601e9e9b1 {
-        inline constexpr ::std::ptrdiff_t _1959d7866628ec6ad892239eb3dd5b409b4d09f5 = 0x0; // float
-        inline constexpr ::std::ptrdiff_t _0b1f8176c8c303d295e362d0cb87042530dc13f5 = 0x4; // float
-        inline constexpr ::std::ptrdiff_t _e7c10b7edd1a27d02dccc983b7f55f040644811a = 0x8; // float
-        inline constexpr ::std::ptrdiff_t _38ab5c1b8c0301f91f0f38f64b0317fa507f77a7 = 0x10; // Action
-    } // namespace _3e3edde216bd5b94baf2a929ed90219fce1b13d2._f90713f6c2d00770f7d4f78ecc34f86601e9e9b1
-    namespace _f978b7bedeadd7deeb3ae03d194d9f4b49ff8877 {
-        inline constexpr ::std::ptrdiff_t _66906eb80853453c7891dfb75472bb739137890b = 0x0; // IPAddress
-        inline constexpr ::std::ptrdiff_t _44fa2d53f6cf601f932a5da49e24edc96bbd8302 = 0x8; // int
-    } // namespace _f978b7bedeadd7deeb3ae03d194d9f4b49ff8877
-    namespace _2c76d8a1b7a7e3adce4888dae6e57f2f0b935b33 {
-        inline constexpr ::std::ptrdiff_t _1d54163b9dff5180fd6c40ca50bfe6dbdb040173 = 0x0; // Mesh
-        inline constexpr ::std::ptrdiff_t _63c52c73fcd3b867aae54f1f8295e9a2c4feb8f2 = 0x8; // int
-        inline constexpr ::std::ptrdiff_t _fe48ce8f9fca6015b6e41611f035f01182cc4df8 = 0x10; // Material
-        inline constexpr ::std::ptrdiff_t _bd6dd8f45c76d70b737295a2b4b9b52547fe372c = 0x18; // int
-    } // namespace _2c76d8a1b7a7e3adce4888dae6e57f2f0b935b33
-    namespace _cf94b5d9ab6ed38fb2e5297fb3aef0247f467b10 {
-        inline constexpr ::std::ptrdiff_t _02204b1fb4bba0e0997905d0dc6e12a8b838a5f3 = 0x0; // ushort
-        inline constexpr ::std::ptrdiff_t _b5e6c7f1bf96907ff2231821445d952bc409265b = 0x2; // ushort
-        inline constexpr ::std::ptrdiff_t _bf537a6a4d8836bbbd80915f92818cb5d58f6f00 = 0x4; // ushort
-    } // namespace _cf94b5d9ab6ed38fb2e5297fb3aef0247f467b10
-    namespace _c1e9646b4b9004d10f25d14f408008b407262d65._cfa45cad8f971a873451ccce1354142e49944c1b {
-        inline constexpr ::std::ptrdiff_t _2e763821b821bcf8f2ad1463229df998e1b73c4b = 0x0; // IPAddress
-        inline constexpr ::std::ptrdiff_t _6f83ff07b6c5aaa670720ba5e36072928b4e12e9 = 0x8; // int
-        inline constexpr ::std::ptrdiff_t _b26b4e4df87cc5a0c5ae3b23c62ae57ad11ca067 = 0x10; // string
-        inline constexpr ::std::ptrdiff_t _fdcfcc4ab5fba4727c23f249c44b14e8130a71e4 = 0x18; // string
-        inline constexpr ::std::ptrdiff_t _05405871b1b0a6206dfa06300ad4245075b7fc23 = 0x20; // int
-    } // namespace _c1e9646b4b9004d10f25d14f408008b407262d65._cfa45cad8f971a873451ccce1354142e49944c1b
-    namespace _c1e9646b4b9004d10f25d14f408008b407262d65._da5ac425f3a84b22dffca6778ed76d308fd2dea0 {
-        inline constexpr ::std::ptrdiff_t _fdcfcc4ab5fba4727c23f249c44b14e8130a71e4 = 0x0; // string
-        inline constexpr ::std::ptrdiff_t _05405871b1b0a6206dfa06300ad4245075b7fc23 = 0x8; // int
-        inline constexpr ::std::ptrdiff_t _da526dc38e70f5cda7fffbfa839052b9f4866cf8 = 0xC; // %c1e9646b4b9004d10f25d14f408008b407262d65.LogType
-        inline constexpr ::std::ptrdiff_t _810ec31b27da3f0b06ca5ba7734ae0ff85957457 = 0x10; // string
-    } // namespace _c1e9646b4b9004d10f25d14f408008b407262d65._da5ac425f3a84b22dffca6778ed76d308fd2dea0
-    namespace _b63bed44e7daa83dd84c00a3593a520cd3f98017 {
-        inline constexpr ::std::ptrdiff_t _85ac0ee7f3d25991628a16a6c52be28eeb0822c3 = 0x0; // IPAddress
-        inline constexpr ::std::ptrdiff_t _44fa2d53f6cf601f932a5da49e24edc96bbd8302 = 0x8; // int
-    } // namespace _b63bed44e7daa83dd84c00a3593a520cd3f98017
-    namespace _444df3f86c61734abe58ce58895097feff470ede {
-        inline constexpr ::std::ptrdiff_t _f1e30645685048d846a58efffc1ce460657712f0 = 0x0; // uint
-        inline constexpr ::std::ptrdiff_t _ee1c4a437fbe32bf93e0cbdcc5aa4813b25cf192 = 0x4; // uint
-    } // namespace _444df3f86c61734abe58ce58895097feff470ede
-    namespace _aafdad8cf6dcfcada47622bf21e02ef3b220d965._12ff383077ab6a32b309e40884a5d2c4ef42bf1d {
-        inline constexpr ::std::ptrdiff_t _efa74903dc88fa380a02fe511d93e87d8635442d = 0x0; // %aafdad8cf6dcfcada47622bf21e02ef3b220d965.ChatChannel
-        inline constexpr ::std::ptrdiff_t _6c6ce0107f1cdd5d2fddf6b53421bd31345dd245 = 0x8; // string
-        inline constexpr ::std::ptrdiff_t _288989ddc9fe93fc6b29ef1668e02f4636886381 = 0x10; // string
-        inline constexpr ::std::ptrdiff_t _177fec273c1528a1d792836c0913b22688cd014f = 0x18; // string
-        inline constexpr ::std::ptrdiff_t _a63c710f6532c147b9258ff9c63a9b864144fbb9 = 0x20; // string
-        inline constexpr ::std::ptrdiff_t _aca30a5442a57b22984d4cae766914aeebbae262 = 0x28; // int
-    } // namespace _aafdad8cf6dcfcada47622bf21e02ef3b220d965._12ff383077ab6a32b309e40884a5d2c4ef42bf1d
-    namespace _aafdad8cf6dcfcada47622bf21e02ef3b220d965.MuteEntry {
-        inline constexpr ::std::ptrdiff_t UserID = 0x0; // ulong
-        inline constexpr ::std::ptrdiff_t UserName = 0x8; // string
-        inline constexpr ::std::ptrdiff_t DateTime = 0x10; // string
-    } // namespace _aafdad8cf6dcfcada47622bf21e02ef3b220d965.MuteEntry
-    namespace _5277bed0ab7f057f11146b48856e55bc6d4864f6 {
-        inline constexpr ::std::ptrdiff_t _aca30a5442a57b22984d4cae766914aeebbae262 = 0x0; // float
-        inline constexpr ::std::ptrdiff_t _8a39de490bc952527bb299e56e2535203a2e71c0 = 0x4; // float
-    } // namespace _5277bed0ab7f057f11146b48856e55bc6d4864f6
-    namespace _14547c60dad6dd415ea14b7d7d7d3b4bebe35d71._d2469d78e9eeaa1760228fc2206f23f65b999e71<TInner> {
-        inline constexpr ::std::ptrdiff_t _b418166dfbd24138bbe9f10a359e4ffc60641191 = 0x0; // TInner
-    } // namespace _14547c60dad6dd415ea14b7d7d7d3b4bebe35d71._d2469d78e9eeaa1760228fc2206f23f65b999e71<TInner>
-    namespace _6743ed46b6568e2f420c1c6965feb488828ec443 {
-        inline constexpr ::std::ptrdiff_t _7eb7f3a51a1654d6c13b317588e157a7c01dfaa6 = 0x0; // NativeArray<int>
-    } // namespace _6743ed46b6568e2f420c1c6965feb488828ec443
-    namespace _8ab157d094c987cb1e8171399abce9addb709d5d {
-        inline constexpr ::std::ptrdiff_t _d22b197100d9dc3cc753bdbfad677284366b93aa = 0x0; // uint
-        inline constexpr ::std::ptrdiff_t _997fd1985a698180c4664d620b81fa6b2823086f = 0x4; // int
-        inline constexpr ::std::ptrdiff_t _5e1e66e8fed629b91805d1a22305401b549c239c = 0x8; // ulong
-    } // namespace _8ab157d094c987cb1e8171399abce9addb709d5d
+    } // namespace _85cc89bf27a31bda09da00ac99be7c566824b2ba.ServerUGCInfo
+    namespace _85cc89bf27a31bda09da00ac99be7c566824b2ba._2f889e9c1259fc1a883eb43f26451d0b55f1b019<TInner> {
+        inline constexpr ::std::ptrdiff_t _20181abeee46fffa9f6ea63c69785217c2f13697 = 0x0; // TInner
+    } // namespace _85cc89bf27a31bda09da00ac99be7c566824b2ba._2f889e9c1259fc1a883eb43f26451d0b55f1b019<TInner>
+    namespace _2f889e9c1259fc1a883eb43f26451d0b55f1b019<TInner> {
+        inline constexpr ::std::ptrdiff_t _20181abeee46fffa9f6ea63c69785217c2f13697 = 0x0; // TInner
+        inline constexpr ::std::ptrdiff_t _28fc597b08c15d67ae1fd979cb46cd1ec4a015d4 = 0x0; // int
+    } // namespace _2f889e9c1259fc1a883eb43f26451d0b55f1b019<TInner>
+    namespace _ffe540738a15ac026228abdf9c00fbd3c9e8d5ed {
+        inline constexpr ::std::ptrdiff_t _ec034a22c7929338c5e978e8da5b1c28489a938d = 0x0; // string
+        inline constexpr ::std::ptrdiff_t _5f6fa3c2025574bbc133158ee475d33f6da4e7cb = 0x8; // string
+        inline constexpr ::std::ptrdiff_t _a600b408a6ce2eb6aff038c9e0fafeec5015977d = 0x10; // string
+        inline constexpr ::std::ptrdiff_t _bd99b1e9a6c140650f905c75b98c3a22ff73b54d = 0x18; // Nullable<long>
+        inline constexpr ::std::ptrdiff_t _cac15ac28b4fd8ac40b5bacc2e102c138b9af2f8 = 0x28; // Nullable<double>
+        inline constexpr ::std::ptrdiff_t _c95cf7141156ca78f4e5d50c9f37e12460277eb0 = 0x38; // Nullable<Vector3>
+        inline constexpr ::std::ptrdiff_t _4e2ddcc70637785bebd7b6a357b1ac2671e50b74 = 0x48; // Nullable<Guid>
+        inline constexpr ::std::ptrdiff_t _e6de967f0f175e058f5e52e6dcfc7dd95c026329 = 0x60; // DateTime
+        inline constexpr ::std::ptrdiff_t _665c0e5a6c49a17472cd9d9c377e262edff10683 = 0x68; // bool
+    } // namespace _ffe540738a15ac026228abdf9c00fbd3c9e8d5ed
+    namespace _e471e431c4e45914408699b77ff466935f4ef4f8 {
+        inline constexpr ::std::ptrdiff_t _e000a36e873b6a601dc979e8d2d20b6062e7553b = 0x0; // string
+        inline constexpr ::std::ptrdiff_t _4d78d955ef6a3734d00e84c136f9fd1365bf3ec7 = 0x8; // ProfilerRecorder
+    } // namespace _e471e431c4e45914408699b77ff466935f4ef4f8
+    namespace _d275e97a4cc0767999585529a1d8a2cfdc376859._1d826f616b5ef7bdf4b9fa175e356b9737a1dc6f {
+        inline constexpr ::std::ptrdiff_t _755b828718487a1fb98094f26e68380cd84e853d = 0x0; // IPAddress
+        inline constexpr ::std::ptrdiff_t _81d606f4769f9365a5a20b490aabfbd3f3aae779 = 0x8; // int
+        inline constexpr ::std::ptrdiff_t _cad77d6926748621e3e4584589687991d6d32408 = 0x10; // string
+        inline constexpr ::std::ptrdiff_t _bfae70ba26d33f77aaf862542b74dcb618d50fea = 0x18; // string
+        inline constexpr ::std::ptrdiff_t _eab21a6ce30a52168d9db0870785f739153b7376 = 0x20; // int
+    } // namespace _d275e97a4cc0767999585529a1d8a2cfdc376859._1d826f616b5ef7bdf4b9fa175e356b9737a1dc6f
+    namespace _d275e97a4cc0767999585529a1d8a2cfdc376859._4cc68d0a965c1d058232f93769c2dd55dffbace7 {
+        inline constexpr ::std::ptrdiff_t _bfae70ba26d33f77aaf862542b74dcb618d50fea = 0x0; // string
+        inline constexpr ::std::ptrdiff_t _eab21a6ce30a52168d9db0870785f739153b7376 = 0x8; // int
+        inline constexpr ::std::ptrdiff_t _c91e6ef26dcdddfd93e0875e13b9a14b2878395b = 0xC; // %d275e97a4cc0767999585529a1d8a2cfdc376859.LogType
+        inline constexpr ::std::ptrdiff_t _8e5d2cf6a8665df17995152d95f6655c02ebe34b = 0x10; // string
+    } // namespace _d275e97a4cc0767999585529a1d8a2cfdc376859._4cc68d0a965c1d058232f93769c2dd55dffbace7
+    namespace _8b27fd93a623bc62e6b513e75caa8a240c6824d1 {
+        inline constexpr ::std::ptrdiff_t _2e791314b2a2784a0c9c254d7a782774d707d19f = 0x0; // short
+        inline constexpr ::std::ptrdiff_t _b1c9f8b512c5a2e9d0f89ea12d5c4aa8a9266bd0 = 0x2; // short
+        inline constexpr ::std::ptrdiff_t _a86e059a3a66352a686b4b8e4931c79eb5da1d41 = 0x4; // short
+    } // namespace _8b27fd93a623bc62e6b513e75caa8a240c6824d1
+    namespace _9cf4499d28a724f98d7ae784edde67404a80186f {
+        inline constexpr ::std::ptrdiff_t _81b39458159a5fd79e89ae9f74282e513a03fc6a = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _390187e7ae5a34039d8583a6af010201bafba6c6 = 0x4; // int
+        inline constexpr ::std::ptrdiff_t _2f8141a0ee1afa9a79e064f74b46b418017bbcf8 = 0x8; // Color32[]
+    } // namespace _9cf4499d28a724f98d7ae784edde67404a80186f
+    namespace _ca1b3866846813b7e33d4276c5697f9de06f2de3 {
+        inline constexpr ::std::ptrdiff_t _9aec3c7300588c3dd7e1d725ea928d5a89917753 = 0x0; // %a25eaf509d27a33ca360e6c61678b3b2c146a4e2
+        inline constexpr ::std::ptrdiff_t _696cc54168d5af804d34585f0b9f8f6f6d3af5fb = 0x40; // float4x4
+    } // namespace _ca1b3866846813b7e33d4276c5697f9de06f2de3
+    namespace _89885818bffc63d561f33f1af7cb00d156d7d80b {
+        inline constexpr ::std::ptrdiff_t _9dd721a09ceae1dcb7c92ec37e036984dfecef79 = 0x0; // IPAddress
+        inline constexpr ::std::ptrdiff_t _3fe5ce4146a7b378d4dd4c2e73d0a596cd8d066d = 0x8; // int
+    } // namespace _89885818bffc63d561f33f1af7cb00d156d7d80b
+    namespace _a25eaf509d27a33ca360e6c61678b3b2c146a4e2 {
+        inline constexpr ::std::ptrdiff_t _ee2726b041eea715251d41a111f0ffd703d921e2 = 0x0; // float3
+        inline constexpr ::std::ptrdiff_t _edb5602296ec080d0549874b6b51fb691b900c3d = 0xC; // float3
+        inline constexpr ::std::ptrdiff_t _3773828b4b63b96a72bf06661a0faed107c87eeb = 0x18; // float3
+        inline constexpr ::std::ptrdiff_t _6695c2832f84f6584e6b8d5bad9f0edeaed9ef18 = 0x24; // float
+        inline constexpr ::std::ptrdiff_t _34c527b34b89889a0aea89e7ff18816f78623ded = 0x28; // float
+        inline constexpr ::std::ptrdiff_t _7bcfd6cdd19c5519f104b2f2337f656458989d70 = 0x2C; // int
+        inline constexpr ::std::ptrdiff_t _22841740d05eae923abc8f4e3df380d776fecaf0 = 0x30; // int
+        inline constexpr ::std::ptrdiff_t _dd6d1a4dd469e90da0afcde6026c2a934ea055a9 = 0x34; // %a25eaf509d27a33ca360e6c61678b3b2c146a4e2.BitFlags
+        inline constexpr ::std::ptrdiff_t _6d4fe82ed6b78de6adedd49928880ae00c4b5199 = 0x38; // long
+    } // namespace _a25eaf509d27a33ca360e6c61678b3b2c146a4e2
+    namespace _72b36921bf8a56d683f5276811c90e4f79ecb62a {
+        inline constexpr ::std::ptrdiff_t _30692b618ff6df431c3584017a1a08707532f5c2 = 0x0; // ulong
+        inline constexpr ::std::ptrdiff_t _81d606f4769f9365a5a20b490aabfbd3f3aae779 = 0x8; // long
+    } // namespace _72b36921bf8a56d683f5276811c90e4f79ecb62a
+    namespace _d251355c3f11d7eee92012a248b0617305280acb {
+        inline constexpr ::std::ptrdiff_t _a9579db034081bc0784951af919cb6b9e8e9ba7b = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _34b7ea0e089b95a73f1fb1a324628ebcc31d7c84 = 0x4; // int
+        inline constexpr ::std::ptrdiff_t _6695c2832f84f6584e6b8d5bad9f0edeaed9ef18 = 0x8; // float
+        inline constexpr ::std::ptrdiff_t _34c527b34b89889a0aea89e7ff18816f78623ded = 0xC; // float
+        inline constexpr ::std::ptrdiff_t _2a2f9971fe84279a59ec12f8164f9334b6a2fea8 = 0x10; // ShadowCastingMode
+    } // namespace _d251355c3f11d7eee92012a248b0617305280acb
+    namespace _645239b9d4152dfb2c15ef857c5b0172056e320a {
+        inline constexpr ::std::ptrdiff_t _5b322d3bb2c683b86b1039fe74658cadb27839b7 = 0x0; // int
+    } // namespace _645239b9d4152dfb2c15ef857c5b0172056e320a
+    namespace _0b98b7476eaea73e69b5cc753486eecf416f0fe2 {
+        inline constexpr ::std::ptrdiff_t _24b39e63bc59d127b530a96b965193d578b9b279 = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _6dc4ed3358c65ca986321d102356cf8058b273d0 = 0x4; // int
+        inline constexpr ::std::ptrdiff_t _98c58f9d325f6ba7e79df30fe2603cd2ddbf2a7c = 0x8; // uint
+        inline constexpr ::std::ptrdiff_t _03f081225f088515008e7b22f8e07d4372c5ca05 = 0xC; // uint
+        inline constexpr ::std::ptrdiff_t _a69e16661671631b2023d3861173e9d30559141e = 0x10; // uint
+        inline constexpr ::std::ptrdiff_t _4833f8a7249b0112e031dd5433e059b9183f90bf = 0x14; // uint
+        inline constexpr ::std::ptrdiff_t _0775ed4e90a941b4f53524005cb53db7e2a9ee73 = 0x18; // uint
+        inline constexpr ::std::ptrdiff_t _ab5183ec9a1a8dfe65e81c137981e2e191268b9e = 0x1C; // int
+    } // namespace _0b98b7476eaea73e69b5cc753486eecf416f0fe2
+    namespace _81c3b2c8487c050789a43bbb57878f88313516ec {
+        inline constexpr ::std::ptrdiff_t _4dac329d421d36be8f77657e3742d9b00483ffab = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _1b4fccb8f103b773f2da77d48316eb8921150ef9 = 0x8; // Type
+    } // namespace _81c3b2c8487c050789a43bbb57878f88313516ec
+    namespace _8d9fa18408f22872a2842b9d3d55833ec8c1c997 {
+        inline constexpr ::std::ptrdiff_t _a69e16661671631b2023d3861173e9d30559141e = 0x0; // int
+        inline constexpr ::std::ptrdiff_t _bbdfbda1c9277125433abccedf904a5efc4dcec9 = 0x4; // int
+        inline constexpr ::std::ptrdiff_t _03f081225f088515008e7b22f8e07d4372c5ca05 = 0x8; // int
+    } // namespace _8d9fa18408f22872a2842b9d3d55833ec8c1c997
+    namespace _81a8a00d16d53d77a845687eeb06f89211bd8258 {
+        inline constexpr ::std::ptrdiff_t _deef12532e135b2cc6b246f055fe3cc9b125e980 = 0x0; // Mesh
+        inline constexpr ::std::ptrdiff_t _fb289672454b18d2fc0f5d7b12730e8637ba6d7f = 0x8; // int
+        inline constexpr ::std::ptrdiff_t _e4e9f36f19f0032a1fc29938d1b206428cc917d7 = 0x10; // Material
+        inline constexpr ::std::ptrdiff_t _32ec8c4525f1ae25351df69f811e2070d2b60fea = 0x18; // int
+    } // namespace _81a8a00d16d53d77a845687eeb06f89211bd8258
+    namespace _74b7394beab19bbf5c93eb57939b8a125f94a5a8 {
+        inline constexpr ::std::ptrdiff_t _7999a9fe7b07220aabaea0070271c9fceb908721 = 0x0; // long
+        inline constexpr ::std::ptrdiff_t _d024ddb51c172287b1252cb70df9f6ab6256d97b = 0x8; // bool
+    } // namespace _74b7394beab19bbf5c93eb57939b8a125f94a5a8
 } // namespace blazedumper
